@@ -127,6 +127,70 @@
       "health": 1000,
       "phases": 1,
       "image": "../images/Bosses/gurrtheoutcast.png"
+    },
+    {
+      "id": 17,
+      "name": "Lace",
+      "location": "Deep Docks",
+      "health": 250,
+      "phases": 1,
+      "image": "../images/Bosses/lace.png"
+    },
+    {
+      "id": 18,
+      "name": "Lace",
+      "location": "The Cradle",
+      "health": 800,
+      "phases": 3,
+      "image": "../images/Bosses/lace.png"
+    },
+    {
+      "id": 19,
+      "name": "Last Judge",
+      "location": "Blasted Steps",
+      "health": 720,
+      "phases": 2,
+      "image": "../images/Bosses/lastjudge.png"
+    },
+    {
+      "id": 20,
+      "name": "Moorwing",
+      "location": "Greymoor",
+      "phases": 2,
+      "health": 600,
+      "image": "../images/Bosses/moorwing.png"
+    },
+    {
+      "id": 21,
+      "name": "Moss Mother",
+      "location": "Ruined Chapel",
+      "phases": 1,
+      "health": 120,
+      "image": "../images/Bosses/mossmother.png"
+    },
+    {
+      "id": 22,
+      "name": "Nyleth",
+      "location": "Shellwood",
+      "phases": 1,
+      "health": 1250,
+      "image": "../images/Bosses/nyleth.png"
+    },
+    {
+      "id": 23,
+      "name": "Palestag",
+      "location": "Lost Verdania",
+      "phases": 1,
+      "health": 480,
+      "image": "../images/Bosses/palestag.png"
+    },
+    {
+      "id": 24,
+      "name": "Phantom",
+      "location": "Exhaust Organ",
+      "phases": 2,
+      "health": 650,
+      "image": "../images/Bosses/phantom.png"
     }
   ]
 }
