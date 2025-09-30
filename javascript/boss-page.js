@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
              <img src="${boss.image.replace("../", "/")}" alt="${boss.name}">
            </div>
            <div class="information">
+            <h2>${boss.name}</h2>
              <p><strong>Location:</strong> ${boss.location}</p>
              <p><strong>Health:</strong> ${boss.health || "N/A"}</p>
              <p><strong>Phases:</strong> ${boss.phases || "N/A"}</p>
