@@ -316,6 +316,8 @@ nav {
   border: 2px solid rgba(255, 69, 0, 0.4);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 200, 50, 0.3);
   transition: all 0.3s ease;
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; /* Remove underline */
 }
 
 .boss-card:hover {

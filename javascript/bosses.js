@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     // Fetch the JSON data
-    const response = await fetch("../json/bosses.json");
+    const response = await fetch("/json/bosses.json");
     const data = await response.json();
 
     // Clear the loading message
@@ -17,25 +17,28 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Create HTML for each boss
     data.bosses.forEach((boss) => {
-      const bossCard = document.createElement("div");
+      // Create a URL-friendly name (e.g., "Bell Beast" -> "bellbeast")
+      const bossPageName = boss.name.toLowerCase().replace(/ /g, "");
+      const bossLink = `/html/Bosses/${bossPageName}.html`;
+
+      const bossCard = document.createElement("a");
       bossCard.className = "boss-card";
+      bossCard.href = bossLink;
 
       bossCard.innerHTML = `
         <div class="boss-info">
           ${
             boss.image
-              ? `
-            <div class="parallax-container">
-              <img src="${boss.image}" alt="${boss.name}">
-            </div>
-          `
+              ? `<div class="parallax-container">
+                   <img src="${boss.image}" alt="${boss.name}">
+                 </div>`
               : ""
           }
           <div class="boss-details">
             <h3>${boss.name}</h3>
             <p><strong>Location:</strong> ${boss.location}</p>
-            <p><strong>Health:</strong> ${boss.health}</p>
-            <p><strong>Phases:</strong> ${boss.phases}</p>
+            <p><strong>Health:</strong> ${boss.health || "N/A"}</p>
+            <p><strong>Phases:</strong> ${boss.phases || "N/A"}</p>
           </div>
         </div>
       `;
