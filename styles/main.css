@@ -119,54 +119,6 @@ nav {
 }
 
 /* -------------------- */
-/* Merchant Images Zoom */
-/* -------------------- */
-.merchants img {
-  transition: all 0.3s ease;
-}
-.merchants img:hover {
-  transform: scale(1.5);
-}
-
-/* -------------- */
-/* Character Page */
-/* -------------- */
-
-/* alternate directions for some rows */
-.forge-daughter,
-.grindle,
-.kratt,
-.lumblethelucky,
-.mottledskarr,
-.pinmasterplinney,
-.shakra,
-.tippandpill,
-.vaultkeepercardinius,
-.gilly,
-.grishkin,
-.secondsentinel,
-.seth,
-.caretaker,
-.fleamastermooshka,
-.huntress,
-.mistermushroom,
-.nuu,
-.runt,
-.snailshamans,
-.steelseerzi,
-.bellbeast,
-.broodling,
-.conductorballador,
-.fayforn,
-.loam,
-.oldpenitent,
-.pondcatcherreed,
-.karmelita,
-.sula {
-  flex-direction: row-reverse;
-}
-
-/* -------------------- */
 /* Parallax Effect      */
 /* -------------------- */
 .parallax-container {
@@ -193,10 +145,6 @@ nav {
 /* Glass / Frosted Effect + Glow */
 /* ------------------------- */
 .glass-container,
-.merchant-section-body,
-.wanderer-section-body,
-.questnpc-section-body,
-.miscellaneous-section-body,
 .information {
   position: relative;
   /* Updated background for a cleaner "liquid glass" look */
@@ -212,58 +160,6 @@ nav {
     inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 200, 50, 0.2);
   overflow: hidden;
   text-shadow: 1.5px 1.5px 3px black;
-}
-
-/* ------------------------- */
-/* Section Fold Styling       */
-/* ------------------------- */
-.merchant-toggle,
-.wanderer-toggle,
-.questnpc-toggle,
-.miscellaneous-toggle {
-  cursor: pointer;
-  background: linear-gradient(to right, #ce0000 0%, #000000 100%);
-  color: white;
-  padding: 14px 20px;
-  margin: 20px 0;
-  border: 2px solid #ff4500;
-  border-radius: 15px;
-  font-weight: bold;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.merchant-toggle:hover,
-.wanderer-toggle:hover,
-.questnpc-toggle:hover,
-.miscellaneous-toggle:hover {
-  background: linear-gradient(to right, #000000 0%, #ce0000 100%);
-  transform: scale(1.03);
-}
-
-.merchant-section-body,
-.wanderer-section-body,
-.questnpc-section-body,
-.miscellaneous-section-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.6s ease, padding 0.3s ease;
-  padding: 0 15px;
-}
-
-/* Glass effect when section opens */
-.merchant-section.active .merchant-section-body,
-.wanderer-section.active .wanderer-section-body,
-.questnpc-section.active .questnpc-section-body,
-.miscellaneous-section.active .miscellaneous-section-body {
-  max-height: 100%;
-  padding: 15px 20px;
-  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 2px solid rgba(255, 255, 255, 0.15);
-  border-radius: 0 0 15px 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 15px rgba(255, 200, 50, 0.3); /* glow added */
 }
 
 /* ------------------------- */
@@ -299,68 +195,50 @@ nav {
 
 /* Apply to all glass panels */
 .glass-container,
-.merchant-section.active .merchant-section-body,
-.wanderer-section.active .wanderer-section-body,
-.questnpc-section.active .questnpc-section-body,
-.miscellaneous-section.active .miscellaneous-section-body,
 .information {
   animation: pulseGlow 3s infinite ease-in-out;
 }
 
 /* ------------------------- */
-/* Boss Card Styling         */
+/* Grid & Card Styling       */
 /* ------------------------- */
-#boss-container {
+.boss-grid,
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.boss-link-card,
+.character-link-card {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-}
-
-.boss-card {
-  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
-  border-radius: 15px;
-  padding: 20px;
-  border: 2px solid rgba(255, 69, 0, 0.4);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 200, 50, 0.3);
-  transition: all 0.3s ease;
-  color: inherit; /* Inherit text color from parent */
-  text-decoration: none; /* Remove underline */
-}
-
-.boss-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 200, 50, 0.5);
-}
-
-.boss-info {
-  display: flex;
   align-items: center;
-  gap: 20px;
-}
-
-.boss-info img {
-  max-width: 150px;
-  height: auto;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 15px;
   border-radius: 10px;
-  border: 2px solid rgba(255, 69, 0, 0.5);
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  min-height: 220px; /* Ensure cards have a consistent height */
 }
 
-.boss-details h3 {
-  color: #ff4500;
-  margin-top: 0;
-  text-shadow: 2px 2px 4px black;
-  font-size: 1.5em;
+.boss-link-card:hover,
+.character-link-card:hover {
+  background-color: rgba(255, 69, 0, 0.2);
+  transform: translateY(-5px) scale(1.03);
 }
 
-.boss-details p {
-  margin: 8px 0;
-  font-size: 1.1em;
-}
-
-.boss-details strong {
+.boss-link-name,
+.character-link-name {
+  font-size: 1.4em;
+  font-weight: bold;
   color: #ffaa00;
+  text-shadow: 2px 2px 4px black;
 }
 
 /* ------------------------- */
@@ -372,6 +250,8 @@ nav {
   border-top: 1px dashed rgba(255, 255, 255, 0.3);
 }
 
+/* Added information h3 for consistency */
+.information h3,
 .tactics-section h3,
 .tactics-section h4 {
   color: #ffaa00;

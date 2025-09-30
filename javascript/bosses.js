@@ -20,29 +20,18 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Use the unique ID for the link
       const bossLink = `/html/boss-template.html?id=${boss.id}`;
 
-      const bossCard = document.createElement("a");
-      bossCard.className = "boss-card";
-      bossCard.href = bossLink;
+      const bossLinkCard = document.createElement("a");
+      bossLinkCard.className = "boss-link-card"; // New class for grid layout
+      bossLinkCard.href = bossLink;
 
-      bossCard.innerHTML = `
-        <div class="boss-info">
-          ${
-            boss.image
-              ? `<div class="parallax-container">
-                   <img src="${boss.image}" alt="${boss.name}">
-                 </div>`
-              : ""
-          }
-          <div class="boss-details">
-            <h3>${boss.name}</h3>
-            <p><strong>Location:</strong> ${boss.location}</p>
-            <p><strong>Health:</strong> ${boss.health || "N/A"}</p>
-            <p><strong>Phases:</strong> ${boss.phases || "N/A"}</p>
-          </div>
+      bossLinkCard.innerHTML = `
+        <div class="parallax-container">
+            <img src="${boss.image.replace("../", "/")}" alt="${boss.name}">
         </div>
+        <span class="boss-link-name">${boss.name}</span>
       `;
 
-      bossContainer.appendChild(bossCard);
+      bossContainer.appendChild(bossLinkCard);
     });
   } catch (error) {
     console.error("Error loading boss data:", error);
