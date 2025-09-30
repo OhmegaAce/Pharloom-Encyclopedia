@@ -57,7 +57,58 @@
       "location": "Any Bellway (Act 3)",
       "health": 800,
       "phases": 2,
-      "image": "../images/Bosses/belleater.png"
+      "image": "../images/Bosses/belleater.png",
+      "information": {
+        "in-game events": "Upon starting Act 3, visiting and calling out in any Bellway will cause the Bell Eater to burst out and roar instead of the Bell Beast. Afterwards, Hornet can follow the Bell Eater down a hole into the tunnels where it will be fought as a boss. It is finished off by Bell Beast, who returns in to deliver the final blow. The Bell Beast is now accompanied by its Beastlings who teach Hornet the Beastling Call.",
+        "behavior and tactics": {
+          "summary": "When Hornet approaches, Bell Eater first uses its body to wall off her left and right sides, creating a small arena. In this fight, the Bell Eater's grey plated body is immune to damage, and it must be attacked by hitting its soft beige rear, or its red head section which appear separately during attacks but share a health pool.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "The Bell Eater stays burrowed for most of the battle:",
+              "attacks": [
+                {
+                  "name": "Lash Out",
+                  "description": "If Hornet gets too close to or strikes one of Bell Eater's legs at the edges of the arena, it slices wildly at her. Each leg can attack separately."
+                },
+                {
+                  "name": "Spit",
+                  "description": "Bell Eater pokes its head out, either up from the ground or down from the ceiling. It then spits out a spray of arcing red projectiles that fall to the ground. These projectiles can be destroyed. The Bell Eater will loosely track Hornet when firing projectiles."
+                },
+                {
+                  "name": "Flail",
+                  "description": "If Bell Eater pokes its head out, it can wind up before swinging its 4 front legs wildly. It performs this attack more often if Hornet is close to its head."
+                },
+                {
+                  "name": "Bombardment",
+                  "description": "Bell Eater pokes its rear end out, either up from the ground or down from the ceiling, and fires 2 bouncing red explosives; alternating sides for each. The rear is angled slightly to indicate which direction it will shoot from, and its bombs explode after bouncing around 3 times or upon hitting a target or wall. They can also be deflected by a Needle strike."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After Bell Eater reaches 360 HP, the walls move outward to expand the arena to about twice the width.",
+              "description": "In this phase, Bell Eater's head and rear can now appear simultaneously to each perform an attack. It also modifies 2 previous attacks:",
+              "attacks": [
+                {
+                  "name": "Bell Bulldoze",
+                  "description": "Bell Eater rushes forwards across the entire arena, either against the ground or sticking to the ceiling, before switching surfaces and rushing in the opposite direction along the opposing face. 2 bells will fall and bounce once in random locations when it burrows against the ground, and 3 will fall when it digs through the ceiling. While it usually performs this attack twice, occasionally it will only perform one rush against either surface. Its head and body can be bounced off of while bulldozing across the ground."
+                },
+                {
+                  "name": "Spit (Modified)",
+                  "description": "The head spits more projectiles."
+                },
+                {
+                  "name": "Bombardment (Modified)",
+                  "description": "The rear end fires a third bomb."
+                }
+              ],
+              "notes": "All of Bell Eater's attacks deal 2 Masks of Damage, including contact damage; with its swiping leg attacks dealing 2 in quick succession."
+            }
+          ],
+          "strategy": "Red tools with mobility or AOE damage are ideal, such as the Cogfly and the Voltvessels. Blue tools such as Reserve Bind, Fractured Mask, and Injector Band are good options for this encounter. If using a tool focused build, Pollip Pouch and Quick Sling are good options. The only yellow tool that is useful for this fight is the Magnetite Dice, for a small chance to negate damage. For the Bell Bulldoze attack, if it occurs along the ground, Hornet must stay in the air to avoid taking damage. This can be done using Drifter's Cloak, Bind, or pogoing. Using Bind is dangerous because of the falling bells."
+        }
+      }
     },
     {
       "id": 3,
@@ -65,7 +116,47 @@
       "location": "The Slab",
       "health": 700,
       "phases": 2,
-      "image": "../images/Bosses/broodmother.png"
+      "image": "../images/Bosses/broodmother.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Upon entering the arena, Hornet is locked in and must first fight through the following waves of enemies: Wave 1: 4 Freshflies. Wave 2: 3 Freshflies and a Guardfly. Wave 3: 3 Freshflies and a Wardenfly. Afterwards Broodmother flies into the centre of the arena and wails, beginning the boss fight.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Broodmother hovers around the top half of the arena and uses the following attacks:",
+              "attacks": [
+                {
+                  "name": "Broodspawn",
+                  "description": "Broodmother spawns 1-2 Freshflies in a row diagonally below her. The explosion from these flies does not damage her."
+                },
+                {
+                  "name": "Muck Spit",
+                  "description": "Broodmother spits 1-2 globs of muck in succession diagonally downwards towards Hornet which stick to the ground. The globs can be attacked to destroy them. The muck deals no damage, but if Hornet gets caught, she will be immobilized and needs to remove the muck by pressing ATTACK 4 times."
+                },
+                {
+                  "name": "Grabbing Leap",
+                  "description": "Broodmother rears back before launching herself at Hornet across roughly half the arena and landing on the ground. If Hornet is close to the ground after this she lands, Broodmother can turn around and leap towards her again. This can be repeated up to 2 times."
+                },
+                {
+                  "name": "Buzz Away",
+                  "description": "Broodmother will fly backwards a short distance away from Hornet if she is too close after an attack."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 385 HP, Broodmother roars and immediately performs the Wild Slam attack, she then adds this attack to her arsenal:",
+              "attacks": [
+                {
+                  "name": "Wild Slam",
+                  "description": "Broodmother wails and then slams her body between the floor and ceiling 5 times; slowly moving a short distance forwards with every slam and turning without stopping when reaching a wall. She will always slam downwards first and thus also end the attack with a ground slam."
+                }
+              ],
+              "notes": "Broodmother deals 2 Masks of damage on contact."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 4,
@@ -73,7 +164,44 @@
       "location": "Cogwork Core",
       "health": 630,
       "phases": 4,
-      "image": "../images/Bosses/cogworkdancers.png"
+      "image": "../images/Bosses/cogworkdancers.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "This battle is split into 4 phases, each marked by the Dancers moving back to their stations to be wound up. Cogwork Dancers do not share HP; a phase ends when either reaches 0 health for that phase. All of their attacks have clear telegraphs and are performed on a rhythm.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Cogwork Cadence",
+                  "description": "Each Dancer simultaneously projects a light beam from its head before dashing in that direction. If one dashes to the ground with this attack, it slashes to both sides as it lands. One of the Dancers may remain in place and simply spin around."
+                },
+                {
+                  "name": "Cogwork Configuration",
+                  "description": "Both Dancers leave the arena temporarily, then a pattern of light beams appears. The Dancers attack by dashing along each light beam, then return to the arena."
+                },
+                {
+                  "name": "Cogwork Clash",
+                  "description": "Both Dancers project light beams towards the centre where a circle telegraph appears. They dash toward the centre, then attack in a flurry of slashes within the circle."
+                }
+              ],
+              "notes": "All attacks deal 2 Masks of damage; contact deals 2 Masks at once, while Cogwork Clash or Cogwork Configuration deal 1 Mask twice."
+            },
+            {
+              "name": "Phase 2",
+              "description": "Their attacks become faster and they sometimes use Cogwork Configuration twice in a row."
+            },
+            {
+              "name": "Phase 3",
+              "description": "Each Dancer performs Cogwork Cadence offset from one another."
+            },
+            {
+              "name": "Phase 4",
+              "description": "This phase begins when one Dancer is destroyed, continuing the fight with only one Dancer at a much slower pace. If it attempts to use Cogwork Clash, it fails and drops to the ground. It can no longer use Cogwork Configuration."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 5,
@@ -81,7 +209,42 @@
       "location": "Craw Lake",
       "health": 1300,
       "phases": 1,
-      "image": "../images/Bosses/crawfather.png"
+      "image": "../images/Bosses/crawfather.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Crawfather starts his trial by summoning several waves of enemies in his arena: 1x Squatcraw Juror and 1x Tallcraw Juror, then 2x Craw Jurors, then 2x Squatcraw Jurors, then 2x Craw Jurors, and finally 2x Tallcraw Jurors. Once all waves have been defeated, he flies in himself to deliver punishment to Hornet.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Triple Peck",
+                  "description": "Crawfather reels his head back, before pecking the ground three times, moving forward with each attack. This attack deals two masks of damage."
+                },
+                {
+                  "name": "Summon Juror",
+                  "description": "Crawfather screams, summoning either two Craw Jurors, one Tallcraw Juror, or one Squatcraw Juror."
+                },
+                {
+                  "name": "Dive Peck",
+                  "description": "Crawfather takes flight, flutters for a short while, then dashes towards Hornet with his beak, dealing two masks of damage."
+                }
+              ]
+            },
+            {
+              "name": "Mid-Fight",
+              "trigger": "After enough damage is dealt, Crawfather obtains another attack:",
+              "attacks": [
+                {
+                  "name": "Chain Punishment",
+                  "description": "Crawfather flutters at a medium height, sending chains in all directions. After a short while, the chains erupt in barbed spikes, dealing two damage on hit. After this, Crawfather falls back to the ground, striking with his beak down below."
+                }
+              ]
+            }
+          ],
+          "strategy": "The Jurors are beefier versions of the Crawbugs from earlier in Greymoor. Tactics from before are just as effective in dispatching them, though bear in mind that the spiked crowns on the Tallcraw and Squatcraw Jurors make aerial down-attacks less effective. Prioritize defeating any Jurors that join the fight. The Crawfather himself is less complex than handling multiple enemies. Despite being a winged boss, the Crawfather spends a lot of time on the ground, and is highly vulnerable to ground-based Tools such as Tacks and Cogwork Wheel."
+        }
+      }
     },
     {
       "id": 6,
