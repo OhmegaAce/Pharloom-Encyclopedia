@@ -6,7 +6,7 @@
       "location": "The Marrow",
       "health": 150,
       "phases": 2,
-      "image": ""
+      "image": "../images/Bosses/bellbeast.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "location": "Any Bellway (Act 3)",
       "health": 800,
       "phases": 2,
-      "image": ""
+      "image": "../images/Bosses/belleater.png"
     },
     {
       "id": 3,
@@ -22,7 +22,31 @@
       "location": "The Slab",
       "health": 700,
       "phases": 2,
-      "image": ""
+      "image": "../images/Bosses/broodmother.png"
+    },
+    {
+      "id": 4,
+      "name": "Cogwork Dancers",
+      "location": "Cogwork Core",
+      "health": 630,
+      "phases": 4,
+      "image": "../images/Bosses/cogworkdancers.png"
+    },
+    {
+      "id": 5,
+      "name": "Crawfather",
+      "location": "Craw Lake",
+      "health": 1300,
+      "phases": 1,
+      "image": "../images/Bosses/crawfather.png"
+    },
+    {
+      "id": 6,
+      "name": "Crust King Khann",
+      "location": "Coral Tower",
+      "health": 1650,
+      "phases": 1,
+      "image": "../images/Bosses/crustkingkhann.png"
     }
   ]
 }

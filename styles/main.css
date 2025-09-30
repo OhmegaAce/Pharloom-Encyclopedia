@@ -359,3 +359,57 @@ nav {
 .information {
   animation: pulseGlow 3s infinite ease-in-out;
 }
+
+/* ------------------------- */
+/* Boss Card Styling         */
+/* ------------------------- */
+#boss-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boss-card {
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 20px;
+  border: 2px solid rgba(255, 69, 0, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 200, 50, 0.3);
+  transition: all 0.3s ease;
+}
+
+.boss-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 200, 50, 0.5);
+}
+
+.boss-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.boss-info img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 69, 0, 0.5);
+}
+
+.boss-details h3 {
+  color: #ff4500;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1.5em;
+}
+
+.boss-details p {
+  margin: 8px 0;
+  font-size: 1.1em;
+}
+
+.boss-details strong {
+  color: #ffaa00;
+}
