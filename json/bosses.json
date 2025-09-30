@@ -251,8 +251,56 @@
       "name": "Crust King Khann",
       "location": "Coral Tower",
       "health": 1650,
-      "phases": 1,
-      "image": "../images/Bosses/crustkingkhann.png"
+      "phases": 2,
+      "image": "../images/Bosses/crustkingkhann.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "During his first phase, Crust King Khann has 5 attacks:",
+              "attacks": [
+                {
+                  "name": "Coral Strike",
+                  "description": "Crust King Khann summons a horizontal coral pillar across the width of the arena."
+                },
+                {
+                  "name": "Coral Pillar",
+                  "description": "Crust King Khann summons a vertical coral pillar at Hornet's position."
+                },
+                {
+                  "name": "Aerial Coral Strike",
+                  "description": "Crust King Khann leaps into the air and summons a coral pillar diagonally downwards towards Hornet."
+                },
+                {
+                  "name": "Coral Cross",
+                  "description": "Crust King Khann summons 2 diagonal coral pillars from the ground, forming an x-shape above him."
+                },
+                {
+                  "name": "Coral Overgrowth",
+                  "description": "Crust King Khann shouts and causes 3 coral growths to erupt randomly across the floor and ceiling each."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After losing enough health, Crust King Khann shouts, marking the beginning of the second phase.",
+              "description": "During this phase, one of his previous attacks gains new properties, and he begins using a new attack:",
+              "attacks": [
+                {
+                  "name": "Coral Cross (Modified)",
+                  "description": "Crust King Khann may execute another attack at a quicker pace or summon a second set of diagonal coral pillars from the ceiling, their bases closer together than the first."
+                },
+                {
+                  "name": "Spike Rain",
+                  "description": "Crust King Khann slams the ground, summoning 6 evenly spaced coral spikes that fall from the ceiling. Crust King Khann will always use this attack at the start of the second phase."
+                }
+              ]
+            }
+          ],
+          "strategy": "The difficulty with Khann lies more in the Coral Tower combat gauntlets leading up to him than the fight himself. Prioritize flying enemies as grounded ones are easier to deal with alone. Clawline can catch them in the air and set up Hornet for a follow-up strike. Knockback from Hornet's melee attacks can push non-flying enemies into the spikes to speed up the progress of the gauntlet. The best times to strike Khann is when he's using Coral Pillar or shortly after Aerial Coral Strike, as there will be safe zones near him that the attacks will not cover. While he is in the air preparing for Aerial Coral Strike, stand directly under him, as launching the attack has a backwards recoil on him and he will land directly in front of Hornet. Going too far forward risks collision damage."
+        }
+      }
     },
     {
       "id": 7,
@@ -260,7 +308,43 @@
       "location": "Sinner's Road",
       "health": 600,
       "phases": 2,
-      "image": "../images/Bosses/disgracedcheflugoli.png"
+      "image": "../images/Bosses/disgracedcheflugoli.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "After entering the arena, Hornet must ring the massive gong hanging from the ceiling to initiate the fight. The gong first summons 2 Roachservers from the background, which must be killed before the boss fight begins.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Lugoli descends from the ceiling, directly into a Slam attack in the middle of the arena. They then float about the room and have the following attacks:",
+              "attacks": [
+                {
+                  "name": "Slam",
+                  "description": "Lugoli flies a short distance diagonally upwards to position over Hornet. They then slam themselves into the ground, sending 4 arcing Muckmaggot Globs flying, 2 in each direction."
+                },
+                {
+                  "name": "Leaping Butt Slam",
+                  "description": "Lugoli leaps, rear first, horizontally towards Hornet, and landing on the ground after. The leap covers over half of the arena."
+                },
+                {
+                  "name": "Ladle Slap",
+                  "description": "Lugoli winds up their ladle for a moment, before quickly slamming it into the ground in Hornet's direction, flinging 2 arcing Muckmaggot Globs forward."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 300 HP, Lugoli will roar and immediately perform the Muckmaggot Dive attack. They then add this attack to their arsenal.",
+              "attacks": [
+                {
+                  "name": "Muckmaggot Dive",
+                  "description": "Lugoli grunts then makes a large dive into the muck under the floor; randomly choosing either the left, right, or centre of the arena. When they hit the water it flings out 5 Muckmaggot Globs - 2 arcing in each direction and 1 directly upwards. They then emerge again from the same spot, flinging 5 more Muckmaggot Lumps."
+                }
+              ],
+              "notes": "Lugoli deals 2 Masks of contact damage. Muckmaggot Lumps will deal 1 Mask of damage and infest Hornet if they hit her. Lumps ricochet off walls and are destroyed when they hit the ground. Striking them with the Needle stops their momentum. Equipping the Wreath of Purity prevents the infestation up to 3 times, but does not block the damage."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 8,
@@ -268,7 +352,40 @@
       "location": "Wisp Thicket",
       "health": 640,
       "phases": 2,
-      "image": "../images/Bosses/fatheroftheflame.png"
+      "image": "../images/Bosses/fatheroftheflame.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Father of the Flame is a unique fight as it has to be struck in particular parts of its body, depending on the phase, to deal damage to it. Hitting Father of the Flame also does not grant Hornet any Silk.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Father of the Flame spawns with four arms (two lower, two higher) and four balloons attached to parts of its body which allow Hornet to reach the higher arms. After destroying the higher arm in each side, the balloons attached to each also disappear. Each arm contains a glowing Wisp Lantern which must be destroyed to defeat the boss.",
+              "attacks": [
+                {
+                  "name": "Wisp Summoning",
+                  "description": "Wisps are summoned continuously by each of the Wisp Lanterns. With each destroyed arm, the Wisps are summoned faster."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After the Father of the Flame's arms have been destroyed, its body begins to burn fiercely and reveal a massive Wisp Lantern; which must now be attacked to damage it.",
+              "attacks": [
+                {
+                  "name": "Ring of Fire",
+                  "description": "The exposed main body unleashes a torrent of fireballs in all directions. It fires 4-5 waves of fireballs; some of them travelling in curved trajectories. Afterwards, it performs Wisp Summoning 3 times before repeating this attack."
+                },
+                {
+                  "name": "Final Immolation",
+                  "description": "Upon defeat, the massive Wisp Lantern falls and cracks against the ground, before creating a massive explosion."
+                }
+              ],
+              "notes": "All the Father of the Flames' attacks deal 2 Masks of fire damage, which can be reduced to 1 with Magma Bell equipped."
+            }
+          ],
+          "strategy": "Avoid using the Witch / Cursed Crest. Its down-slash is divided into 2 hits with the second only occurring when hitting enemies, which Father of the Flame's cages do not count as, resulting in it dealing about half as much damage as other crests in this fight. Cogflies cannot contribute to the fight as they cannot target the boss's weak points. Magma Bell is highly recommended in this fight as all damage sources in this fight inflict fire damage. The Wisps and fireballs are very easy to dodge, offering ample opportunity for the Bell to recharge and continue protecting Hornet. As melee attacks on this boss do not generate any Silk, Reserve Bind or Druid's Eye(s) can work as a way to get an additional heal opportunity. Reaper Crest and Wanderer Crest have downward slashes that make for easier pogo'ing on the stage obstacles and the boss's weak points. Reaper Crest has a larger melee range that gives better leeway, while Wanderer Crest has a faster attack speed to damage the boss quickly. For the two lower arms and the body, it's easy to stay on the ground, charge Needle Strike and strike while avoiding Wisps. Leave them for last in order to make getting to the higher arms easier. For the two higher arms, once the first Wisp is avoided, the sequence of Strike - Faydown Cloak - Strike can be used effectively to match the spawn rate of Wisp. The Delver's Drill can be a decent option for dealing high damage to the stationary cages without requiring the precise timing and positioning of repeated pogos, but leaves Hornet vulnerable to attack while being used. Alternatively, the Clawline - jump - Clawline sequence to attack the two upper arms is recommended for players who want to advance the fight faster. Thread Storm is large enough to hit both of the cages on the right arms. This may require presice placement to destroy both, however. Voltvessels can be used to deal large amounts of damage in a column, damaging the cages while remaining on the ground."
+        }
+      }
     },
     {
       "id": 9,
@@ -276,7 +393,55 @@
       "location": "The Slab",
       "health": 1300,
       "phases": 2,
-      "image": "../images/Bosses/firstsinner.png"
+      "image": "../images/Bosses/firstsinner.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "During her first phase, First Sinner has the following attacks:",
+              "attacks": [
+                {
+                  "name": "Needle Weaving",
+                  "description": "First Sinner channels for a brief moment which pulls up Needles from the background and positions them in the air, before launching them in various patterns (cross shape, vertical, diagonal, horizontal). She can occasionally layer two patterns together after her health drops below 1105 HP."
+                },
+                {
+                  "name": "Bind",
+                  "description": "First Sinner channels Silk for about 2 seconds, before healing herself for 130 HP. This ability can be interrupted by damaging her while she's channelling. She gains this attack after reaching 1105 HP."
+                },
+                {
+                  "name": "Frenzied Charge",
+                  "description": "First Sinner charges across the length of the arena towards Hornet while swinging her blades."
+                },
+                {
+                  "name": "Aerial Lunge",
+                  "description": "First Sinner teleports or leaps into the air near Hornet and performs 2 quick slashes diagonally downwards in Hornet's direction."
+                },
+                {
+                  "name": "Teleport",
+                  "description": "First Sinner teleports to a random location in the arena between attacks."
+                },
+                {
+                  "name": "Skitter",
+                  "description": "First Sinner skitters away from Hornet if she is too close, or towards her if she is too far away to reposition."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 650 HP, First Sinner teleports out of view for a few moments before reappearing and shouting, marking the start of the second phase.",
+              "description": "During this phase, First Sinner performs her attacks at a much faster pace, and she gains an attack:",
+              "attacks": [
+                {
+                  "name": "Rune Rage",
+                  "description": "First Sinner rises into the air and weaves 12 circles of blazing Silk randomly throughout the arena. After a short moment, these circles explode into runes in rapid succession in the order in which they appeared."
+                }
+              ],
+              "notes": "All of First Sinner's attacks deal 2 Masks of damage, with her Frenzied Charge dealing 2 Masks in quick succession if Hornet is caught in a swing."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 10,
@@ -284,7 +449,60 @@
       "location": "Deep Docks",
       "health": 1240,
       "phases": 3,
-      "image": "../images/Bosses/forebrotherssignisandgron.png"
+      "image": "../images/Bosses/forebrotherssignisandgron.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1 (Forebrother Signis)",
+              "description": "When the fight is initiated, Forebrother Signis shouts, causing 2 grates to open up and constant streams of lava to flow on the left and right sides of the room; trapping Hornet in an arena. Signis himself performs the following attacks:",
+              "attacks": [
+                {
+                  "name": "Reposition",
+                  "description": "Signis can run or make small leaps around the arena to reposition for attacks."
+                },
+                {
+                  "name": "Protect",
+                  "description": "Signis skips backwards across the arena while spinning his staff."
+                },
+                {
+                  "name": "Spinning Combo",
+                  "description": "Signis slashes twice in a row, travelling forwards with each, and finishes off the second slash by spinning his staff in front of himself."
+                },
+                {
+                  "name": "Flaming Boomerang",
+                  "description": "Signis spins his staff, then throws it horizontally at Hornet. After travelling a distance of roughly 3 quarters of the arena, the staff flies back to him. He sometimes makes a short backwards dash either before performing this attack, or while the staff is still spinning - causing it to travel a longer distance back to him."
+                },
+                {
+                  "name": "Summon",
+                  "description": "Signis shouts, summoning enemies that drop from the ceiling. This attack is used only 3 times at certain HP thresholds (648 HP: Flintstone Flyer; 504 HP: Smokerock Sifter and Flintstone Flyer). If fought in Act 3 the summoned enemies have a chance to become Void-corrupted."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2 (Forebrothers Signis & Gron)",
+              "trigger": "At 360 HP, Signis summons Forebrother Gron who falls into the arena with a Dive attack and begins the second phase.",
+              "description": "In this phase, Forebrother Signis' behaviour stays the same, while Forebrother Gron has the following attacks:",
+              "attacks": [
+                {
+                  "name": "Spear Throw (Gron)",
+                  "description": "Gron makes a large leap upwards, and throws his spear at Hornet at the height of the jump, which propels him backwards slightly as he falls back down. If the spear embeds into the ground, the tip explodes shortly after."
+                },
+                {
+                  "name": "Explosive Dive (Gron)",
+                  "description": "Gron leaps upwards directly above Hornet's position, then dives down to the floor using his spear, causing an explosion where he lands."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "After either Forebrother is defeated, if the remaining one is below 350 HP he gains 200 HP up to 350 max, and continues to fight.",
+              "description": "A flow of lava will begin to periodically fall in the centre of the arena. Depending on which Forebrother remains, their behaviour is altered. They will try to stay on the opposite side of the lava stream from Hornet, using ranged attacks (Flaming Boomerang for Signis, Spear Throw for Gron). They will only use melee attacks if Hornet gets too close."
+            }
+          ],
+          "strategy": "Forebrothers Signis & Gron are immune to attacks from above. Hornet can still Needle-bounce off their bell helmets, but this will deal no damage. Both bosses' spear attacks deal 2 Masks of fire damage that can be reduced to 1 by equipping the Magma Bell."
+        }
+      }
     },
     {
       "id": 11,
