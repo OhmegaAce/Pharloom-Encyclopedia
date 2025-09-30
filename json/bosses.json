@@ -1,0 +1,28 @@
+{
+  "bosses": [
+    {
+      "id": 1,
+      "name": "Bell Beast",
+      "location": "The Marrow",
+      "health": 150,
+      "phases": 2,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Bell Eater",
+      "location": "Any Bellway (Act 3)",
+      "health": 800,
+      "phases": 2,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Broodmother",
+      "location": "The Slab",
+      "health": 700,
+      "phases": 2,
+      "image": ""
+    }
+  ]
+}

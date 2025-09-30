@@ -1,0 +1,361 @@
+/* ============================================ */
+/* Pharloom Encyclopedia - main.css             */
+/* Author: Kole Fiala                           */
+/* ============================================ */
+
+/* ----------- */
+/* Body Styles */
+/* ----------- */
+body {
+  background-image: url("../images/silksongbackground.jpg"); /* full-page background */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------- */
+/* Header Styles        */
+/* -------------------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../images/silksongbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #ce0000 0%, #000000 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+/* -------------------- */
+/* Subheading Styles    */
+/* -------------------- */
+h2 {
+  text-align: center;
+  border-bottom-style: dashed;
+  border-color: red;
+}
+
+/* -------------------- */
+/* Navigation Styles    */
+/* -------------------- */
+nav {
+  background: linear-gradient(to right, #ce0000 0%, #000000 100%);
+  border-radius: 0 0 15px 15px;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 8px 16px;
+  background: linear-gradient(45deg, #ff0000, #000000);
+  color: white;
+  border: 2px solid #ff4500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav li a:hover {
+  background: linear-gradient(45deg, #000000, #ff0000);
+  transform: scale(1.05);
+}
+
+/* -------------------- */
+/* Content Layouts      */
+/* -------------------- */
+.description {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: row-reverse;
+}
+
+#hornetgif {
+  float: right;
+  padding-left: 5px;
+  border-radius: 15px 0 0 15px;
+}
+
+/* -------------------- */
+/* Merchant Images Zoom */
+/* -------------------- */
+.merchants img {
+  transition: all 0.3s ease;
+}
+.merchants img:hover {
+  transform: scale(1.5);
+}
+
+/* -------------- */
+/* Character Page */
+/* -------------- */
+.creige,
+.forge-daughter,
+.frey,
+.grindle,
+.jubliana,
+.kratt,
+.loddie,
+.lumblethelucky,
+.mort,
+.mottledskarr,
+.pebb,
+.pinmasterplinney,
+.relicseekerscrounge,
+.shakra,
+.skynx,
+.tippandpill,
+.twelftharchitect,
+.vaultkeepercardinius,
+.vog,
+.garmondandzaza,
+.gilly,
+.greenprince,
+.grishkin,
+.pilby,
+.secondsentinel,
+.sherma,
+.seth,
+.varga,
+.alchemistzylotol,
+.caretaker,
+.crullandbenjin,
+.fleamastermooshka,
+.greyroot,
+.huntress,
+.loyalmergwin,
+.mistermushroom,
+.mossdruid,
+.nuu,
+.pinstress,
+.runt,
+.seamstress,
+.snailshamans,
+.sprintmasterswift,
+.steelseerzi,
+.yarnaby,
+.ballow,
+.bellbeast,
+.bellhermit,
+.broodling,
+.chapelmaid,
+.conductorballador,
+.eva,
+.fayforn,
+.flickthefixer,
+.loam,
+.maskmaker,
+.oldpenitent,
+.piousisamor,
+.pondcatcherreed,
+.redmemorynpcs,
+.karmelita,
+.styx,
+.sula {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* alternate directions for some rows */
+.forge-daughter,
+.grindle,
+.kratt,
+.lumblethelucky,
+.mottledskarr,
+.pinmasterplinney,
+.shakra,
+.tippandpill,
+.vaultkeepercardinius,
+.gilly,
+.grishkin,
+.secondsentinel,
+.seth,
+.caretaker,
+.fleamastermooshka,
+.huntress,
+.mistermushroom,
+.nuu,
+.runt,
+.snailshamans,
+.steelseerzi,
+.bellbeast,
+.broodling,
+.conductorballador,
+.fayforn,
+.loam,
+.oldpenitent,
+.pondcatcherreed,
+.karmelita,
+.sula {
+  flex-direction: row-reverse;
+}
+
+/* -------------------- */
+/* Parallax Effect      */
+/* -------------------- */
+.parallax-container {
+  perspective: 1000px;
+  display: inline-block;
+}
+
+.parallax-container img {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.2s ease-out;
+  transform-style: preserve-3d;
+}
+
+/* ---------- */
+/* Map iframe */
+/* ---------- */
+.map {
+  position: relative;
+  width: 100%;
+}
+
+/* ------------------------- */
+/* Glass / Frosted Effect + Glow */
+/* ------------------------- */
+.glass-container,
+.merchant-section-body,
+.wanderer-section-body,
+.questnpc-section-body,
+.miscellaneous-section-body,
+.information {
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 200, 50, 0.3); /* subtle warm glow */
+  overflow: hidden;
+  text-shadow: 1.5px 1.5px 3px black;
+}
+
+/* ------------------------- */
+/* Section Fold Styling       */
+/* ------------------------- */
+.merchant-toggle,
+.wanderer-toggle,
+.questnpc-toggle,
+.miscellaneous-toggle {
+  cursor: pointer;
+  background: linear-gradient(to right, #ce0000 0%, #000000 100%);
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 0;
+  border: 2px solid #ff4500;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.merchant-toggle:hover,
+.wanderer-toggle:hover,
+.questnpc-toggle:hover,
+.miscellaneous-toggle:hover {
+  background: linear-gradient(to right, #000000 0%, #ce0000 100%);
+  transform: scale(1.03);
+}
+
+.merchant-section-body,
+.wanderer-section-body,
+.questnpc-section-body,
+.miscellaneous-section-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease, padding 0.3s ease;
+  padding: 0 15px;
+}
+
+/* Glass effect when section opens */
+.merchant-section.active .merchant-section-body,
+.wanderer-section.active .wanderer-section-body,
+.questnpc-section.active .questnpc-section-body,
+.miscellaneous-section.active .miscellaneous-section-body {
+  max-height: 100%;
+  padding: 15px 20px;
+  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35), 0 0 15px rgba(255, 200, 50, 0.3); /* glow added */
+}
+
+/* ------------------------- */
+/* Individual NPC Info Glass */
+/* ------------------------- */
+.information {
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+/* ------------------------- */
+/* Pulse Glow Animation       */
+/* ------------------------- */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
+      0 0 15px rgba(255, 200, 50, 0.25);
+  }
+  50% {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 200, 50, 0.5);
+  }
+  100% {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
+      0 0 15px rgba(255, 200, 50, 0.25);
+  }
+}
+
+/* Apply to all glass panels */
+.glass-container,
+.merchant-section.active .merchant-section-body,
+.wanderer-section.active .wanderer-section-body,
+.questnpc-section.active .questnpc-section-body,
+.miscellaneous-section.active .miscellaneous-section-body,
+.information {
+  animation: pulseGlow 3s infinite ease-in-out;
+}
