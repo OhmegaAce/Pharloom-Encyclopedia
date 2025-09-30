@@ -295,6 +295,30 @@
       "phases": 2,
       "health": 700,
       "image": "../images/Bosses/trobbio.png"
+    },
+    {
+      "id": 38,
+      "name": "Voltvyrm",
+      "location": "Voltnest",
+      "phases": 1,
+      "health": 550,
+      "image": "../images/Bosses/voltvyrm.png"
+    },
+    {
+      "id": 39,
+      "name": "Watcher at the Edge",
+      "location": "Sands of Karak",
+      "phases": 1,
+      "health": 900,
+      "image": "../images/Bosses/watcherattheedge.png"
+    },
+    {
+      "id": 40,
+      "name": "Widow",
+      "location": "Bellhart",
+      "phases": 3,
+      "health": 360,
+      "image": "../images/Bosses/widow.png"
     }
   ]
 }
