@@ -1,35 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const merchantSection = document.querySelector(".merchant-section");
-  const toggle = merchantSection.querySelector(".merchant-toggle");
+  // List of all section prefixes that need the folding functionality.
+  const sectionNames = ["merchant", "wanderer", "questnpc", "miscellaneous"];
 
-  toggle.addEventListener("click", () => {
-    merchantSection.classList.toggle("active");
-  });
-});
+  // Loop through each section name and set up the toggle.
+  sectionNames.forEach((name) => {
+    const section = document.querySelector(`.${name}-section`);
+    const toggle = section?.querySelector(`.${name}-toggle`);
 
-document.addEventListener("DOMContentLoaded", () => {
-  const wandererSection = document.querySelector(".wanderer-section");
-  const toggle = wandererSection.querySelector(".wanderer-toggle");
-
-  toggle.addEventListener("click", () => {
-    wandererSection.classList.toggle("active");
-  });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const questnpcSection = document.querySelector(".questnpc-section");
-  const toggle = questnpcSection.querySelector(".questnpc-toggle");
-
-  toggle.addEventListener("click", () => {
-    questnpcSection.classList.toggle("active");
-  });
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  const miscellaneousSection = document.querySelector(".miscellaneous-section");
-  const toggle = miscellaneousSection.querySelector(".miscellaneous-toggle");
-
-  toggle.addEventListener("click", () => {
-    miscellaneousSection.classList.toggle("active");
+    // Add the click listener only if both the section and toggle exist.
+    toggle?.addEventListener("click", () => {
+      section.classList.toggle("active");
+    });
   });
 });
