@@ -239,6 +239,62 @@
       "phases": 1,
       "health": 600,
       "image": "../images/Bosses/shakra.png"
+    },
+    {
+      "id": 31,
+      "name": "Shrine Guardian Seth",
+      "location": "Shellwood, Greymoor, Fleatopia",
+      "phases": 1,
+      "health": 1185,
+      "image": "../images/Bosses/shrineguardianseth.png"
+    },
+    {
+      "id": 32,
+      "name": "Sister Splinter",
+      "location": "Shellwood",
+      "phases": 2,
+      "health": 310,
+      "image": "../images/Bosses/sistersplinter.png"
+    },
+    {
+      "id": 33,
+      "name": "Skarrsinger Karmelita",
+      "location": "Far Fields",
+      "phases": 3,
+      "health": 1500,
+      "image": "../images/Bosses/skarrsingerkarmelita.png"
+    },
+    {
+      "id": 34,
+      "name": "Skull Tyrant",
+      "location": "The Marrow",
+      "phases": 1,
+      "health": 450,
+      "image": "../images/Bosses/skulltyrant.png"
+    },
+    {
+      "id": 35,
+      "name": "Summoned Saviour",
+      "location": "Bonegrave",
+      "phases": 1,
+      "health": 500,
+      "image": "../images/Bosses/summonedsavior.png"
+    },
+    {
+      "id": 36,
+      "name": "The Unravelled",
+      "location": "Whiteward",
+      "phases": 3,
+      "health": 1000,
+      "image": "../images/Bosses/theunravelled.png"
+    },
+    {
+      "id": 37,
+      "name": "Trobbio",
+      "location": "The Stage",
+      "phases": 2,
+      "health": 700,
+      "image": "../images/Bosses/trobbio.png"
     }
   ]
 }
