@@ -17,9 +17,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Create HTML for each boss
     data.bosses.forEach((boss) => {
-      // Create a URL-friendly name (e.g., "Bell Beast" -> "bellbeast")
-      const bossPageName = boss.name.toLowerCase().replace(/ /g, "");
-      const bossLink = `/html/Bosses/${bossPageName}.html`;
+      // Use the unique ID for the link
+      const bossLink = `/html/boss-template.html?id=${boss.id}`;
 
       const bossCard = document.createElement("a");
       bossCard.className = "boss-card";
