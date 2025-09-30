@@ -510,7 +510,47 @@
       "location": "Far Fields",
       "health": 500,
       "phases": 4,
-      "image": "../images/Bosses/fourthchorus.png"
+      "image": "../images/Bosses/fourthchorus.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Fourth Chorus can only be attacked by hitting its head. Its head and body do not deal damage on contact, but its hands deal 2 Masks of damage. Each attack is telegraphed by the corresponding hand glowing.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Swipe",
+                  "description": "Fourth Chorus swipes one of its lower arms across the entire arena. The left hand swipes from the left to the right, and vice versa."
+                },
+                {
+                  "name": "Slam",
+                  "description": "Fourth Chorus raises one of its upper arms before slamming it down. This causes up to 2 of the platforms in the arena to sink into the lava. Platforms have their own timer before rising."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 450 HP, Fourth Chorus staggers and falls to the platform. After it gets up, it will roar, indicating the start of this phase.",
+              "description": "Its attack speed increases, and it gains a new attack which it always performs at the start of the phase:",
+              "attacks": [
+                {
+                  "name": "Rock Dance",
+                  "description": "Fourth Chorus raises its arms upwards and slams the top of the arena multiple times, causing molten rocks to fall down in random locations over several seconds."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "After reaching 325 HP, Fourth Chorus staggers and collapses again. After it rises, its attack speed increases."
+            },
+            {
+              "name": "Phase 4",
+              "trigger": "When Fourth Chorus reaches 200 HP, it staggers a final time. It roars again after rising, which destroys the two outer platforms and creates 2 updrafts in their place.",
+              "description": "Its attack speed is lowered in this phase, and it can no longer perform Rock Dance. Riding the updrafts allows Hornet to reach two explosives embedded in the ceiling. Hitting both causes a massive boulder to drop onto Fourth Chorus's head, instantly killing it. This finisher is optional."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 12,
@@ -518,7 +558,36 @@
       "location": "Greymoor, Sinner's Road, Choral Chambers, Whispering Vaults, High Halls",
       "health": 460,
       "phases": 1,
-      "image": "../images/Bosses/garmondandzaza.png"
+      "image": "../images/Bosses/garmondandzaza.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "In Garmond and Zaza's duel as a boss fight above the Whispering Vaults, they have the following move set:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Hornlance Sweep",
+                  "description": "Zaza stands still while Garmond swings his Hornlance back and forth 5 times, making large arcs above him."
+                },
+                {
+                  "name": "Gallant Joust",
+                  "description": "Garmond readies his Hornlance and the two charge towards Hornet, continuing until they reach the edge of the arena platform."
+                },
+                {
+                  "name": "Cavalier Drop",
+                  "description": "Zaza makes a tall leap towards Hornet at a short set distance. At the apex of the jump, Garmond stabs downwards with his Hornlance straight into the ground."
+                },
+                {
+                  "name": "Charge",
+                  "description": "Zaza will run towards Hornet to reposition for an attack."
+                }
+              ]
+            }
+          ],
+          "strategy": "Garmond and Zaza can be knocked off the arena platform into the adjacent spikes, which will deal some damage to them before they leap back onto the platform."
+        }
+      }
     },
     {
       "id": 13,
@@ -526,7 +595,89 @@
       "location": "The Cradle",
       "health": 1095,
       "phases": 6,
-      "image": "../images/Bosses/grandmothersilk.png"
+      "image": "../images/Bosses/grandmothersilk.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Throughout her fight, Grand Mother Silk floats in the background above Hornet with 6 needles floating by her sides. She does not deal contact damage, and her torso must be struck to damage her. The needles also do not deal contact damage when they aren't used for an attack.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Needle Flurry",
+                  "description": "Grand Mother Silk sends 2 sets of 3 needles at Hornet, one vertically and the other horizontally. Horizontal needles will always have a gap to jump through."
+                },
+                {
+                  "name": "Needle Walls",
+                  "description": "Grand Mother Silk sends out 2 sets of 3 needles to the edges of the arena, which then travel horizontally at Hornet from the left and right."
+                },
+                {
+                  "name": "Claw Swipe",
+                  "description": "Grand Mother Silk winds up a claw before slashing it across the entire floor of the arena, bringing it up at the end and creating a large arc. She follows this up by immediately sending all 6 pins downward."
+                },
+                {
+                  "name": "Glide",
+                  "description": "Grand Mother Silk continually makes small dashes backwards away from Hornet to stay away from her."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 1005 HP, she attacks at a slightly faster rate and gains a new attack:",
+              "attacks": [
+                {
+                  "name": "Silk Web",
+                  "description": "Grand Mother Silk shrieks, then a random pattern of silk lines appear across the entire arena. If Hornet is caught in one when it triggers, a short cutscene plays in which she takes 3 Masks of damage in quick succession."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "Upon reaching 830 HP, Grand Mother Silk will stop and shriek. She attacks at an even faster rate, gains one attack, and alters two others.",
+              "attacks": [
+                {
+                  "name": "Needle Rain",
+                  "description": "All 6 needles are sent vertically downward."
+                },
+                {
+                  "name": "Needle Flurry (Modified)",
+                  "description": "The first set of 3 needles is sent out again after the second wave."
+                },
+                {
+                  "name": "Silk Web (Modified)",
+                  "description": "Repeats once, immediately after the first ends."
+                }
+              ]
+            },
+            {
+              "name": "Phase 4",
+              "trigger": "Upon reaching 620 HP, Grand Mother Silk falls off-screen with a fake-out death. After a short downtime with falling debris, she reappears.",
+              "description": "Her attack rate slows down slightly but she gains a new attack:",
+              "attacks": [
+                {
+                  "name": "Debris Rain",
+                  "description": "Thick sets of silk lines appear, which is followed by debris raining down. Grand Mother Silk can perform other attacks during this."
+                }
+              ]
+            },
+            {
+              "name": "Phase 5",
+              "trigger": "After reaching 520 HP, Grand Mother Silk's attack pace speeds up again slightly and she gains a new attack:",
+              "attacks": [
+                {
+                  "name": "Spike Pull",
+                  "description": "2-3 sets of silk lines appear and pull up spiked platforms from beneath the arena. These spikes only deal 1 Mask of damage and can be removed by hitting them twice."
+                }
+              ]
+            },
+            {
+              "name": "Phase 6",
+              "trigger": "Upon reaching 300 HP, Grand Mother Silk shrieks again and her attacks come out slightly faster.",
+              "notes": "All of Grand Mother Silk's attacks deal 2 Masks of damage, with the exceptions of the Silk Web which deals 3 and the Spike Pull which deals 1."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 14,
@@ -534,7 +685,34 @@
       "location": "Blasted Steps",
       "health": 400,
       "phases": 1,
-      "image": "../images/Bosses/greatconchflies.png"
+      "image": "../images/Bosses/greatconchflies.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "The Great Conchflies begin the fight by each flying in from the ceiling and floor and roaring when meeting in the centre of the arena, after which they continue their initial trajectory and burrow away. The fight then begins with the pair of bosses having the following simple shared move set:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Where a Conchfly will emerge from is indicated by a pillar of rumbling sand.",
+              "attacks": [
+                {
+                  "name": "Drill Dash",
+                  "description": "Both Great Conchflies burst out of the walls together, either horizontally or vertically, travel across the arena, and then each burrow back into their opposite walls."
+                },
+                {
+                  "name": "Conch Spit",
+                  "description": "A single Great Conchfly descends from a ceiling corner before spitting a conch projectile in a diagonal direction towards Hornet. The conch ricochets 3 times before breaking. After the projectile bounces twice, the Conchfly burrows directly downwards while the other Conchfly simultaneously performs a Drill Dash attack."
+                },
+                {
+                  "name": "Drill Slam",
+                  "description": "A single Great Conchfly burrows out of a ceiling corner, flies horizontally across the room and then burrows downwards into the ground. When the first Conchfly is burrowing into the ground, the other Conchfly can either perform a simultaneous Drill Dash, or perform a single Conch Spit attack."
+                }
+              ],
+              "notes": "Contact with a Great Conchfly deals 2 Masks of damage."
+            }
+          ],
+          "strategy": "The conch projectiles can be hit back towards the Great Conchfly to deal damage to it. Hornet can avoid most attacks by positioning herself in the corner of the arena. Jumping once toward the wall and sliding down places her in a spot where Conch Spit and Drill Slam cannot reach. The only threat is when a Great Conchfly uses Drill Dash across the floor, but this can be safely avoided with a simple jump."
+        }
+      }
     },
     {
       "id": 15,
@@ -542,7 +720,47 @@
       "location": "Bilewater",
       "health": 650,
       "phases": 2,
-      "image": "../images/Bosses/groalthegreat.png"
+      "image": "../images/Bosses/groalthegreat.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Prior to fighting Groal, Hornet must first fight through 6 waves of enemies. After this, Groal rises up from the centre of the Muckmaggot pool and roars, beginning the fight.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Groal the Great dives underwater between most attacks. After emerging, he will hover around a distance away from Hornet and perform 1-2 attacks before diving again. He has the following attacks at his disposal:",
+              "attacks": [
+                {
+                  "name": "Acid Spit",
+                  "description": "Groal spits out 2 arcing acid orbs towards Hornet that bounce once before stopping and exploding. If an orb lands in water, it will disappear."
+                },
+                {
+                  "name": "Great Inhale",
+                  "description": "Groal gapes his mouth open and inhales air horizontally in a large cone, attempting to swallow Hornet. If successful, Hornet takes damage until she struggles out. Throwing certain tools into his mouth will cause him to choke."
+                },
+                {
+                  "name": "Spike Ball Ambush",
+                  "description": "Groal remains underwater while bringing down a large Spike Ball trap that swings in an arc across the entire arena."
+                },
+                {
+                  "name": "Stilkin Ambush",
+                  "description": "Groal remains underwater and summons 2 random Stilkin or Stilkin Trappers that emerge from the water. These enemies attack once before dropping back into the water."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "Upon reaching 390 HP, Groal's body will glow white as he roars, gaining 1 new attack and performing it immediately:",
+              "attacks": [
+                {
+                  "name": "Vengeful Spirit",
+                  "description": "Groal's insides emit white light, and he charges up before unleashing 2-3 Vengeful Spirit Spells towards Hornet's direction."
+                }
+              ],
+              "notes": "All of Groal's attacks, including contact, deal 2 Masks of damage. Where Groal and his Stilkin minions will rise up from below is indicated by rumbling splashes of water."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 16,
@@ -550,7 +768,44 @@
       "location": "Far Fields",
       "health": 1000,
       "phases": 1,
-      "image": "../images/Bosses/gurrtheoutcast.png"
+      "image": "../images/Bosses/gurrtheoutcast.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Upon being pulled down into Gurr's arena, Hornet must attack to break free from the bone cage, while Gurr roars and begins the fight. Gurr remains underground for most of the fight, leaping out to perform attacks.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Trap Throw",
+                  "description": "Gurr leaps into the air and throws 2 Barbed Traps (3 after reaching 750 HP) that float midair. After a few moments, traps extend their spikes into a large circle, then disappear. Hitting a trap expands it immediately."
+                },
+                {
+                  "name": "Slide",
+                  "description": "Gurr hunches down and slides across the arena, only stopping when he reaches a wall."
+                },
+                {
+                  "name": "Floor Spikes",
+                  "description": "Gurr dives into the ground, causing 3 sets of spikes to shoot up in random positions across the floor. The positions are telegraphed by small puffs of dust."
+                },
+                {
+                  "name": "Trap Flurry",
+                  "description": "Once per fight at 400 HP, Gurr shrieks while underground, then leaps out from the center of the arena and throws 5 Barbed Traps in succession around the room."
+                },
+                {
+                  "name": "Leap",
+                  "description": "Gurr makes large leaps around the arena to reposition for attacks."
+                },
+                {
+                  "name": "Backroll",
+                  "description": "If Hornet is too close to Gurr after an attack, he will quickly roll away."
+                }
+              ],
+              "notes": "Gurr deals 2 Masks of damage on contact."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 17,
@@ -558,7 +813,43 @@
       "location": "Deep Docks",
       "health": 250,
       "phases": 1,
-      "image": "../images/Bosses/lace.png"
+      "image": "../images/Bosses/lace.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "In her first encounter and fight in the Deep Docks, Lace uses the following attacks and manoeuvres:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Lunge",
+                  "description": "Lace dashes forwards with her pin extended across the platform, covering roughly 60% of it."
+                },
+                {
+                  "name": "Double Cut",
+                  "description": "Lace slashes twice, making large arcs over her head. Each slash moves her forwards a slight distance."
+                },
+                {
+                  "name": "Balestra",
+                  "description": "Lace launches herself at an angle into the air and slashes a full circle around her body with her pin at the height of the jump. She then lunges diagonally downwards, skidding a short bit after landing. While at the peak of her jump, Lace can change the direction of her lunge depending on Hornet's position."
+                },
+                {
+                  "name": "Parry & Riposte",
+                  "description": "Lace holds her pin up, striking a defensive position. If struck, she retaliates with a dash and a quick flurry of strikes. If Hornet is caught, she takes 2 Masks of damage in quick succession."
+                },
+                {
+                  "name": "Flourish",
+                  "description": "During the end of an attack, Lace adds a small flair with a slash from her Pin, which deals damage and deflects projectiles."
+                },
+                {
+                  "name": "Moulinet",
+                  "description": "Lace stands in place and charges up, highlighting a white circle midair. She then unleashes a whirlwind of slashes within the highlighted region and slams down. This attack is used once at 125 HP and deals 2 Masks of damage."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 18,
@@ -566,7 +857,39 @@
       "location": "The Cradle",
       "health": 800,
       "phases": 3,
-      "image": "../images/Bosses/lace.png"
+      "image": "../images/Bosses/lace.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "In her second encounter and fight in The Cradle, Lace's first phase remains largely identical to her first fight’s phase 1, with some minor adjustments.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Her attacks come out at a much faster pace. If Hornet is too close after any attack, Lace can either immediately Parry or quickly Retreat. If parried, Lace can now also teleport behind Hornet before doing the Riposte. Her attacks and movement can sometimes carry her off the edge of the arena, and she will jump back on from the opposite side.",
+              "notes": "Double Cut and Balestra now deal a second Mask of damage if Hornet is caught in a swing."
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 600 HP, Lace will stop and laugh, indicating the start of this phase. Her attacks remain mostly the same but 2 are upgraded:",
+              "attacks": [
+                {
+                  "name": "Lunge (Modified)",
+                  "description": "Lace performs a second, quicker and shorter Lunge immediately after the first, followed up by a Balestra; each attack always in Hornet's direction. This chain of attacks can be interrupted by a Parry or Retreat at any time if Hornet is too close inbetween 2 attacks."
+                },
+                {
+                  "name": "Balestra (Modified)",
+                  "description": "During the launch up, Lace leaves behind a trail of 3 large circles. After a moment these circles turn into slashes, dealing 2 Masks of damage if Hornet is caught in one when it activates."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "After reaching 320 HP, Lace will stop and scream, indicating the start of this phase.",
+              "description": "She regains the Moulinet attack and immediately performs it. The Moulinet attack is also now always chained twice in a row.",
+              "notes": "At any time, if Hornet leaves the platform and jumps to cling to one of the side walls, Lace will leap after her and deal 2 Masks of damage with a swing."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 19,
@@ -574,7 +897,71 @@
       "location": "Blasted Steps",
       "health": 720,
       "phases": 2,
-      "image": "../images/Bosses/lastjudge.png"
+      "image": "../images/Bosses/lastjudge.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Last Judge lets out a shout at the beginning of the fight, and at the start of Phase 2. On their first encounter only, they will always lead with the Thurible Throw attack aimed at Hornet, which kills off the other 2 Pilgrims that were waiting beside her.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Adjust",
+                  "description": "Last Judge does quick, low jumps, either forward or backward."
+                },
+                {
+                  "name": "Leap",
+                  "description": "Last Judge leaps to land on Hornet's location."
+                },
+                {
+                  "name": "Slam",
+                  "description": "Last Judge leaps into the air, hovers for a moment, and then slams the thurible into the ground on Hornet's location."
+                },
+                {
+                  "name": "Thurible Throw",
+                  "description": "Last Judge winds back before throwing their thurible forward in an upward arc. Shortly after the censer hits the ground, Last Judge quickly pulls it back."
+                },
+                {
+                  "name": "Thurible Spin",
+                  "description": "Last Judge starts spinning their thurible around themselves, deflecting projectiles. This is signalled by a quick twirl of the thurible around their wrist."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 540 HP, Last Judge's thurible ignites, and their attacks become stronger.",
+              "description": "Last Judge continues to use Adjust, but replaces the rest of the attacks of Phase 1 with the following attacks:",
+              "attacks": [
+                {
+                  "name": "Fire Rings",
+                  "description": "A more dangerous version of the Thurible Spin, with the spin creating multiple concentric rings of fire moving slowly outwards. They will always use this attack when Phase 2 begins."
+                },
+                {
+                  "name": "Exploding Thurible Throw",
+                  "description": "Last Judge throws their thurible forward in an upward arc. Shortly after hitting the ground, the thurible explodes. Last Judge then quickly pulls it back."
+                },
+                {
+                  "name": "Fire Slam",
+                  "description": "A more dangerous version of the Slam. Shortly after Last Judge lands, they send out two small burning shockwaves in either direction that cross the arena."
+                },
+                {
+                  "name": "Charge",
+                  "description": "Last Judge crouches, then charges in Hornet's direction, leaving 3 evenly spaced pillars of fire appearing behind them."
+                },
+                {
+                  "name": "Judgement",
+                  "description": "Once per fight, at 216 HP, Last Judge performs a longer Fire Rings attack that periodically switches the position of the rings. Once over, Last Judge is exhausted for a few seconds."
+                },
+                {
+                  "name": "Retributive Explosion",
+                  "description": "When Last Judge is defeated, they drop to their hands and knees. After a short while, several explosions happen in a large area centred around them, dealing 3 Masks of damage each."
+                }
+              ]
+            }
+          ],
+          "strategy": "All of Last Judge's attacks, including contact with them, deal 2 Masks of damage. Their fire-based attacks in Phase 2 are telegraphed by clouds of smokey incense, which indicate the area of damage shortly before igniting."
+        }
+      }
     },
     {
       "id": 20,
@@ -582,7 +969,50 @@
       "location": "Greymoor",
       "phases": 2,
       "health": 600,
-      "image": "../images/Bosses/moorwing.png"
+      "image": "../images/Bosses/moorwing.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Moorwing floats above the ground and has 3 base attacks:",
+              "attacks": [
+                {
+                  "name": "Swoop",
+                  "description": "Moorwing swoops down in Hornet's direction a short distance across the ground and rises back into the air only after it has passed Hornet. If Hornet is far away, it will continue flying against the ground until it catches up to her."
+                },
+                {
+                  "name": "Quick Swipes",
+                  "description": "Moorwing screeches and then moves forward slightly, unleashing a flurry of slashing attacks using its legs aimed diagonally downwards in Hornet's direction."
+                },
+                {
+                  "name": "Blade Toss",
+                  "description": "Moorwing throws a spinning blade, which travels on the ground a distance before taking off into the air."
+                }
+              ],
+              "notes": "Contact damage with Moorwing deals 2 Masks of damage."
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 390 HP, the Moorwing will stop and screech, gaining a new attack and augmenting two previous ones:",
+              "attacks": [
+                {
+                  "name": "Inverted Blade Toss",
+                  "description": "Moorwing roars and flips upside down, throwing spinning blades in both directions, which arc downwards and converge towards the middle. These blades then continue travelling on the ground until they reach the end of the arena."
+                },
+                {
+                  "name": "Swoop (Modified)",
+                  "description": "Moorwing now follows this attack up with a single regular Blade Toss in Hornet's direction."
+                },
+                {
+                  "name": "Blade Toss (Modified)",
+                  "description": "Moorwing now throws 2 blades in succession. The second circles back towards the Moorwing in a large loop before disappearing."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 21,
@@ -590,15 +1020,74 @@
       "location": "Ruined Chapel",
       "phases": 1,
       "health": 120,
-      "image": "../images/Bosses/mossmother.png"
+      "image": "../images/Bosses/mossmother.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "After destroying one of her eggs or walking to the end of the arena, she explodes out of a plant-like cocoon in the middle of the arena and lets out a screech, signalling the start of the fight.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Moss Mother has two attacks:",
+              "attacks": [
+                {
+                  "name": "Swoop",
+                  "description": "Moss Mother flies down in a short dive with her stinger pointed in Hornet's direction. When she reaches the ground, she slides her body across roughly half of the arena."
+                },
+                {
+                  "name": "Headbutt",
+                  "description": "Moss Mother quickly swoops up and slams her head into the ceiling of the arena causing either 1-2 Mossgrubs or 3 stalactites to fall from above. The position of falling objects is indicated by a small puff of dust that lasts half a second before they fall. The objects may fall at slightly different times."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 22,
       "name": "Nyleth",
       "location": "Shellwood",
-      "phases": 1,
+      "phases": 2,
       "health": 1250,
-      "image": "../images/Bosses/nyleth.png"
+      "image": "../images/Bosses/nyleth.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Upon spotting Hornet, she screams for three seconds and the floor opens, transporting them to the arena. Nyleth's main gimmick consists in sticking to either one of the walls and moving on them and in-between them while attacking.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "The arena consists of a horizontal room with a central platform that covers half the map, with vines at the bottom, at the top and on the wall Nyleth is grappled onto.",
+              "attacks": [
+                {
+                  "name": "Wall Swap",
+                  "description": "The wall that Nyleth sticks to is filled with spiky vines. Before jumping to the other wall, Nyleth crouches and the vines disappear. She then leaps across the room, and vines appear on the new wall."
+                },
+                {
+                  "name": "Head Swings",
+                  "description": "Nyleth swings her head around at incredible speeds, cutting a large area directly in front of her and above her."
+                },
+                {
+                  "name": "Pollen Barrage",
+                  "description": "Nyleth throws multiple pollen projectiles in Hornet's direction in alternating patterns."
+                },
+                {
+                  "name": "Pollen Screech",
+                  "description": "Nyleth charges up a large pollen attack that covers three quarters of the room, avoidable only by clinging to the opposite wall."
+                },
+                {
+                  "name": "Spiked Balls",
+                  "description": "Three columns of vapor indicate where spiked balls will shoot up vertically. The balls can be hit and launched back at Nyleth or other balls."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "description": "The arena expands downwards, with longer walls and the central platform is now missing. In this phase, two additional spiked balls appear after the first three during the Spiked Balls attack.",
+              "notes": "If Hornet touches one of the vines, she respawns on a temporary platform at the bottom. All attacks deal two masks of damage, except for the Spiked Balls."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 23,
@@ -606,7 +1095,28 @@
       "location": "Lost Verdania",
       "phases": 1,
       "health": 480,
-      "image": "../images/Bosses/palestag.png"
+      "image": "../images/Bosses/palestag.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Palestag is laying on the ground and when approached, it jumps and screams for two seconds before vanishing.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Leaf Vortexes",
+                  "description": "Palestag's main attack consists in generating bright sharp leaves that appear in pairs and move towards Hornet's general horizontal direction with a slight vertical tilt. Initially they move slow, but they exponentially pick up speed with time and can pass through obstacles. If they contact Hornet, she will take two consecutive hits of one Mask's damage each. After dealing a certain amount of damage, Palestag spawns three pairs of leaf vortexes instead of two."
+                },
+                {
+                  "name": "Escape Leap",
+                  "description": "After summoning the Leaf Vortexes, Palestag will leap away from Hornet and vanish. It can still cause contact damage if she touches the creature."
+                }
+              ]
+            }
+          ],
+          "strategy": "Due to its elusive behavior, it can be difficult to land more than one melee attack on it at a time. Tools and skills that provide ranged options make the fight much easier. Cogflies can chase down the Palestag as long as Hornet is close enough for them to track it. Tacks and Sting Shards can be laid at the few positions that the Palestag teleports between, causing it to take damage when it warps to those positions. Pale Nails can track the Palestag's location if Hornet is sufficiently close for the projectiles to lock on to it. The Longclaw can give Hornet's melee strikes enough reach to hit the Palestag from underneath a platform it is standing on."
+        }
+      }
     },
     {
       "id": 24,
@@ -614,7 +1124,56 @@
       "location": "Exhaust Organ",
       "phases": 2,
       "health": 650,
-      "image": "../images/Bosses/phantom.png"
+      "image": "../images/Bosses/phantom.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "The fight starts with a steam column covering Phantom in the background, before another column blasts down on the left side of the arena; with Phantom appearing out of it. Getting caught in the steam column that deposits Phantom deals 2 Masks of damage to Hornet in quick succession.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Emerging out of the steam clouds, Phantom has the following attacks and can run across the arena to reposition for them:",
+              "attacks": [
+                {
+                  "name": "Flurry",
+                  "description": "Phantom performs 3 rapid jabs towards Hornet, moving forwards slightly with each one. If Hornet is behind Phantom after the second jab, the third one is cancelled."
+                },
+                {
+                  "name": "Pin Rush",
+                  "description": "Phantom throws the Longpin horizontally toward Hornet, then quickly dashes after it. After catching the Longpin, Phantom continues on into a dash; however, if the Longpin hits a wall, then Phantom will catch it without the follow-up dash."
+                },
+                {
+                  "name": "Aerial Pin Rush",
+                  "description": "Phantom leaps into the air, throws the Longpin toward Hornet that travels a set distance or until it embeds in a surface, before then dashing to it."
+                },
+                {
+                  "name": "Parry & Riposte",
+                  "description": "Phantom blocks with the Longpin, nullifying incoming damage. If struck, Phantom retaliates by slashing back and forth 3 times, each dealing 2 masks of damage. Phantom can use this attack midair."
+                },
+                {
+                  "name": "Retreat",
+                  "description": "Phantom quickly glides back a short distance to reposition for another attack."
+                },
+                {
+                  "name": "Lightfall",
+                  "description": "Phantom leaps upwards off-screen, marks Hornet’s position with a large column, then slams down. Phantom gains this attack at 487 HP."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 227 HP, Phantom roars and performs Lightfall 5 times in succession. The battlefield becomes filled with smoke.",
+              "description": "Phantom gains one new ability:",
+              "attacks": [
+                {
+                  "name": "Smoke Step",
+                  "description": "Phantom can now sometimes disappear into the smoke and teleport to perform any of the previous attacks, choosing to teleport instead of run."
+                }
+              ]
+            }
+          ],
+          "strategy": "After defeat, Hornet and Phantom will take their places left and right of the arena before lunging towards each other. A prompt to press the SILK SKILL button is then shown on screen. If the input is not pressed in time, Hornet will take 2 Masks of damage in quick succession and Phantom will regain 60 HP, continuing the fight."
+        }
+      }
     },
     {
       "id": 25,
@@ -622,7 +1181,31 @@
       "location": "Blasted Steps, Mount Fey",
       "phases": 1,
       "health": 910,
-      "image": "../images/Bosses/pinstress.png"
+      "image": "../images/Bosses/pinstress.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "The Pinstress has three attacks in her battle at Mount Fay.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Pin Throw",
+                  "description": "While in the air, the Pinstress can throw three pins either down or to the side. The pattern is reminiscent of the Primal Aspid. This attack will do one mask of damage if hit."
+                },
+                {
+                  "name": "Golden Pin Dash",
+                  "description": "While in the air, the Pinstress can perform a diagonal slash downwards with her golden pin. This is normally followed by one or two more golden pin dashes to the left or right. This attack will do two masks of damage when hit."
+                },
+                {
+                  "name": "Charged Cross Slash",
+                  "description": "Occasionally, the Pinstress will start to charge an attack indicated by white particles. Once charged, she will use it the next time Hornet is in front of her. The best way to dodge it is to dash in the opposite direction. This attack will do two masks of damage."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 26,
@@ -630,7 +1213,42 @@
       "location": "Wormways",
       "phases": 1,
       "health": 1000,
-      "image": "../images/Bosses/plasmifiedzango.png"
+      "image": "../images/Bosses/plasmifiedzango.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Zango's movement speed and attack rate becomes faster the lower his health.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Regeneration",
+                  "description": "When Plasmified Zango isn’t actively taking damage, he will regenerate health."
+                },
+                {
+                  "name": "Shuffle",
+                  "description": "Plasmified Zango will walk aimlessly forward, turning around when reaching the edge of the arena."
+                },
+                {
+                  "name": "Plasmium Torrent",
+                  "description": "Plasmified Zango will occasionally stop moving to violently shake, releasing a volley of Plasmium blobs in an arc on either side of him."
+                }
+              ]
+            },
+            {
+              "name": "Mid-Fight",
+              "trigger": "Once Plasmified Zango reaches below 500 HP, he will start to run across the arena as opposed to walking - telegraphed by him leaning down toward the ground. His behaviour is otherwise unchanged.",
+              "attacks": [
+                {
+                  "name": "Dash",
+                  "description": "Plasmified Zango will run across the arena instead of walking."
+                }
+              ]
+            }
+          ],
+          "strategy": "Extracting Plasmified Blood from him using the Needle Phial, obtained from initiating the Advanced Alchemy wish, will reduce his maximum HP by 250. This change persists even if Hornet leaves the room and returns. Zango will die after four successful extractions. Without access to the Needle Phial, using high DPS Tools might help to safely burst him down after he starts dashing across the arena."
+        }
+      }
     },
     {
       "id": 27,
@@ -638,7 +1256,41 @@
       "location": "Chapel of the Beast",
       "phases": 2,
       "health": 550,
-      "image": "../images/Bosses/savagebeastfly.png"
+      "image": "../images/Bosses/savagebeastfly.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "The Savage Beastfly floats about the arena, staying near Hornet and has 2 attacks:",
+              "attacks": [
+                {
+                  "name": "Sweep",
+                  "description": "The Beastfly moves up or down to match Hornet's position, then charges toward her. After it travels past Hornet it will begin slowing down, stopping mid-flight or slamming into a wall. It can sometimes perform a second charge immediately after."
+                },
+                {
+                  "name": "Slam",
+                  "description": "The Beastfly moves up to the top of the arena, then slams down into the ground 3 consecutive times, attempting to position above Hornet before each slam."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 440 HP, it enters its second phase and gains a third attack and modifies one:",
+              "attacks": [
+                {
+                  "name": "Summon",
+                  "description": "The Beastfly stays in place and does a short scream. A cage then drops from the ceiling, spawning an enemy (Beastfly, Kilik, or Vicious Caranid) upon hitting the ground. Once it reaches 247 HP it can sometimes spawn 2 cages at once. The falling cages can deal 1 Mask of contact damage."
+                },
+                {
+                  "name": "Sweep (Modified)",
+                  "description": "The Beastfly will now always charge 3 times in a row; the first charge aimed at Hornet, the second with its height adjusted again, and the third once again directly at Hornet."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 28,
@@ -646,7 +1298,38 @@
       "location": "Far Fields",
       "phases": 2,
       "health": 650,
-      "image": "../images/Bosses/savagebeastfly.png"
+      "image": "../images/Bosses/savagebeastfly.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "During the encounter with the Savage Beastfly in Far Fields, the boss takes over the arena (and platform mechanic) of the Fourth Chorus and begins the fight by bursting out from the lava; immediately destroying the centre third of platforms. Platforms will reemerge after a short time.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "It has the following changes to its patterns:",
+              "attacks": [
+                {
+                  "name": "Sweep",
+                  "description": "The Beastfly will now start phase 1 already with its previous phase 2 Sweep pattern; meaning it will always charge 3 times in a row."
+                },
+                {
+                  "name": "Slam",
+                  "description": "Wherever the Beastfly slams down it will destroy a sixth of the platform, temporarily leaving a gap. If it slams down into one of these gaps and into the lava, it will disappear for a short moment before charging up from beneath the platform Hornet is currently on - destroying it in the process. A plume of lava will erupt from beneath Hornet indicating where the Beastfly is about to reemerge."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 520 HP, it enters its second phase.",
+              "attacks": [
+                {
+                  "name": "Summon",
+                  "description": "The Beastfly will only call in a Tarmite instead of any other monsters (1-2 at 292 HP). These Tarmites float in from the left and/or right sides of the arena instead of being dropped down from cages."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 29,
@@ -654,7 +1337,51 @@
       "location": "Cogwork Core, Choral Chambers, High Halls",
       "phases": 1,
       "health": 800,
-      "image": "../images/Bosses/secondsentinel.png"
+      "image": "../images/Bosses/secondsentinel.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Second Sentinel has access to several repositioning moves, many of them sending them airborne to perform 'air-borne' variations of attacks. The Second Sentinel has access to a multitude of attacks using their scissor blades:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Gilded Combo",
+                  "description": "Second Sentinel reels in one of their blades, before lunging forward, following with a slash from the other blade. If Hornet is not behind Second Sentinel, they can then perform a second, shorter lunge."
+                },
+                {
+                  "name": "Aerial Lunge",
+                  "description": "Second Sentinel leaps forwards mid-air, then lunges diagonally downwards towards Hornet."
+                },
+                {
+                  "name": "Power Blade",
+                  "description": "Second Sentinel holds both blades behind their back, then swings them forward, sending a large, medium-speed wind projectile forward. This can also be performed while air-borne."
+                },
+                {
+                  "name": "Scissor Strike",
+                  "description": "Second Sentinel quickly charges up, then makes a small jump forwards before unleashing a massive X-shaped slash with both blades, dealing 2 Masks of damage. This can also be performed while air-borne."
+                },
+                {
+                  "name": "Gilded Whirl",
+                  "description": "Second Sentinel jumps forward while spinning upwards with both blades. If Hornet is caught, she takes 2 Masks of damage in quick succession. At the peak, they can chain into another aerial attack."
+                },
+                {
+                  "name": "Flying Retreat",
+                  "description": "Second Sentinel will make a large backwards leap, clinging to the wall, before performing an aerial attack."
+                },
+                {
+                  "name": "Gilded Parry",
+                  "description": "If Hornet is too close, they strike a defensive stance. If hit, they will counter with a flurry of strikes that deal 2 Masks of damage in quick succession."
+                },
+                {
+                  "name": "Quick Dash",
+                  "description": "Second Sentinel makes quick dashes backwards and forwards to reposition for attacks or to avoid Hornet between attacks."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 30,
@@ -662,15 +1389,94 @@
       "location": "Greymoor",
       "phases": 1,
       "health": 600,
-      "image": "../images/Bosses/shakra.png"
+      "image": "../images/Bosses/shakra.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "In Shakra's duel as a boss fight in Greymoor she has the following attacks:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Quick Step",
+                  "description": "Shakra teleports around rapidly in between every attack as her main form of movement. She always maintains a distance away from Hornet with each teleport."
+                },
+                {
+                  "name": "Ring Throw",
+                  "description": "Shakra teleports mid-air and quickly tosses 1-2 rings in quick succession at Hornet. These rings will bounce once and are not affected by gravity."
+                },
+                {
+                  "name": "Ring Thrust",
+                  "description": "Shakra teleports to the ground and quickly dashes towards Hornet creating a large damaging pulse of energy, that deals 2 Masks of damage, with her rings at the end of the dash. She follows this up by throwing a ring behind her in the opposite direction of the dash."
+                },
+                {
+                  "name": "Ring Burst",
+                  "description": "Shakra teleports directly above Hornet and pauses a moment before slamming down to the ground creating a ring shaped burst of energy, that deals 2 Masks of damage, around herself."
+                }
+              ]
+            }
+          ],
+          "strategy": "If Hornet is defeated she simply passes out and wakes up by the challenge ring. As such this duel can be lost in Steel Soul Mode without permanently losing the save file."
+        }
+      }
     },
     {
       "id": 31,
       "name": "Shrine Guardian Seth",
       "location": "Shellwood, Greymoor, Fleatopia",
-      "phases": 1,
+      "phases": 2,
       "health": 1185,
-      "image": "../images/Bosses/shrineguardianseth.png"
+      "image": "../images/Bosses/shrineguardianseth.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Seth wields a gilded pin and a cymbal he uses as a shield. He often enters a defensive stance, blocking hits from the front or above depending on Hornet's position relative to him.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Pin Combo",
+                  "description": "Seth hops backwards and slightly into the air, before slashing three times with his pin. If Hornet is hit, Seth slashes again, dealing two masks of damage in total."
+                },
+                {
+                  "name": "Pin Whirlwind",
+                  "description": "Seth slashes forward, before jumping backwards while spinning his pin around himself. If Hornet is caught in the whirlwind, she takes an additional mask of damage."
+                },
+                {
+                  "name": "Cymbal Toss",
+                  "description": "Seth throws his shield forward, before teleporting to the shield's location and catching it."
+                },
+                {
+                  "name": "Aerial Cymbal Toss",
+                  "description": "Seth jumps or teleports mid-air, then throws his shield diagonally down towards Hornet. The shield bounces upward upon hitting the ground, after which Seth teleports to its location and catches it."
+                },
+                {
+                  "name": "Cymbal Crash",
+                  "description": "Seth jumps or teleports mid-air, then dashes towards the ground with his shield, creating a circular shockwave on impact. This attack deals two masks of damage."
+                },
+                {
+                  "name": "Follow Through",
+                  "description": "Seth lunges forward with his pin, ending with a second stab. He almost always uses this attack after a Cymbal Crash. If Hornet is hit, Seth stabs again, dealing two masks of damage in total."
+                },
+                {
+                  "name": "Backstep",
+                  "description": "If Hornet stands too close to Seth, he may dash backwards a short distance."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "When reaching half health, Seth gets staggered and screams, and gains a new attack:",
+              "attacks": [
+                {
+                  "name": "Crash Combo",
+                  "description": "Seth executes the teleporting variant of Cymbal Crash three times in a row, ending with a Follow Through. Seth begins his second phase with this attack."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 32,
@@ -678,7 +1484,41 @@
       "location": "Shellwood",
       "phases": 2,
       "health": 310,
-      "image": "../images/Bosses/sistersplinter.png"
+      "image": "../images/Bosses/sistersplinter.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Sister Splinter hangs down from the ceiling and has 2 attacks:",
+              "attacks": [
+                {
+                  "name": "Triple Swipe",
+                  "description": "Sister Splinter swipes down quickly from above 3 times in succession, moving to position above Hornet before each swipe. She alternates hands with each strike. This attack deals 2 Masks of damage."
+                },
+                {
+                  "name": "Vine Walls",
+                  "description": "Sister Splinter retreats into the ceiling and summons 2 breakable twigs wrapped in thorny vines that shoot down from the ceiling in random locations. The vines deal one mask of contact damage and take 3 hits to be broken."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 248 HP, Sister Splinter cackles and disappears into the ceiling, summoning 2 Splinterbarks. She reappears after 1 is killed or if enough time has passed, gaining a new attack and altering one:",
+              "attacks": [
+                {
+                  "name": "Summon",
+                  "description": "Sister Splinter moves to a corner before cackling and summoning a Splinterbark from a random location in the ceiling. Her other attacks can kill any Splinterbarks caught in them."
+                },
+                {
+                  "name": "Vine Walls (Modified)",
+                  "description": "She can now summon 2-3 Vine Walls. Once during this phase at 124 HP, Sister Splinter will summon 6 evenly spaced Vine Walls at once, covering most of the arena."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 33,
@@ -686,7 +1526,62 @@
       "location": "Far Fields",
       "phases": 3,
       "health": 1500,
-      "image": "../images/Bosses/skarrsingerkarmelita.png"
+      "image": "../images/Bosses/skarrsingerkarmelita.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "While not actively attacking, Skarrsinger Karmelita glides and dances about the arena while spinning her curvesickle weapons. When doing this, she is able to parry Hornet's Needle attacks, making striking her from close range difficult.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "During her first phase, Skarrsinger Karmelita has 5 attacks. Almost all of her attacks deal 2 Masks of damage, but her contact damage is one Mask.",
+              "attacks": [
+                {
+                  "name": "Twirl Slash",
+                  "description": "Skarrsinger Karmelita performs a twirling slash with her curvesickles."
+                },
+                {
+                  "name": "Triple Slash",
+                  "description": "Skarrsinger Karmelita performs 3 slashes with her curvesickles, covering around 60% of the arena. She may cancel the third slash or replace it with a Twirl Slash in Hornet's direction."
+                },
+                {
+                  "name": "Twin Curvesickles",
+                  "description": "Skarrsinger Karmelita throws 2 curvesickles, one horizontally and one diagonally upwards, in Hornet's direction."
+                },
+                {
+                  "name": "Twirl Dive",
+                  "description": "Skarrsinger Karmelita leaps towards Hornet then slams diagonally into the ground, causing bones to erupt afterwards in Hornet's direction."
+                },
+                {
+                  "name": "Aerial Curvesickles",
+                  "description": "Skarrsinger Karmelita leaps into the air then throws 2 curvesickles downwards which then curve to the left and right, sweeping horizontally across the arena."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 1000 HP, Skarrsinger Karmelita shouts, marking the beginning of the second phase. During this phase, two of her previous attacks gain new properties, and she begins using a new attack:",
+              "attacks": [
+                {
+                  "name": "Twin Curvesickles (Modified)",
+                  "description": "Skarrsinger Karmelita may twirl then throw a second set of curvesickles."
+                },
+                {
+                  "name": "Aerial Curvesickles (Modified)",
+                  "description": "Skarrsinger Karmelita may throw a second set of curvesickles shortly after the first."
+                },
+                {
+                  "name": "Bone Charge",
+                  "description": "Skarrsinger Karmelita dashes to the near side of the arena and charges to the other, causing tall bones to erupt behind her."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "After reaching 500 HP, Skarrsinger Karmelita shouts again, marking the beginning of the third phase. During this phase, she gains no new attacks, but she attacks at a faster pace."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 34,
@@ -694,7 +1589,32 @@
       "location": "The Marrow",
       "phases": 1,
       "health": 450,
-      "image": "../images/Bosses/skulltyrant.png"
+      "image": "../images/Bosses/skulltyrant.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Skull Tyrant has 3 attacks, all of which will do 2 Masks of damage:",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Rampage",
+                  "description": "Skull Tyrant will wind up by scuttling back a tiny distance, before charging towards Hornet. It will only stop after it has passed Hornet, and she is behind it. When it ends the charge, it carries some momentum and will skid a bit before coming to a full stop."
+                },
+                {
+                  "name": "Leap",
+                  "description": "Skull Tyrant will charge up in place and then perform a large jump towards Hornet. It will cause 2 rocks to fall from the ceiling upon landing, with one always landing close to the boss, and another at a random location."
+                },
+                {
+                  "name": "Tantrum",
+                  "description": "Skull Tyrant will roar once before jumping in place 3 times, each jump causing 1-2 rocks to fall down from random locations from the ceiling."
+                }
+              ]
+            }
+          ],
+          "strategy": "The Skull Tyrant is immune to attacks from above, Hornet can still Needle-bounce off its skull, but this will deal no damage."
+        }
+      }
     },
     {
       "id": 35,
@@ -702,7 +1622,41 @@
       "location": "Bonegrave",
       "phases": 1,
       "health": 500,
-      "image": "../images/Bosses/summonedsaviour.png"
+      "image": "../images/Bosses/summonedsaviour.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Upon being summoned by Sula, the Saviour materializes in the air and screams, causing rocks to crumble and locking Hornet in the cave. All attacks other than Air Swim are telegraphed by void particles for about one second.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "The Summoned Saviour has five attacks, four of which are identical to the ones displayed from all the regular enemies following Act 3. They all deal two Masks of damage.",
+              "attacks": [
+                {
+                  "name": "Void Tendrils",
+                  "description": "The Summoned Saviour starts charging up 2 tiny tendrils in Hornet's direction before extending them outwards, covering a distance the length of itself."
+                },
+                {
+                  "name": "Void Blades",
+                  "description": "The Summoned Saviour releases void particles in all directions and then immediately swirls tendrils in a large circular area around itself."
+                },
+                {
+                  "name": "Void Projectiles",
+                  "description": "The Summoned Saviour charges particles in Hornet's direction before firing 3 consecutive void projectiles towards her. These projectiles arc very slightly."
+                },
+                {
+                  "name": "Void Blobs",
+                  "description": "The Summoned Saviour starts splashing void from its three tails and then launches 4 arcing blobs to its left and right. Upon hitting the ground, each blob will then create a small circular slash around itself."
+                },
+                {
+                  "name": "Air Swim",
+                  "description": "Between attacks, it can quickly dash a set distance through the air without warning in a random direction."
+                }
+              ]
+            }
+          ],
+          "strategy": "Hitting the Summoned Saviour will not grant Hornet any Silk."
+        }
+      }
     },
     {
       "id": 36,
@@ -710,7 +1664,63 @@
       "location": "Whiteward",
       "phases": 3,
       "health": 1000,
-      "image": "../images/Bosses/theunravelled.png"
+      "image": "../images/Bosses/theunravelled.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "After falling in the pit where the boss is located, The Unravelled's title-card displays, but the boss does not yet appear. In order to begin the fight, Hornet must first defeat 2 waves of enemies: 1 Dreg Husk, then 1 Dreg Husk & 1 Dregwheel.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "The Unravelled emerges from the ground, roars, and begins the fight by immediately performing a Dreg Rush. It remains underground between most of its attacks, with its emergence telegraphed by rumbling dust particles.",
+              "attacks": [
+                {
+                  "name": "Dreg Rush",
+                  "description": "The Unravelled emerges from one side and rushes horizontally across the entire arena, bouncing back a bit upon colliding with a wall before burrowing again."
+                },
+                {
+                  "name": "Cadaver Spit",
+                  "description": "The Unravelled emerges on either side and screams, launching 2 bodies in succession that fly across the arena. It can then burrow or immediately perform a Dreg Rush."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 800 HP, The Unravelled is staggered and summons 2 Dregwheels. Upon their defeat, scalpels shoot out of the ground.",
+              "description": "The Unravelled then reemerges into a Dreg Rush attack. It gains 2 new attacks and modifies its previous 2:",
+              "attacks": [
+                {
+                  "name": "Dreg Rush (Modified)",
+                  "description": "Now shoots out a single scalpel from beneath Hornet when The Unravelled hits a wall."
+                },
+                {
+                  "name": "Cadaver Spit (Modified)",
+                  "description": "Fires 3 bodies in a row, with the third body fired at a random angle."
+                },
+                {
+                  "name": "Scalpel Storm",
+                  "description": "While underground, The Unravelled sends out 3 scalpels in succession. While the final scalpel is still midair, it will perform another attack."
+                },
+                {
+                  "name": "Scalpel Summon",
+                  "description": "The Unravelled emerges near the centre and roars, summoning 2 scalpels from its left and right that target the central position."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "Upon reaching 400 HP, The Unravelled staggers again, spawning a Dreg Husk and Dregwheel. Defeating either enemy causes another Dregwheel to emerge. After all are defeated, the fight resumes.",
+              "description": "The Unravelled keeps the same patterns but modifies one attack:",
+              "attacks": [
+                {
+                  "name": "Scalpel Summon (Modified)",
+                  "description": "Right after the first 2 scalpels are summoned, a third one shoots out from behind The Unravelled's position."
+                }
+              ]
+            }
+          ],
+          "strategy": "The Unravelled's massive golden Conductor mask makes it immune to damage from above, however it can still be bounced off of with Needle strikes. Contact with The Unravelled, as well as its scalpels, deals 2 Masks of damage."
+        }
+      }
     },
     {
       "id": 37,
@@ -718,7 +1728,67 @@
       "location": "The Stage",
       "phases": 2,
       "health": 700,
-      "image": "../images/Bosses/trobbio.png"
+      "image": "../images/Bosses/trobbio.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Upon entering the stage, multiple smoke plumes fire off in the background before Trobbio leaps out of the floorboards in the centre of the arena - beginning the battle.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "Trobbio has a unique set of main attacks that can be performed either on the ground or while he’s in the air. As such, Trobbio also has a large set of manoeuvres which reposition him for these attacks:",
+              "attacks": [
+                {
+                  "name": "Whirlwind",
+                  "description": "Trobbio spins into a whirlwind and moves rapidly towards Hornet. At the end of the dash, he sends out 2 whirlwind projectiles. He is immune to damage from the sides while spinning. If used while airborne, Trobbio will arc downwards."
+                },
+                {
+                  "name": "Fireworks",
+                  "description": "Trobbio creates 5 large sparkling circles randomly across the arena, which explode into fireworks after some delay. This can be used airborne with little variation."
+                },
+                {
+                  "name": "Smoke Bombs",
+                  "description": "Trobbio throws out 3 smoke bombs that bounce around, then stop and release pillars of damaging smoke. If used while airborne, the grenades immediately ricochet downwards off of the ceiling."
+                },
+                {
+                  "name": "Flying Leap",
+                  "description": "Trobbio leaps straight into the air to either perform an airborne attack or begin Fluttering."
+                },
+                {
+                  "name": "Flutter",
+                  "description": "While airborne, Trobbio flutters horizontally across the arena. He can use an airborne attack at any time to cut the Flutter short."
+                },
+                {
+                  "name": "Floorboard Shuffle",
+                  "description": "Trobbio descends into the floorboards to traverse to the opposite end of the arena. He cannot be damaged while beneath the stage."
+                },
+                {
+                  "name": "Hidden Smoke Bombs",
+                  "description": "Trobbio descends into the floorboards and traverses to the centre of the arena, throwing 3 smoke bombs out of a hatch, before continuing into a regular Floorboard Shuffle."
+                },
+                {
+                  "name": "Whirlwind Dodge",
+                  "description": "Trobbio can quickly dash backwards defensively in a small whirlwind if Hornet is too close."
+                },
+                {
+                  "name": "Flourish",
+                  "description": "Trobbio makes short dashes to move around the arena, flourishing with each dash."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "Upon reaching 350 HP, Trobbio will strike a dramatic pose and cry out his name, signalling the beginning of this phase. He replaces the Hidden Smoke Bomb attack with a new one, which he performs immediately:",
+              "attacks": [
+                {
+                  "name": "Pyrotechnics",
+                  "description": "Trobbio disappears underground, before 5 fire pillars shoot out from the ground from random locations. Trobbio is launched into the air from within the fifth fire pillar, and will perform an airborne attack."
+                }
+              ],
+              "notes": "All of Trobbio's attacks deal 2 Masks of damage, and the Whirlwind-based attacks will deal 2 Masks in quick succession."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 38,
@@ -726,7 +1796,29 @@
       "location": "Voltnest",
       "phases": 1,
       "health": 550,
-      "image": "../images/Bosses/voltvyrm.png"
+      "image": "../images/Bosses/voltvyrm.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "The Voltvyrm resides in the ceiling mass of barnacles, and switches randomly between 3 holes (left, right, or centre) to appear out of. When it emerges from a hole, it performs an electric attack before retreating and repeating the process.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "It has the following 2 attacks:",
+              "attacks": [
+                {
+                  "name": "Volt Pillars",
+                  "description": "Voltvyrm creates waves of electric columns that span the arena vertically in the following patterns: 3 waves of pairs of columns which start from the edges and close in; 3 waves of pairs of columns starting with the middle 2 and expanding outwards; 4 waves consisting of 2 columns at the edges, then the middle 2, finally ending with the 2 columns in-between."
+                },
+                {
+                  "name": "Volt Field",
+                  "description": "Voltvyrm creates a burst of small electric circles across the arena in the following patterns: 6 circles in a line creating a zigzag; 6-7 circles in a line paired up creating a looser zigzag; 6 circles stacked in pairs to create 3 spaced-apart columns; 7 circles that cover the entire ground, forcing Hornet to be airborne."
+                }
+              ],
+              "notes": "All electric attacks are first telegraphed by the area of effect outlined in glowing pink light, before then creating a lingering zone of damage. If Hornet jumps into the mass of Barnacles on the ceiling, she will take electric damage. All electric damage, including the attacks, deal 2 Masks in quick succession."
+            }
+          ]
+        }
+      }
     },
     {
       "id": 39,
@@ -734,7 +1826,51 @@
       "location": "Sands of Karak",
       "phases": 1,
       "health": 900,
-      "image": "../images/Bosses/watcherattheedge.png"
+      "image": "../images/Bosses/watcherattheedge.png",
+      "information": {
+        "behavior and tactics": {
+          "summary": "Watcher at the Edge has several attacks, a parry, and multiple retreat options.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "attacks": [
+                {
+                  "name": "Sword Uppercut",
+                  "description": "The Watcher exits the ground at high speed, swinging the blade in front of them upwards. They then fall down towards Hornet with a small mid-air leap and crash the sword on the ground. A huge amount of sand is released from the ground, making it slightly hard to see movements."
+                },
+                {
+                  "name": "Single Swing",
+                  "description": "The Watcher charges an attack and unleashes his sword, starting from their back and reaching in front of them."
+                },
+                {
+                  "name": "Triple Swing",
+                  "description": "Following the Single Swing, the Watcher pauses briefly before throwing out a sideways swing and another overhead swing. The Watcher can turn around before the third swing if Hornet is behind them."
+                },
+                {
+                  "name": "Leap Downslash",
+                  "description": "The Watcher will jump towards Hornet and perform a downslash."
+                },
+                {
+                  "name": "Parry and Riposte",
+                  "description": "The Watcher raises their sword in a defensive stance. If Hornet lands a hit, the Watcher will follow up with any of the previous attacks listed."
+                },
+                {
+                  "name": "Chasedown",
+                  "description": "If Hornet tries to get away, the Watcher will quickly run after her with incredible speed, making escape difficult."
+                },
+                {
+                  "name": "Retreat",
+                  "description": "The Watcher quickly glides back a short distance to reposition for another attack."
+                },
+                {
+                  "name": "Leap Retreat",
+                  "description": "The Watcher leaps backwards to distance themselves."
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": 40,
@@ -742,7 +1878,68 @@
       "location": "Bellhart",
       "phases": 3,
       "health": 360,
-      "image": "../images/Bosses/widow.png"
+      "image": "../images/Bosses/widow.png",
+      "information": {
+        "behavior and tactics": {
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "During her first phase, Widow has 4 attacks and manoeuvres, she teleports in-between each attack to start the next:",
+              "attacks": [
+                {
+                  "name": "Bell Pull",
+                  "description": "Widow stands straight and pulls 1-3 bells from the ceiling using silk threads, one at a time. These bells can fall straight down vertically or angled at 45 degrees. All bells Widow creates in this fight will bounce once before disappearing."
+                },
+                {
+                  "name": "Aerial Lunge",
+                  "description": "Widow teleports into the air before dashing downwards at an angle towards Hornet and then slashing her claws across the entire floor of the room. This attack deals 2 Masks of damage in quick succession if Hornet is caught in her swipes."
+                },
+                {
+                  "name": "Debris Field",
+                  "description": "Widow runs across the entire floor, attaching 4 large thread bundles to the ceiling. Shortly after, each thread bundle pulls up hazardous debris from below the ground. The debris deals 2 Masks of damage on contact."
+                },
+                {
+                  "name": "Skitter",
+                  "description": "After any attack, Widow can skitter away backwards to avoid Hornet if she is too close."
+                }
+              ]
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 250 HP, Widow will add another attack to her repertoire which she will first use immediately:",
+              "attacks": [
+                {
+                  "name": "Bell Cascade",
+                  "description": "Widow will shout, causing multiple bells to fall together in a large block; they can either cover the centre, the left or right, or both edges of the arena."
+                }
+              ]
+            },
+            {
+              "name": "Phase 3",
+              "trigger": "After reaching 150 HP, Widow will fake a defeat by leaving the arena, before quickly shouting and starting her third phase.",
+              "description": "During this phase, Widow moves quicker and has a different set of attacks:",
+              "attacks": [
+                {
+                  "name": "Diagonal Bell Rain",
+                  "description": "Widow stands still and pulls 2 evenly spaced bells at a diagonal from the ceiling."
+                },
+                {
+                  "name": "Vertical Bell Rain",
+                  "description": "Widow shouts, causing 3-4 evenly spaced bells to fall vertically from the ceiling."
+                },
+                {
+                  "name": "Frenzied Charge",
+                  "description": "Widow flashes her blade, before charging across the length of the arena towards Hornet, while swinging her blades. This move deals 2 Masks damage in quick succession if Hornet is caught in the swipes."
+                },
+                {
+                  "name": "Skitter (Modified)",
+                  "description": "Widow will still skitter away if Hornet is too close, however she can now perform a Frenzied Charge immediately following a Skitter."
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ]
 }
