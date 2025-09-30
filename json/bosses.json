@@ -6,7 +6,50 @@
       "location": "The Marrow",
       "health": 150,
       "phases": 2,
-      "image": "../images/Bosses/bellbeast.png"
+      "image": "../images/Bosses/bellbeast.png",
+      "information": {
+        "in-game events": "The Bell Beast is initially found in The Marrow, where she is trapped in Silk. Once the Bell Beast is freed using the Silkspear skill, she attacks Hornet. After her defeat, the Bell Beast allows Hornet to ride her and acts as the game's fast travel system. The Bell Beast also drops the first Silk Heart which takes Hornet into a Silk dream when she collects it. Upon waking, Hornet is now on the station platform next to the ready and waiting Bell Beast. In Act 3 upon reaching any Bellway, the Bell Beast is missing from their station and a hole is open where they would normally reside. Hornet can enter this hole and drop into the Bellways where she then fights the Bell Eater. Upon defeating the Bell Eater, the Bell Beast returns to deliver the final blow before Hornet returns back to the station. It is then revealed that the Bell Beast is now a mother and has a litter of Beastlings. From them Hornet learns the Beastling Call which can be played on her Needolin on any stable surface to summon Beastlings to take her directly to whichever Bellway station the Bell Beast is presently at.",
+        "behavior and tactics": {
+          "summary": "The Bell Beast remains burrowed for the most of the fight, but pops up out of the ground to perform her various attacks. The location the Bell Beast emerges from is indicated by rumbling dust clouds.",
+          "phases": [
+            {
+              "name": "Phase 1",
+              "description": "In the first phase, she has the following attacks:",
+              "attacks": [
+                {
+                  "name": "Charge",
+                  "description": "The Bell Beast charges forward from one end of the arena to the other. The initial dust cloud will barely graze the foreground hanging bell's bottom."
+                },
+                {
+                  "name": "Leap",
+                  "description": "The Bell Beast hops in the air across the entire arena and slams into the ground. She pauses for a moment after landing before burrowing again. The initial dust cloud will completely envelop both foreground bells, being notably taller."
+                },
+                {
+                  "name": "Bell Burst",
+                  "description": "The Bell Beast bursts her upper body out of the ground, sending out 2 rolling bells, one in each direction, before going down underground again. She gains this attack when her HP reaches 120. The initial dust cloud is visibly thinner."
+                }
+              ],
+              "notes": "Contact with Bell Beast deals 2 Masks of damage."
+            },
+            {
+              "name": "Phase 2",
+              "trigger": "After reaching 75 HP, the Bell Beast will pop up her upper body to roar before burrowing again; the ground rumbles as 8 bells drop from random locations in the ceiling. These bells bounce once before disappearing.",
+              "description": "After this, phase 2 begins and she modifies 2 preexisting attacks:",
+              "attacks": [
+                {
+                  "name": "Bell Burst (Modified)",
+                  "description": "A third bell drops near where the Bell Beast burrowed shortly after she launches the first 2 bells."
+                },
+                {
+                  "name": "Bell Drop",
+                  "description": "A bell now drops from the ceiling in a random location after the Bell Beast lands from using the Leap attack."
+                }
+              ]
+            }
+          ],
+          "strategy": "While it is slow enough to manage its attacks simply by avoiding the dust clouds then responding accordingly, there are some subtleties to the dust clouds that can be used to position oneself to hit Bell Beast even more, should one wish to finish the fight more quickly."
+        }
+      }
     },
     {
       "id": 2,

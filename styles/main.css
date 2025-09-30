@@ -362,3 +362,33 @@ nav {
 .boss-details strong {
   color: #ffaa00;
 }
+
+/* ------------------------- */
+/* Boss Tactics Styling      */
+/* ------------------------- */
+.tactics-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.3);
+}
+
+.tactics-section h3,
+.tactics-section h4 {
+  color: #ffaa00;
+  text-shadow: 2px 2px 4px black;
+}
+
+.phase-section {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #ff4500;
+}
+
+.attack-list {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.attack-item {
+  margin-bottom: 10px;
+}
