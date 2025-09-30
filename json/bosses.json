@@ -47,6 +47,26 @@
       "health": 1650,
       "phases": 1,
       "image": "../images/Bosses/crustkingkhann.png"
+    },
+    {
+      "id": 7,
+      "name": "Disgraced Chef Lugoli",
+      "location": "Sinner's Road",
+      "health": 600,
+      "phases": 2,
+      "image": "../images/Bosses/disgracedcheflugoli.png"
+    },
+    {
+      "id": 8,
+      "name": "Father of the Flame",
+      "location": "Wisp Thicket",
+      "health": 640,
+      "phases": 2,
+      "image": "../images/Bosses/fatheroftheflame.png"
+    },
+    {
+      "id": 9,
+      "name": "First Sinner"
     }
   ]
 }
