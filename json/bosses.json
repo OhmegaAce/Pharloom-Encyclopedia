@@ -66,7 +66,67 @@
     },
     {
       "id": 9,
-      "name": "First Sinner"
+      "name": "First Sinner",
+      "location": "The Slab",
+      "health": 1300,
+      "phases": 2,
+      "image": "../images/Bosses/firstsinner.png"
+    },
+    {
+      "id": 10,
+      "name": "Forebrothers Signis and Gron",
+      "location": "Deep Docks",
+      "health": 1240,
+      "phases": 3,
+      "image": "../images/Bosses/forebrotherssignisandgron.png"
+    },
+    {
+      "id": 11,
+      "name": "Fourth Chorus",
+      "location": "Far Fields",
+      "health": 500,
+      "phases": 4,
+      "image": "../images/Bosses/fourthchorus.png"
+    },
+    {
+      "id": 12,
+      "name": "Garmond and Zaza",
+      "location": "Greymoor, Sinner's Road, Choral Chambers, Whispering Vaults, High Halls",
+      "health": 460,
+      "phases": 1,
+      "image": "../images/Bosses/garmondandzaza.png"
+    },
+    {
+      "id": 13,
+      "name": "Grandmother Silk",
+      "location": "The Cradle",
+      "health": 1095,
+      "phases": 6,
+      "image": "../images/Bosses/grandmothersilk.png"
+    },
+    {
+      "id": 14,
+      "name": "Great Conchflies",
+      "location": "Blasted Steps",
+      "health": 400,
+      "phases": 1,
+      "image": "../images/Bosses/greatconchflies.png"
+    },
+    {
+      "id": 15,
+      "name": "Groal the Great",
+      "location": "Bilewater",
+      "health": 650,
+      "phases": 2,
+      "image": "../images/Bosses/groalthegreat.png"
+    },
+    {
+      "id": 16,
+      "name": "Gurr the Outcast",
+      "location": "Far Fields",
+      "health": 1000,
+      "phases": 1,
+      "image": "../images/Bosses/gurrtheoutcast.png"
     }
   ]
 }
