@@ -207,6 +207,38 @@
       "phases": 1,
       "health": 1000,
       "image": "../images/Bosses/plasmifiedzango.png"
+    },
+    {
+      "id": 27,
+      "name": "Savage Beastfly",
+      "location": "Chapel of the Beast",
+      "phases": 2,
+      "health": 550,
+      "image": "../images/Bosses/savagebeastfly.png"
+    },
+    {
+      "id": 28,
+      "name": "Savage Beastfly",
+      "location": "Far Fields",
+      "phases": 2,
+      "health": 650,
+      "image": "../images/Bosses/savagebeastfly.png"
+    },
+    {
+      "id": 29,
+      "name": "Second Sentinel",
+      "location": "Cogwork Core, Choral Chambers, High Halls",
+      "phases": 1,
+      "health": 800,
+      "image": "../images/Bosses/secondsentinel.png"
+    },
+    {
+      "id": 30,
+      "name": "Shakra",
+      "location": "Greymoor",
+      "phases": 1,
+      "health": 600,
+      "image": "../images/Bosses/shakra.png"
     }
   ]
 }
