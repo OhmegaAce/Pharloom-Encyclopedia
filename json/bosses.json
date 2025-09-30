@@ -191,6 +191,22 @@
       "phases": 2,
       "health": 650,
       "image": "../images/Bosses/phantom.png"
+    },
+    {
+      "id": 25,
+      "name": "Pinstress",
+      "location": "Blasted Steps, Mount Fey",
+      "phases": 1,
+      "health": 910,
+      "image": "../images/Bosses/pinstress.png"
+    },
+    {
+      "id": 26,
+      "name": "Plasmified Zango",
+      "location": "Wormways",
+      "phases": 1,
+      "health": 1000,
+      "image": "../images/Bosses/plasmifiedzango.png"
     }
   ]
 }
