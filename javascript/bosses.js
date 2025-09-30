@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     const response = await fetch("../json/bosses.json");
     const data = await response.json();
 
+    // Clear the loading message
+    bossContainer.innerHTML = "";
+
     // Check if we have bosses
     if (!data.bosses || data.bosses.length === 0) {
       bossContainer.innerHTML = "<p>No boss data available.</p>";

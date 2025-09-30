@@ -126,73 +126,6 @@ nav {
 /* -------------- */
 /* Character Page */
 /* -------------- */
-.creige,
-.forge-daughter,
-.frey,
-.grindle,
-.jubliana,
-.kratt,
-.loddie,
-.lumblethelucky,
-.mort,
-.mottledskarr,
-.pebb,
-.pinmasterplinney,
-.relicseekerscrounge,
-.shakra,
-.skynx,
-.tippandpill,
-.twelftharchitect,
-.vaultkeepercardinius,
-.vog,
-.garmondandzaza,
-.gilly,
-.greenprince,
-.grishkin,
-.pilby,
-.secondsentinel,
-.sherma,
-.seth,
-.varga,
-.alchemistzylotol,
-.caretaker,
-.crullandbenjin,
-.fleamastermooshka,
-.greyroot,
-.huntress,
-.loyalmergwin,
-.mistermushroom,
-.mossdruid,
-.nuu,
-.pinstress,
-.runt,
-.seamstress,
-.snailshamans,
-.sprintmasterswift,
-.steelseerzi,
-.yarnaby,
-.ballow,
-.bellbeast,
-.bellhermit,
-.broodling,
-.chapelmaid,
-.conductorballador,
-.eva,
-.fayforn,
-.flickthefixer,
-.loam,
-.maskmaker,
-.oldpenitent,
-.piousisamor,
-.pondcatcherreed,
-.redmemorynpcs,
-.karmelita,
-.styx,
-.sula {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
 
 /* alternate directions for some rows */
 .forge-daughter,
@@ -331,6 +264,11 @@ nav {
 .information {
   padding: 20px 25px;
   margin-bottom: 25px;
+}
+.information h2 {
+  margin-top: 0;
+  border-bottom-style: dashed;
+  border-color: red;
 }
 
 /* ------------------------- */
