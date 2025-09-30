@@ -80,6 +80,11 @@ nav {
   gap: 20px;
 }
 
+.nav li {
+  /* Add perspective for the 3D effect on the child 'a' tag */
+  perspective: 1000px;
+}
+
 .nav li a {
   text-decoration: none;
   padding: 8px 16px;
@@ -93,8 +98,8 @@ nav {
 }
 
 .nav li a:hover {
+  /* The transform is now handled by parallax.js, so we remove it from here */
   background: linear-gradient(45deg, #000000, #ff0000);
-  transform: scale(1.05);
 }
 
 /* -------------------- */
@@ -194,14 +199,17 @@ nav {
 .miscellaneous-section-body,
 .information {
   position: relative;
-  background: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.45));
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  /* Updated background for a cleaner "liquid glass" look */
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 25px;
   margin-bottom: 25px;
-  border: 2px solid rgba(255, 255, 255, 0.15);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 200, 50, 0.3); /* subtle warm glow */
+  /* Softer border and added inset shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 200, 50, 0.2);
   overflow: hidden;
   text-shadow: 1.5px 1.5px 3px black;
 }
@@ -276,15 +284,16 @@ nav {
 /* ------------------------- */
 @keyframes pulseGlow {
   0% {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
-      0 0 15px rgba(255, 200, 50, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 15px rgba(255, 200, 50, 0.2);
   }
   50% {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), 0 0 25px rgba(255, 200, 50, 0.5);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 25px rgba(255, 200, 50, 0.4);
   }
   100% {
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
-      0 0 15px rgba(255, 200, 50, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
+      inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 15px rgba(255, 200, 50, 0.2);
   }
 }
 
