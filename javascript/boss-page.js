@@ -13,11 +13,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   try {
-    const response = await fetch("/json/bosses.json");
-    const data = await response.json();
-
     // Find the boss by its ID
-    const boss = data.bosses.find((b) => b.id == bossId);
+    const boss = bossData.bosses.find((b) => b.id == bossId);
 
     if (!boss) {
       contentContainer.innerHTML = `<p>Boss with ID ${bossId} not found.</p>`;
@@ -74,7 +71,7 @@ document.addEventListener("DOMContentLoaded", async () => {
        <div class="character-entry">
          <div class="character-body" style="display: flex; align-items: flex-start; gap: 20px;">
            <div class="parallax-container">
-             <img src="${boss.image.replace("../", "/")}" alt="${boss.name}">
+             <img src="${boss.image}" alt="${boss.name}">
            </div>
            <div class="information">
              <p><strong>Location:</strong> ${boss.location}</p>

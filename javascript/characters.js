@@ -2,16 +2,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   // Function to display characters in a given container
   const displayCharacters = async (category, containerId) => {
     const container = document.getElementById(containerId);
-    if (!container) {
+    if (!container || typeof characterData === "undefined") {
       console.error(`Container with id ${containerId} not found.`);
       return;
     }
 
     try {
-      const response = await fetch("/json/characters.json");
-      const data = await response.json();
-
-      const characters = data[category];
+      const characters = characterData[category];
       if (!characters || characters.length === 0) {
         container.innerHTML = "<p>No characters found in this category.</p>";
         return;
@@ -41,9 +38,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     entry.innerHTML = `
       <div class="parallax-container">
-          <img src="${character.image.replace("..", "")}" alt="${
-      character.name
-    }">
+          <img src="${character.image}" alt="${character.name}">
       </div>
       <span class="character-link-name">${character.name}</span>
     `;

@@ -3,20 +3,22 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   try {
     // Fetch the JSON data
-    const response = await fetch("/json/bosses.json");
-    const data = await response.json();
 
     // Clear the loading message
     bossContainer.innerHTML = "";
 
     // Check if we have bosses
-    if (!data.bosses || data.bosses.length === 0) {
+    if (
+      typeof bossData === "undefined" ||
+      !bossData.bosses ||
+      bossData.bosses.length === 0
+    ) {
       bossContainer.innerHTML = "<p>No boss data available.</p>";
       return;
     }
 
     // Create HTML for each boss
-    data.bosses.forEach((boss) => {
+    bossData.bosses.forEach((boss) => {
       // Use the unique ID for the link
       const bossLink = `boss-template.html?id=${boss.id}`;
 
@@ -26,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       bossLinkCard.innerHTML = `
         <div class="parallax-container">
-            <img src="${boss.image.replace("..", "")}" alt="${boss.name}">
+            <img src="${boss.image}" alt="${boss.name}">
         </div>
         <span class="boss-link-name">${boss.name}</span>
       `;

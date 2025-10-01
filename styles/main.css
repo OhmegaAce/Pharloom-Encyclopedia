@@ -7,7 +7,7 @@
 /* Body Styles */
 /* ----------- */
 body {
-  background-image: url("/images/silksongbackground.jpg"); /* full-page background */
+  background-image: url("../images/silksongbackground.jpg"); /* full-page background */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ header {
   align-items: center;
   justify-content: center;
 
-  background-image: url("/images/silksongbanner.jpg");
+  background-image: url("../images/silksongbanner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

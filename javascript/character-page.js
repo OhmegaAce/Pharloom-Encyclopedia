@@ -16,11 +16,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   try {
-    const response = await fetch("/json/characters.json");
-    const data = await response.json();
-
     // Find the character by category and URL-friendly name
-    const character = data[category]?.find(
+    const character = characterData[category]?.find(
       (c) =>
         c.name.toLowerCase().replace(/ /g, "") ===
         characterNameQuery.toLowerCase()
@@ -40,9 +37,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="character-entry">
                 <div class="character-body" style="display: flex; align-items: flex-start; gap: 20px;">
                     <div class="parallax-container">
-                        <img src="${character.image.replace("..", "")}" alt="${
-      character.name
-    }">
+                        <img src="${character.image}" alt="${character.name}">
                     </div>
                     <div class="information">
                         <p><strong>Description:</strong> ${
@@ -65,18 +60,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 </div>
             </div>
         `;
-
-    // Re-initialize parallax for the newly added image
-    const newParallaxContainer = contentContainer.querySelector(
-      ".parallax-container"
-    );
-    if (newParallaxContainer) {
-      // This part is a bit tricky as parallax.js runs on load.
-      // For simplicity, we'll just log it. A more robust solution might involve a dedicated function in parallax.js.
-      console.log(
-        "Parallax effect should be re-initialized for the new image if it's not working automatically."
-      );
-    }
   } catch (error) {
     console.error("Error loading character page data:", error);
     contentContainer.innerHTML =
