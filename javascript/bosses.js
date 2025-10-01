@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Create HTML for each boss
     data.bosses.forEach((boss) => {
       // Use the unique ID for the link
-      const bossLink = `/html/boss-template.html?id=${boss.id}`;
+      const bossLink = `boss-template.html?id=${boss.id}`;
 
       const bossLinkCard = document.createElement("a");
       bossLinkCard.className = "boss-link-card"; // New class for grid layout
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       bossLinkCard.innerHTML = `
         <div class="parallax-container">
-            <img src="${boss.image.replace("../", "/")}" alt="${boss.name}">
+            <img src="${boss.image.replace("..", "")}" alt="${boss.name}">
         </div>
         <span class="boss-link-name">${boss.name}</span>
       `;

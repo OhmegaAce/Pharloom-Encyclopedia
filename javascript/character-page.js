@@ -40,10 +40,9 @@ document.addEventListener("DOMContentLoaded", async () => {
             <div class="character-entry">
                 <div class="character-body" style="display: flex; align-items: flex-start; gap: 20px;">
                     <div class="parallax-container">
-                        <img src="${character.image.replace(
-                          "../",
-                          "/"
-                        )}" alt="${character.name}">
+                        <img src="${character.image.replace("..", "")}" alt="${
+      character.name
+    }">
                     </div>
                     <div class="information">
                         <p><strong>Description:</strong> ${

@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const createCharacterEntry = (character, category) => {
     // Create a URL-friendly name
     const characterQueryName = character.name.toLowerCase().replace(/ /g, "");
-    const characterLink = `/html/character-template.html?category=${category}&name=${characterQueryName}`;
+    const characterLink = `character-template.html?category=${category}&name=${characterQueryName}`;
 
     const entry = document.createElement("a");
     entry.className = "character-link-card";
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     entry.innerHTML = `
       <div class="parallax-container">
-          <img src="${character.image.replace("../", "/")}" alt="${
+          <img src="${character.image.replace("..", "")}" alt="${
       character.name
     }">
       </div>
