@@ -20,30 +20,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
     container.innerHTML = ""; // Clear loading message
 
-    tools.forEach((tool) => {
-      const toolCard = document.createElement("div");
-      toolCard.className = "tool-card";
+    const table = document.createElement("table");
+    table.className = "tool-table";
 
-      toolCard.innerHTML = `
-                <img src="${tool.image}" alt="${tool.name}" class="tool-image">
-                <h3>${tool.name}</h3>
-                <p class="tool-description">${tool.description}</p>
-                <div class="tool-details">
-                    <p><strong>Location:</strong> ${tool.location}</p>
-                    ${
-                      tool.uses
-                        ? `<p><strong>Uses:</strong> ${tool.uses}</p>`
-                        : ""
-                    }
-                    ${
-                      tool.refill_cost
-                        ? `<p><strong>Refill Cost:</strong> ${tool.refill_cost}</p>`
-                        : ""
-                    }
-                </div>
-            `;
-      container.appendChild(toolCard);
+    // Create table header
+    const thead = document.createElement("thead");
+    thead.innerHTML = `
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Uses</th>
+            <th>Refill Cost</th>
+        </tr>
+    `;
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+    tools.forEach((tool) => {
+      const toolRow = document.createElement("tr");
+      toolRow.className = "tool-row";
+
+      toolRow.innerHTML = `
+        <td>
+          <div class="parallax-container"><img src="${tool.image}" alt="${
+        tool.name
+      }" class="tool-image-table"></div>
+        </td>
+        <td>${tool.name}</td>
+        <td>${tool.description}</td>
+        <td>${tool.location}</td>
+        <td>${tool.uses || "N/A"}</td>
+        <td>${tool.refill_cost || "N/A"}</td>
+      `;
+      tbody.appendChild(toolRow);
     });
+    table.appendChild(tbody);
+    container.appendChild(table);
   };
 
   // Load all tool categories

@@ -123,14 +123,20 @@ nav {
 /* -------------------- */
 .parallax-container {
   perspective: 1000px;
-  display: inline-block;
+  display: flex; /* Use flex to center the image */
+  justify-content: center;
+  align-items: center;
 }
 
 .parallax-container img {
   max-width: 150px;
   height: auto;
-  transition: transform 0.2s ease-out;
+  transition: transform 0.1s ease-out; /* Match JS for smoother follow */
   transform-style: preserve-3d;
+}
+
+.parallax-container .tool-image-table {
+  max-width: 40px;
 }
 
 /* ---------- */
@@ -271,4 +277,44 @@ nav {
 
 .attack-item {
   margin-bottom: 10px;
+}
+
+/* ------------------------- */
+/* Tool Table Styling        */
+/* ------------------------- */
+.tool-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the border-radius is respected by child elements */
+}
+
+.tool-table th,
+.tool-table td {
+  padding: 8px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tool-table th {
+  background-color: rgba(255, 69, 0, 0.2);
+  color: #ffaa00;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+.tool-table tbody tr:hover {
+  background-color: rgba(255, 69, 0, 0.15);
+}
+
+.tool-table td {
+  vertical-align: middle;
+}
+
+.tool-image-table {
+  max-width: 40px;
+  height: auto;
+  border-radius: 4px;
 }

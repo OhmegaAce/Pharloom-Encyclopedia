@@ -90,6 +90,16 @@ const toolData = {
       uses: "8/10/12/14/16",
       refill_cost: 5,
     },
+    {
+      name: "Silkshot 1",
+      image: "../images/Tools/red/silkshot1.png",
+      description:
+        "Ancient weapon of the Weavers, repaired and modified by Forge Daughter. Uses shell canisters and the wielder's own Silk to fire.",
+      location:
+        "Obtained by repairing the Ruined Tool found in Weavenest Murglin. Repairing at Forge Daughter for  240 and  1 provides this variant.",
+      uses: "15/18/22/26/30",
+      refill_cost: 2.66,
+    },
   ],
   bluetools: [
     {
