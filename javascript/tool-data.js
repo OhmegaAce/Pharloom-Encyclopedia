@@ -100,15 +100,128 @@ const toolData = {
       uses: "15/18/22/26/30",
       refill_cost: 2.66,
     },
+    {
+      name: "Silkshot 2",
+      image: "../images/Tools/red/silkshot2.png",
+      description:
+        "Ancient weapon of the Weavers, repaired and modified by Twelfth Architect. Uses shell canisters and the wielder's own Silk to fire.",
+      location:
+        "Obtained by repairing the Ruined Tool found in Weavenest Murglin. Repairing at Twelfth Architect for  140 and  1 provides this variant.",
+      uses: "12/15/18/21/24",
+      refill_cost: 3.33,
+    },
+    {
+      name: "Silkshot 3",
+      image: "../images/Tools/red/silkshot3.png",
+      description:
+        "Ancient weapon of the Weavers, repaired to its original form. Uses shell canisters and the wielder's own Silk to fire.",
+      location:
+        "Obtained by repairing the Ruined Tool found in Weavenest Murglin. Repairing at a room near the peak of Mount Fay for  1 provides this variant.",
+      uses: "8/10/12/14/16",
+      refill_cost: 5,
+    },
+    {
+      name: "Delver's Drill",
+      image: "../images/Tools/red/delversdrill.png",
+      description:
+        "Rotary tool used for boring into bone and rock. Drives the wielder downwards, while spinning the drill with destructive force.",
+      location: "Found on a crafting table in the southwest of the Underworks.",
+      uses: "9/11/13/15/18",
+      refill_cost: 4.44,
+    },
+    {
+      name: "Cogwork Wheel",
+      image: "../images/Tools/red/cogworkwheel.png",
+      description:
+        "Expanding circular blade powered by a cogwork motor. Propels forward, slicing through foes.",
+      location: "Purchased at Twelfth Architect for  360 and  1.",
+      uses: "5/6/7/8/10",
+      refill_cost: 8,
+    },
+    {
+      name: "Cogfly",
+      image: "../images/Tools/red/cogfly.png",
+      description:
+        "Winged cogwork companion that will seek nearby foes and attack.",
+      location: "Crafted in a room in High Halls for  1.",
+      uses: "4/5/6/7/8",
+      refill_cost: 10,
+    },
+    {
+      name: "Rosary Cannon",
+      image: "../images/Tools/red/rosarycannon.png",
+      description:
+        "Repurposed mechanism from the base of a rosary stringing machine. Rosaries must be inserted to reload the cannon.",
+      location:
+        "Found behind a locked door in High Halls east of the sub-area The Forum.",
+      uses: "80/80/80/80/80",
+      refill_cost: 1,
+    },
+    {
+      name: "Voltvessels",
+      image: "../images/Tools/red/voltvessels.png",
+      description:
+        "Convertible orbs containing electricity. The vessels can be thrown as a bola for an explosive discharge or staked as a spear to release a column of energy.",
+      location: "Found behind a hidden wall in the northeast of Memorium.",
+      uses: "5/6/7/8/10",
+      refill_cost: 8,
+    },
+    {
+      name: "Flintslate",
+      image: "../images/Tools/red/flintslate.png",
+      description:
+        "Sharpening slate made from cut and polished Flintgem. Temporarily super-heats the needle's blade, imbuing each slash with flame and increasing lethality.",
+      uses: "Found in Deep Docks, beyond the Simple Key door.",
+      uses: "3/3/4/5/6",
+      refill_cost: 13.33,
+    },
+    {
+      name: "Snare Setter",
+      image: "../images/Tools/red/snaresetter.png",
+      description:
+        "Trap-setting tool of the Weavers. Lays a Silk rune that ignites when foes come into contact. Uses shell canisters and the wielder's own Silk.",
+      location:
+        "Found in a secret room within Weavenest Atla. Used to complete the Silk and Soul Wish.",
+      uses: "5/6/7/8/10",
+      refill_cost: 8,
+    },
+    {
+      name: "Flea Brew",
+      image: "../images/Tools/red/fleabrew.png",
+      description:
+        "Invigorating beverage prepared by the Flea Caravan. Temporarily increases the speed of movement and attacks.",
+      location:
+        "Obtained from the Flea Caravan after completing the The Lost Fleas Wish.",
+      uses: "3/3/4/5/6",
+      refill_cost: "N/A",
+    },
+    {
+      name: "Plasmium Phial",
+      image: "../images/Tools/red/plasmiumphial.png",
+      description:
+        "Spear-phial containing Plasmium. Injecting the liquid allows one to gain health beyond their natural limits.",
+      Location: "Reward for completing the Alchemist's Assistant Wish.",
+      uses: "3/3/4/5/6",
+      refill_cost: 13.33,
+    },
+    {
+      name: "Needle Phial",
+      image: "../images/Tools/red/needlephial.png",
+      description:
+        "Tool designed to extract and store fluids. To pierce its target, the Needle Phial must first be charged to full tension.",
+      location:
+        "Given to complete Alchemist's Assistant and Advanced Alchemy Wishes, after which it is unobtainable.",
+      uses: "Infinite",
+      refill_cost: "N/A",
+    },
   ],
   bluetools: [
     {
-      name: "Pollip Pouch",
-      image: "../images/Tools/Pollip_Pouch.png",
+      name: "Druid's Eye",
+      image: "../images/Tools/blue/druidseye.png",
       description:
-        "A tool that releases a friendly Pollip, which attacks nearby enemies.",
-      location:
-        "Given by Greyroot in Shellwood after completing the 'Rite of the Pollip' Task.",
+        "Amulet of protection formed from Mossberries. As the bearer takes damage, the amulet weeps a green elixir that will form into Silk.",
+      location: "Reward for completing the Berry Picking Wish.",
     },
   ],
   yellowtools: [
