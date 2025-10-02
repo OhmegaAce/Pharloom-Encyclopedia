@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Populate the content container
     contentContainer.innerHTML = `
             <div class="character-entry">
-                <div class="character-body" style="display: flex; align-items: flex-start; gap: 20px;">
+                <div class="character-body">
                     <div class="parallax-container">
                         <img src="${character.image}" alt="${character.name}">
                     </div>

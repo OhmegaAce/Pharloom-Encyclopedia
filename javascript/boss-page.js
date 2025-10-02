@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Populate the content container with data from bosses.json
     contentContainer.innerHTML = `
        <div class="character-entry">
-         <div class="character-body" style="display: flex; align-items: flex-start; gap: 20px;">
+         <div class="character-body">
            <div class="parallax-container">
              <img src="${boss.image}" alt="${boss.name}">
            </div>

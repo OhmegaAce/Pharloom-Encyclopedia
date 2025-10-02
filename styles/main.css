@@ -318,3 +318,12 @@ nav {
   height: auto;
   border-radius: 4px;
 }
+
+/* ------------------------------ */
+/* Character and boss body styles */
+/* ------------------------------ */
+.character-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
