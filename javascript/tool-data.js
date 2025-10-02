@@ -223,6 +223,21 @@ const toolData = {
         "Amulet of protection formed from Mossberries. As the bearer takes damage, the amulet weeps a green elixir that will form into Silk.",
       location: "Reward for completing the Berry Picking Wish.",
     },
+    {
+      name: "Druid's Eyes",
+      image: "../images/Tools/blue/druidseyes.png",
+      description:
+        "Powerful amulet of protection formed from many Mossberries. As the bearer takes damage, the amulet weeps a green elixir that will form into Silk.",
+      location:
+        "Bring 4 additional Mossberries to Moss Druid after completing the Berry Picking Wish. Replaces the Druid's Eye.",
+    },
+    {
+      name: "Magma Bell",
+      image: "../images/Tools/blue/magmabell.png",
+      description:
+        "Forged iron bell, crafted to ward against the intense heat of the Deep Docks.Reduces the damage taken from flame and magma.",
+      location: "Purchased from Forge Daughter for  110 and  1.",
+    },
   ],
   yellowtools: [
     {
