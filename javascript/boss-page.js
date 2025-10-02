@@ -66,22 +66,93 @@ document.addEventListener("DOMContentLoaded", async () => {
       return html;
     };
 
-    // Populate the content container with data from bosses.json
-    contentContainer.innerHTML = `
-       <div class="character-entry">
-         <div class="character-body">
-           <div class="parallax-container">
-             <img src="${boss.image}" alt="${boss.name}">
-           </div>
-           <div class="information">
-             <p><strong>Location:</strong> ${boss.location}</p>
-             <p><strong>Health:</strong> ${boss.health || "N/A"}</p>
-             <p><strong>Phases:</strong> ${boss.phases || "N/A"}</p>
-             ${createTacticsHtml(boss.information)}
-           </div>
-         </div>
-       </div>
-     `;
+    // --- Create and populate the content using DOM methods for better security and structure ---
+    contentContainer.innerHTML = ""; // Clear any previous content
+
+    const entryDiv = document.createElement("div");
+    entryDiv.className = "character-entry";
+
+    const bodyDiv = document.createElement("div");
+    bodyDiv.className = "character-body";
+
+    const imageContainer = document.createElement("div");
+    imageContainer.className = "image-audio-container";
+
+    const parallaxContainer = document.createElement("div");
+    parallaxContainer.className = "parallax-container";
+    const img = document.createElement("img");
+    img.src = boss.image;
+    img.alt = boss.name;
+    parallaxContainer.appendChild(img);
+    imageContainer.appendChild(parallaxContainer);
+
+    // If the boss has music, create the audio player and button
+    if (boss.music) {
+      const audioPlayerContainer = document.createElement("div");
+      audioPlayerContainer.className = "audio-player-container";
+
+      const themeName = document.createElement("p");
+      themeName.className = "theme-name";
+      // Use the specific theme name if available, otherwise default to the boss's name
+      const trackName = boss.theme || boss.name;
+      themeName.textContent = `Theme: "${trackName}"`;
+      audioPlayerContainer.appendChild(themeName);
+
+      const audio = new Audio(boss.music);
+      audio.loop = true;
+
+      const playButton = document.createElement("button");
+      playButton.className = "play-button";
+      playButton.textContent = "▶ Play Theme";
+
+      playButton.addEventListener("click", () => {
+        if (audio.paused) {
+          audio.play();
+          playButton.textContent = "❚❚ Pause Theme";
+        } else {
+          audio.pause();
+          playButton.textContent = "▶ Play Theme";
+        }
+      });
+
+      const progressBarContainer = document.createElement("div");
+      progressBarContainer.className = "progress-bar-container";
+
+      const progressBar = document.createElement("div");
+      progressBar.className = "progress-bar";
+      progressBarContainer.appendChild(progressBar);
+
+      // Update progress bar as music plays
+      audio.addEventListener("timeupdate", () => {
+        const progressPercent = (audio.currentTime / audio.duration) * 100;
+        progressBar.style.width = `${progressPercent}%`;
+      });
+
+      // Allow seeking by clicking on the progress bar
+      progressBarContainer.addEventListener("click", (e) => {
+        const width = progressBarContainer.clientWidth;
+        const clickX = e.offsetX;
+        const duration = audio.duration;
+        audio.currentTime = (clickX / width) * duration;
+      });
+
+      audioPlayerContainer.appendChild(playButton);
+      audioPlayerContainer.appendChild(progressBarContainer);
+      imageContainer.appendChild(audioPlayerContainer);
+    }
+
+    const infoDiv = document.createElement("div");
+    infoDiv.className = "information";
+    infoDiv.innerHTML = `
+      <p><strong>Location:</strong> ${boss.location}</p>
+      <p><strong>Health:</strong> ${boss.health || "N/A"}</p>
+      <p><strong>Phases:</strong> ${boss.phases || "N/A"}</p>
+      ${createTacticsHtml(boss.information)}
+    `;
+
+    bodyDiv.append(imageContainer, infoDiv);
+    entryDiv.appendChild(bodyDiv);
+    contentContainer.appendChild(entryDiv);
   } catch (error) {
     console.error("Error loading boss page data:", error);
     contentContainer.innerHTML =

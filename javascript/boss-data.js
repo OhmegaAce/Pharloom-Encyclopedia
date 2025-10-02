@@ -7,6 +7,8 @@ const bossData = {
       health: 150,
       phases: 2,
       image: "../images/Bosses/bellbeast.png",
+      theme: "Bell Beast",
+      music: "../music/bosses/bellbeast.mp3",
       information: {
         "in-game events":
           "The Bell Beast is initially found in The Marrow, where she is trapped in Silk. Once the Bell Beast is freed using the Silkspear skill, she attacks Hornet. After her defeat, the Bell Beast allows Hornet to ride her and acts as the game's fast travel system. The Bell Beast also drops the first Silk Heart which takes Hornet into a Silk dream when she collects it. Upon waking, Hornet is now on the station platform next to the ready and waiting Bell Beast. In Act 3 upon reaching any Bellway, the Bell Beast is missing from their station and a hole is open where they would normally reside. Hornet can enter this hole and drop into the Bellways where she then fights the Bell Eater. Upon defeating the Bell Eater, the Bell Beast returns to deliver the final blow before Hornet returns back to the station. It is then revealed that the Bell Beast is now a mother and has a litter of Beastlings. From them Hornet learns the Beastling Call which can be played on her Needolin on any stable surface to summon Beastlings to take her directly to whichever Bellway station the Bell Beast is presently at.",
@@ -68,6 +70,8 @@ const bossData = {
       health: 800,
       phases: 2,
       image: "../images/Bosses/belleater.png",
+      theme: "Bell Beast",
+      music: "../music/bosses/bellbeast.mp3",
       information: {
         "in-game events":
           "Upon starting Act 3, visiting and calling out in any Bellway will cause the Bell Eater to burst out and roar instead of the Bell Beast. Afterwards, Hornet can follow the Bell Eater down a hole into the tunnels where it will be fought as a boss. It is finished off by Bell Beast, who returns in to deliver the final blow. The Bell Beast is now accompanied by its Beastlings who teach Hornet the Beastling Call.",
@@ -139,6 +143,8 @@ const bossData = {
       health: 700,
       phases: 2,
       image: "../images/Bosses/broodmother.png",
+      theme: "Cut Through",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -195,6 +201,8 @@ const bossData = {
       health: 630,
       phases: 4,
       image: "../images/Bosses/cogworkdancers.png",
+      theme: "Cogwork Dancers",
+      music: "../music/bosses/cogworkdancers.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -248,6 +256,8 @@ const bossData = {
       health: 1300,
       phases: 1,
       image: "../images/Bosses/crawfather.png",
+      theme: "Cut Through",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -298,6 +308,8 @@ const bossData = {
       health: 1650,
       phases: 2,
       image: "../images/Bosses/crustkingkhann.png",
+      theme: "Crust King Khann",
+      music: "../music/bosses/crustkingkhann.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -365,6 +377,8 @@ const bossData = {
       health: 600,
       phases: 2,
       image: "../images/Bosses/disgracedcheflugoli.png",
+      theme: "Cut Through",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -417,6 +431,8 @@ const bossData = {
       health: 640,
       phases: 2,
       image: "../images/Bosses/fatheroftheflame.png",
+      theme: "Sister Splinter",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -466,6 +482,8 @@ const bossData = {
       health: 1300,
       phases: 2,
       image: "../images/Bosses/firstsinner.png",
+      theme: "Widow",
+      music: "../music/bosses/widow.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -533,6 +551,8 @@ const bossData = {
       health: 1240,
       phases: 3,
       image: "../images/Bosses/forebrotherssignisandgron.png",
+      theme: "Fourth Chorus",
+      music: "../music/bosses/fourthchorus.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -607,6 +627,8 @@ const bossData = {
       health: 500,
       phases: 4,
       image: "../images/Bosses/fourthchorus.png",
+      theme: "Fourth Chorus",
+      music: "../music/bosses/fourthchorus.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -708,6 +730,8 @@ const bossData = {
       health: 1095,
       phases: 6,
       image: "../images/Bosses/grandmothersilk.png",
+      theme: "Awakening",
+      music: "../music/bosses/awakening.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -815,6 +839,8 @@ const bossData = {
       health: 400,
       phases: 1,
       image: "../images/Bosses/greatconchflies.png",
+      theme: "Incisive Battle",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -856,6 +882,8 @@ const bossData = {
       health: 650,
       phases: 2,
       image: "../images/Bosses/groalthegreat.png",
+      theme: "Cut Through",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -913,6 +941,8 @@ const bossData = {
       health: 1000,
       phases: 1,
       image: "../images/Bosses/gurrtheoutcast.png",
+      theme: "Incisive Battle",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -960,11 +990,13 @@ const bossData = {
     },
     {
       id: 17,
-      name: "Lace",
+      name: "Lace (Deep Docks)",
       location: "Deep Docks",
       health: 250,
       phases: 1,
       image: "../images/Bosses/lace.png",
+      theme: "Lace",
+      music: "../music/bosses/lace.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1011,11 +1043,13 @@ const bossData = {
     },
     {
       id: 18,
-      name: "Lace",
+      name: "Lace (The Cradle)",
       location: "The Cradle",
       health: 800,
       phases: 3,
       image: "../images/Bosses/lace.png",
+      theme: "Lace",
+      music: "../music/bosses/lace.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1065,6 +1099,8 @@ const bossData = {
       health: 720,
       phases: 2,
       image: "../images/Bosses/lastjudge.png",
+      theme: "Last Judge",
+      music: "../music/bosses/lastjudge.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1151,6 +1187,8 @@ const bossData = {
       phases: 2,
       health: 600,
       image: "../images/Bosses/moorwing.png",
+      theme: "Strive",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1210,6 +1248,8 @@ const bossData = {
       phases: 1,
       health: 120,
       image: "../images/Bosses/mossmother.png",
+      theme: "Strive",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1242,6 +1282,8 @@ const bossData = {
       phases: 2,
       health: 1250,
       image: "../images/Bosses/nyleth.png",
+      theme: "Nyleth",
+      music: "../music/bosses/nyleth.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1330,6 +1372,8 @@ const bossData = {
       phases: 2,
       health: 650,
       image: "../images/Bosses/phantom.png",
+      theme: "Phantom",
+      music: "../music/bosses/phantom.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1398,6 +1442,8 @@ const bossData = {
       phases: 1,
       health: 910,
       image: "../images/Bosses/pinstress.png",
+      theme: "Strive",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1479,11 +1525,13 @@ const bossData = {
     },
     {
       id: 27,
-      name: "Savage Beastfly",
+      name: "Savage Beastfly (Chapel of the Beast)",
       location: "Chapel of the Beast",
       phases: 2,
       health: 550,
       image: "../images/Bosses/savagebeastfly.png",
+      theme: "Incisive Battle",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1527,11 +1575,13 @@ const bossData = {
     },
     {
       id: 28,
-      name: "Savage Beastfly",
+      name: "Savage Beastfly (Far Fields)",
       location: "Far Fields",
       phases: 2,
       health: 650,
       image: "../images/Bosses/savagebeastfly.png",
+      theme: "Incisive Battle",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1679,6 +1729,8 @@ const bossData = {
       phases: 2,
       health: 1185,
       image: "../images/Bosses/shrineguardianseth.png",
+      theme: "Nyleth",
+      music: "../music/bosses/nyleth.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1747,6 +1799,8 @@ const bossData = {
       phases: 2,
       health: 310,
       image: "../images/Bosses/sistersplinter.png",
+      theme: "Sister Splinter",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1795,6 +1849,8 @@ const bossData = {
       phases: 3,
       health: 1500,
       image: "../images/Bosses/skarrsingerkarmelita.png",
+      theme: "Skarrsinger Karmelita",
+      music: "../music/bosses/skarrsingerkarmelita.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1870,6 +1926,8 @@ const bossData = {
       phases: 1,
       health: 450,
       image: "../images/Bosses/skulltyrant.png",
+      theme: "Incisive Battle",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1958,6 +2016,8 @@ const bossData = {
       phases: 3,
       health: 1000,
       image: "../images/Bosses/theunravelled.png",
+      theme: "Sister Splinter",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2036,6 +2096,8 @@ const bossData = {
       phases: 2,
       health: 700,
       image: "../images/Bosses/trobbio.png",
+      theme: "Trobbio",
+      music: "../music/bosses/trobbio.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2118,6 +2180,8 @@ const bossData = {
       phases: 1,
       health: 550,
       image: "../images/Bosses/voltvyrm.png",
+      theme: "Sister Splinter",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2213,6 +2277,8 @@ const bossData = {
       phases: 3,
       health: 360,
       image: "../images/Bosses/widow.png",
+      theme: "Widow",
+      music: "../music/bosses/widow.mp3",
       information: {
         "behavior and tactics": {
           phases: [

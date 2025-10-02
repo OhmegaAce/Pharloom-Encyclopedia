@@ -327,3 +327,81 @@ nav {
   align-items: flex-start;
   gap: 20px;
 }
+
+/* ------------------------------ */
+/* Image and Audio container      */
+/* ------------------------------ */
+.image-audio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-width: 200px; /* Give it some space */
+}
+
+/* Container for the play button and progress bar */
+.audio-player-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+/* ------------------------------ */
+/* Music Theme Name               */
+/* ------------------------------ */
+.theme-name {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #ffcc88; /* A soft gold color */
+  margin: 0;
+}
+
+/* ------------------------------ */
+/* Music Play Button              */
+/* ------------------------------ */
+.play-button {
+  background: linear-gradient(45deg, #ff4500, #b80000);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.play-button:hover {
+  background: linear-gradient(45deg, #b80000, #ff4500);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.play-button:active {
+  transform: translateY(0);
+}
+
+/* ------------------------------ */
+/* Music Progress Bar             */
+/* ------------------------------ */
+.progress-bar-container {
+  width: 80%;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #ff4500, #ff8c00);
+  border-radius: 4px;
+  transition: width 0.1s linear;
+}
