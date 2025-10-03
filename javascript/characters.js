@@ -1,17 +1,11 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  // Load the data script dynamically
-  const dataScript = document.createElement("script");
-  dataScript.src = "../javascript/data/character-data.js";
-  document.head.appendChild(dataScript);
-
   // Function to display characters in a given container
-  const displayCharacters = async (category, containerId) => {
+  const displayCharacters = (category, containerId) => {
     const container = document.getElementById(containerId);
     if (!container) {
       console.error(`Container with id ${containerId} not found.`);
       return;
     }
-    await new Promise((resolve) => (dataScript.onload = resolve));
 
     try {
       const characters = characterData[category];
@@ -51,9 +45,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     return entry;
   };
 
-  // Load all character categories
-  displayCharacters("merchants", "merchants-container");
-  displayCharacters("wanderers", "wanderers-container");
-  displayCharacters("questNpcs", "quest-npcs-container");
-  displayCharacters("miscellaneous", "miscellaneous-container");
+  // --- Load data script and then render all categories ---
+  try {
+    // Load the data script dynamically
+    const dataScript = document.createElement("script");
+    dataScript.src = "../javascript/data/character-data.js";
+    document.head.appendChild(dataScript);
+
+    // Wait for the script to load before proceeding
+    await new Promise((resolve, reject) => {
+      dataScript.onload = resolve;
+      dataScript.onerror = reject;
+    });
+
+    // Now that data is loaded, display all character categories
+    displayCharacters("merchants", "merchants-container");
+    displayCharacters("wanderers", "wanderers-container");
+    displayCharacters("questNpcs", "quest-npcs-container");
+    displayCharacters("miscellaneous", "miscellaneous-container");
+  } catch (error) {
+    console.error("Failed to load character data script:", error);
+    // You could display an error message on the page here if you wanted
+  }
 });

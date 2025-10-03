@@ -1,18 +1,11 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Load the data script dynamically
-  const dataScript = document.createElement("script");
-  dataScript.src = "../javascript/data/tool-data.js";
-  document.head.appendChild(dataScript);
-
+document.addEventListener("DOMContentLoaded", async () => {
   // Function to display tools in a given container
-  const displayTools = async (category, containerId) => {
+  const displayTools = (category, containerId) => {
     const container = document.getElementById(containerId);
     if (!container) {
       console.error(`Container with id ${containerId} not found.`);
       return;
     }
-
-    await new Promise((resolve) => (dataScript.onload = resolve));
 
     if (typeof toolData === "undefined" || !toolData[category]) {
       container.innerHTML = "<p>No tool data available for this category.</p>";
@@ -67,8 +60,24 @@ document.addEventListener("DOMContentLoaded", function () {
     container.appendChild(table);
   };
 
-  // Load all tool categories
-  displayTools("redtools", "red-tools-container");
-  displayTools("bluetools", "blue-tools-container");
-  displayTools("yellowtools", "yellow-tools-container");
+  // --- Load data script and then render all categories ---
+  try {
+    // Load the data script dynamically
+    const dataScript = document.createElement("script");
+    dataScript.src = "../javascript/data/tool-data.js";
+    document.head.appendChild(dataScript);
+
+    // Wait for the script to load before proceeding
+    await new Promise((resolve, reject) => {
+      dataScript.onload = resolve;
+      dataScript.onerror = reject;
+    });
+
+    // Now that data is loaded, display all tool categories
+    displayTools("redtools", "red-tools-container");
+    displayTools("bluetools", "blue-tools-container");
+    displayTools("yellowtools", "yellow-tools-container");
+  } catch (error) {
+    console.error("Failed to load tool data script:", error);
+  }
 });
