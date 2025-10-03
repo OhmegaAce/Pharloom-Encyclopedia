@@ -248,6 +248,45 @@ nav {
 }
 
 /* ------------------------- */
+/* Area Grid & Card Styling  */
+/* ------------------------- */
+.area-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.area-card,
+.area-link-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 220px; /* Ensure cards have a consistent height */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.area-link-card:hover {
+  background-color: rgba(255, 69, 0, 0.2);
+  transform: translateY(-5px) scale(1.03);
+}
+
+.area-name {
+  /* This is already styled well, no changes needed */
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #ffaa00;
+  text-shadow: 2px 2px 4px black;
+}
+/* ------------------------- */
 /* Boss Tactics Styling      */
 /* ------------------------- */
 .tactics-section {
@@ -344,7 +383,6 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   gap: 10px;
 }
 
@@ -389,7 +427,7 @@ nav {
 /* Music Progress Bar             */
 /* ------------------------------ */
 .progress-bar-container {
-  width: 80%;
+  width: 100%; /* Match the width of the button */
   height: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
