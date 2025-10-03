@@ -12,7 +12,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
+  // Load the data script dynamically
+  const dataScript = document.createElement("script");
+  dataScript.src = "../javascript/data/boss-data.js";
+  document.head.appendChild(dataScript);
+
   try {
+    await new Promise((resolve) => (dataScript.onload = resolve));
     // Find the boss by its ID
     const boss = bossData.bosses.find((b) => b.id == bossId);
 

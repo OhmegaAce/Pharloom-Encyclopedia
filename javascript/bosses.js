@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const bossContainer = document.getElementById("boss-container");
 
+  // Load the data script dynamically
+  const dataScript = document.createElement("script");
+  dataScript.src = "../javascript/data/boss-data.js";
+  document.head.appendChild(dataScript);
+
   try {
-    // Fetch the JSON data
-
-    // Clear the loading message
-    bossContainer.innerHTML = "";
-
-    // Check if we have bosses
+    await new Promise((resolve) => (dataScript.onload = resolve));
     if (
       typeof bossData === "undefined" ||
       !bossData.bosses ||
@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       bossContainer.innerHTML = "<p>No boss data available.</p>";
       return;
     }
+
+    // Clear the loading message
+    bossContainer.innerHTML = "";
 
     // Create HTML for each boss
     bossData.bosses.forEach((boss) => {

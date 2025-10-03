@@ -15,7 +15,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
+  // Load the data script dynamically
+  const dataScript = document.createElement("script");
+  dataScript.src = "../javascript/data/character-data.js";
+  document.head.appendChild(dataScript);
+
   try {
+    await new Promise((resolve) => (dataScript.onload = resolve));
     // Find the character by category and URL-friendly name
     const character = characterData[category]?.find(
       (c) =>

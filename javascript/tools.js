@@ -1,11 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Load the data script dynamically
+  const dataScript = document.createElement("script");
+  dataScript.src = "../javascript/data/tool-data.js";
+  document.head.appendChild(dataScript);
+
   // Function to display tools in a given container
-  const displayTools = (category, containerId) => {
+  const displayTools = async (category, containerId) => {
     const container = document.getElementById(containerId);
     if (!container) {
       console.error(`Container with id ${containerId} not found.`);
       return;
     }
+
+    await new Promise((resolve) => (dataScript.onload = resolve));
 
     if (typeof toolData === "undefined" || !toolData[category]) {
       container.innerHTML = "<p>No tool data available for this category.</p>";
