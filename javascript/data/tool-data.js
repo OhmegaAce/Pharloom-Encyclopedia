@@ -238,15 +238,230 @@ const toolData = {
         "Forged iron bell, crafted to ward against the intense heat of the Deep Docks.Reduces the damage taken from flame and magma.",
       location: "Purchased from Forge Daughter for  110 and  1.",
     },
+    {
+      name: "Warding Bell",
+      image: "../images/Tools/blue/wardingbell.png",
+      description:
+        "Holy bell inscribed with a hymn of protection. Shields the bearer as they bind their wounds.",
+      location: "Found on a body in Far Fields.",
+    },
+    {
+      name: "Pollip Pouch",
+      image: "../images/Tools/blue/pollippouch.png",
+      description:
+        "Pouch containing a fast-acting venom drawn from a flower's heart. Applies venom to equipped tools.",
+      location: "Reward for completing the Rite of the Pollip Wish.",
+    },
+    {
+      name: "Fractured Mask",
+      image: "../images/Tools/blue/fracturedmask.png",
+      description:
+        "Old bug's skull carved for protection. Shields against critical damage but shatters on impact. If shattered, the mask will be repaired while resting at a bench.",
+      location:
+        "Purchased from Mottled Skarr for  260. Can also be found next to his body if he died before it was purchased.",
+    },
+    {
+      name: "Multibinder",
+      image: "../images/Tools/blue/multibinder.png",
+      description:
+        "Elaborate, etched Weaver spindle, usable only by wielders of Silk. Extends the act of binding, but increases its healing effect.",
+      location:
+        "Purchased from Frey for  880 after completing the My Missing Courier Wish.",
+    },
+    {
+      name: "Weavelight",
+      image: "../images/Tools/blue/weavelight.png",
+      description:
+        "Gleaming apparatus of Weaver make. Its core emits a faint glow. Increases the speed of Silk regeneration.",
+      location:
+        "Found in Weavenest Atla after defeating a pair of Moss Mothers.",
+    },
+    {
+      name: "Sawtooth Circlet",
+      image: "../images/Tools/blue/sawtoothcirclet.png",
+      description:
+        "Flexible belt of serrated metal teeth, able to affixed to the hem of a cloak. Flaring the cloak will spin the blades, damaging surrounding enemies.",
+      location: "Purchased from Twelfth Architect for  230 and  1.",
+    },
+    {
+      name: "Injector Band",
+      image: "../images/Tools/blue/injectorband.png",
+      description:
+        "Brace of surgical pins from the Whiteward. Used to forcefully insert Silk deep inside a bug's shell. Increases the speed of binding.",
+      location: "Found in Whiteward.",
+    },
+    {
+      name: "Spool Extender",
+      image: "../images/Tools/blue/spoolextender.png",
+      description:
+        "Silk-storing tool of the Citadel, fashioned after an artefact of the Weavers. Allows the storing of additional Silk beyond one's natural abilities.",
+      location: "Bought from Jubilana for  720.",
+    },
+    {
+      name: "Reserve Bind",
+      image: "../images/Tools/blue/reservebind.png",
+      description:
+        "Ornate artefact of the Citadel, able to hold a Bind's worth of Silk. Used when healing is needed and one's natural resources run low. The Reserve Bind will be restored when resting at a bench.",
+      location: "Reward for completing the Final Audience Wish.",
+    },
+    {
+      name: "Claw Mirror",
+      image: "../images/Tools/blue/clawmirror.png",
+      description:
+        "Theatrical tool of a vainglorious bug. When binding, emits a dazzling flash that damages surrounding enemies.",
+      location: "Reward for defeating Trobbio in The Stage.",
+    },
+    {
+      name: "Claw Mirrors",
+      image: "../images/Tools/blue/clawmirrors.png",
+      description:
+        "Twin theatrical tools of a vainglorious bug. When binding, emits a searing blast that damages surrounding enemies.",
+      location:
+        "Reward for defeating Tormented Trobbio in The Stage. Replaces the Claw Mirror.",
+    },
+    {
+      name: "Memory Crystal",
+      image: "../images/Tools/blue/memorycrystal.png",
+      description:
+        "Reflective stone with mnemonic properties. When taking damage, a memory of the bearer is formed of crystal. The memory will shatter into sharp spines if an enemy comes into contact.",
+      location: "Found in a hidden room in southwest Mount Fay.",
+    },
+    {
+      name: "Snitch Pick",
+      image: "../images/Tools/blue/snitchpick.png",
+      description:
+        "Hooked tool for the forceful retrieval of loot from bugs and husks. Harpoon into foes to steal rosaries and shell shards, while causing additional damage.",
+      location: "Bought from Grindle for  740.",
+    },
+    {
+      name: "Volt Filament",
+      image: "../images/Tools/blue/voltfilament.png",
+      description:
+        "Charged organ from a defeated Voltvyrm. Can be coiled around thread, imbuing Silk Skills with electric charge.",
+      location: "Reward for defeating Voltvyrm in Voltnest.",
+    },
+    {
+      name: "Quick Sling",
+      image: "../images/Tools/blue/quicksling.png",
+      description:
+        "Taut-drawing mechanism built from reed and bone, intended for mounting on the limb of a bug. Doubles the number of tools thrown.",
+      location: "Found behind a breakable ceiling in Bilewater.",
+    },
+    {
+      name: "Wreath of Purity",
+      image: "../images/Tools/blue/wreathofpurity.png",
+      description:
+        "Fragile band woven of reed and leaf, crafted to repel Muckmaggots. If broken, the wreath will be repaired while resting at a bench.",
+      location: "Found in a secret passage within Putrified Ducts.",
+    },
+    {
+      name: "Longclaw",
+      image: "../images/Tools/blue/longclaw.png",
+      description:
+        "Talisman fashioned from the talon of a large predator. Increases the range of needle attacks.",
+      location:
+        "Reward for completing either the Broodfeast or Runtfeast Wishes.",
+    },
+    {
+      name: "Wispfire Lantern",
+      image: "../images/Tools/blue/wispfirelantern.png",
+      description:
+        "Broken iron lantern containing smouldering wispfire. Wisps will spawn from the lantern and burn foes, at the cost of Silk.",
+      location: "Reward for defeating Father of the Flame in Wisp Thicket.",
+    },
+    {
+      name: "Egg of Flealia",
+      image: "../images/Tools/blue/eggofflealia.png",
+      description:
+        "Icon of the mythical mother flea, passed down from caravans of old. A symbol of protection and kinship. Decreases the cost of Silk Skills while health is full.",
+      location: "Reward from Fleamaster Mooshka after finding all 30 Fleas.",
+    },
+    {
+      name: "Pin Badge",
+      image: "../images/Tools/blue/pinbadge.png",
+      description:
+        "Emblem of the Order of the Pinstress, the old blademasters of Pharloom. Reduces charge time of Needle Strike.",
+      location: "Reward for defeating Pinstress.",
+    },
   ],
   yellowtools: [
     {
-      name: "Tacks",
-      image: "../images/Tools/Tacks.png",
-      description:
-        "A deployable tool that lays a trap of sharp tacks on the ground to damage enemies who walk over them.",
-      location:
-        "Given by Crull and Benjin in Sinner's Road upon completing the 'Roach Guts' wish.",
+      name: "Compass",
+      image: "../images/Tools/yellow/compass.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Shard Pendant",
+      image: "../images/Tools/yellow/shardpendant.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Magnetite Brooch",
+      image: "../images/Tools/yellow/magnetitebrooch.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Weighted Belt",
+      image: "../images/Tools/yellow/weightedbelt.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Barbed Bracelet",
+      image: "../images/Tools/yellow/barbedbracelet.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Dead Bug's Purse",
+      image: "../images/Tools/yellow/deadbugspurse.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Shell Satchel",
+      image: "../images/Tools/yellow/shellsatchel.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Magnetite Dice",
+      image: "../images/Tools/yellow/magnetitedice.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Scuttlebrace",
+      image: "../images/Tools/yellow/scuttlebrace.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Ascendant's Grip",
+      image: "../images/Tools/yellow/ascendantsgrip.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Spider Strings",
+      image: "../images/Tools/yellow/spiderstrings.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Silkspeed Anklets",
+      image: "../images/Tools/yellow/silkspeedanklets.png",
+      description: "",
+      location: "",
+    },
+    {
+      name: "Thief's Mark",
+      image: "../images/Tools/yellow/thiefsmark.png",
+      description: "",
+      location: "",
     },
   ],
 };
