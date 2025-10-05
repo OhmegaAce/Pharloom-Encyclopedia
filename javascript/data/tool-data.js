@@ -388,80 +388,97 @@ const toolData = {
     {
       name: "Compass",
       image: "../images/Tools/yellow/compass.png",
-      description: "",
-      location: "",
+      description:
+        "Intricate tracking device, carved from shell. When equipped, the bearer's location will be marked on their map.",
+      location: "Purchased from Shakra for  70.",
     },
     {
       name: "Shard Pendant",
       image: "../images/Tools/yellow/shardpendant.png",
-      description: "",
-      location: "",
+      description:
+        "Crude trinket worn by collectors and crafters. Allows one to collect more shell shards from defeated creatures.",
+      location: "Found in The Marrow.",
     },
     {
       name: "Magnetite Brooch",
       image: "../images/Tools/yellow/magnetitebrooch.png",
-      description: "",
-      location: "",
+      description:
+        "Holy stone inscribed with a prayer for rosaries. Any loose beads will be pulled toward the wearer.",
+      location:
+        "Purchased from Pebb for  120, or from Grindle for  220 during Act 3.",
     },
     {
       name: "Weighted Belt",
       image: "../images/Tools/yellow/weightedbelt.png",
-      description: "",
-      location: "",
+      description:
+        "Heavy band favoured by those with an unsteady step. The wearer will recoil less when striking foes and will not be flung as far when taking damage.",
+      location:
+        "Purchased from Mort for  160. In Act 3 it can be found next to his body if it has not been purchased yet.",
     },
     {
       name: "Barbed Bracelet",
       image: "../images/Tools/yellow/barbedbracelet.png",
-      description: "",
-      location: "",
+      description:
+        "Vicious bracelet worn by those who believe they have not been duly punished. Increases damage taken, but also increases damage dealt by the needle.",
+      location: "Found in Sinner's Road.",
     },
     {
       name: "Dead Bug's Purse",
       image: "../images/Tools/yellow/deadbugspurse.png",
-      description: "",
-      location: "",
+      description:
+        "Discarded purse of a fallen pilgrim. Allows the bearer to retain some rosaries upon defeat.",
+      location: "Found in the Wormways.",
     },
     {
       name: "Shell Satchel",
       image: "../images/Tools/yellow/shellsatchel.png",
-      description: "",
-      location: "",
+      description:
+        "Quick access container formed from an old shell. Increases the quantity of crafted tools.",
+      location: "Found in the Wormways (Steel Soul Mode only).",
     },
     {
       name: "Magnetite Dice",
       image: "../images/Tools/yellow/magnetitedice.png",
-      description: "",
-      location: "",
+      description:
+        "Playthings carved from magnetic material. Used in simple games and believed to bring luck to the bearer.",
+      location:
+        "Act 1: Given by Lumble the Lucky after beating his game 10 times. Act 2: Found beside Lumble the Lucky's corpse in Blasted Steps. Act 3: Purchased from Grindle for  300.",
     },
     {
       name: "Scuttlebrace",
       image: "../images/Tools/yellow/scuttlebrace.png",
-      description: "",
-      location: "",
+      description:
+        "Artificial spine that clasps tight around the shell. Enhances the wearer's innate flexibility, allowing rapid retreat.",
+      location: "Purchased from Twelfth Architect for  140 and  1.",
     },
     {
       name: "Ascendant's Grip",
       image: "../images/Tools/yellow/ascendantsgrip.png",
-      description: "",
-      location: "",
+      description:
+        "Gilded piton that allows one to hold in place while on a wall.",
+      location: "Purchased from Jubilana for  350.",
     },
     {
       name: "Spider Strings",
       image: "../images/Tools/yellow/spiderstrings.png",
-      description: "",
-      location: "",
+      description:
+        "Sophisticated Weaver device. Resonates with music played to amplify and enhance a performance. Expands and strengthens the effects of the Needolin.",
+      location:
+        "Purchased from Jubilana for  320 after completing the The Lost Merchant Wish.",
     },
     {
       name: "Silkspeed Anklets",
       image: "../images/Tools/yellow/silkspeedanklets.png",
-      description: "",
-      location: "",
+      description:
+        "Experimental anklets of Weaver make. Draws upon the wearer's own Silk to increase sprinting speed.",
+      location: "Found inside Weavenest Cindril in Far Fields.",
     },
     {
       name: "Thief's Mark",
       image: "../images/Tools/yellow/thiefsmark.png",
-      description: "",
-      location: "",
+      description:
+        "Symbol worn to identify oneself to fellow thieves. Gain extra rosaries from defeated enemies, but lose some rosaries on taking damage.",
+      location: "Purchased from Grindle for  350.",
     },
   ],
 };
