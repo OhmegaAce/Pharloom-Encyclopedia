@@ -251,6 +251,28 @@ nav {
   text-shadow: 2px 2px 4px black;
 }
 
+/* Specific overrides for a denser enemy grid */
+#enemy-container.character-grid {
+  /* Make columns smaller to fit more cards */
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+#enemy-container .character-link-card {
+  /* Reduce card height and padding */
+  min-height: 140px;
+  padding: 8px;
+  gap: 5px;
+}
+
+#enemy-container .parallax-container img {
+  max-width: 80px; /* Smaller images for the denser grid */
+}
+
+#enemy-container .character-link-name {
+  font-size: 1em; /* Slightly smaller font for the name */
+}
+
 /* ------------------------- */
 /* Area Grid & Card Styling  */
 /* ------------------------- */
