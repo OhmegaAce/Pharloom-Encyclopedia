@@ -22,10 +22,7 @@ body {
 /* Header Styles        */
 /* -------------------- */
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  position: relative; /* Establish positioning context for the menu button */
   background-image: url("../images/silksongbanner.jpg");
   background-size: cover;
   background-position: center;
@@ -33,7 +30,14 @@ header {
 
   height: 200px;
   color: white;
-  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure it fills the header */
+  text-align: center; /* Fallback for text alignment */
 }
 
 header h1 {
@@ -442,4 +446,128 @@ nav {
   background: linear-gradient(90deg, #ff4500, #ff8c00);
   border-radius: 4px;
   transition: width 0.1s linear;
+}
+
+/* ============================================ */
+/* Hamburger Menu Button                        */
+/* ============================================ */
+.menu-toggle {
+  display: none; /* Hidden by default on desktop */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1001; /* Ensure it's above other header content */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px black;
+}
+
+/* Animation for the hamburger icon to turn into an 'X' */
+.nav-open .menu-toggle span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.nav-open .menu-toggle span:nth-child(2) {
+  opacity: 0;
+}
+.nav-open .menu-toggle span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+/* ============================================ */
+/* Responsive Styles for Mobile                 */
+/* ============================================ */
+@media (max-width: 768px) {
+  /* --- General Layout Adjustments --- */
+  body {
+    /* Disabling fixed background on mobile can improve performance */
+    background-attachment: scroll;
+  }
+
+  .glass-container,
+  .information {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  /* --- Header & Navigation --- */
+  header {
+    height: 150px; /* Reduce header height */
+  }
+
+  header h1 {
+    font-size: 1.8em; /* Make title smaller */
+  }
+
+  .menu-toggle {
+    display: block; /* Show the button on mobile */
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to bottom, #000000 0%, #ce0000 100%);
+    z-index: 1000;
+    transition: right 0.4s ease-in-out;
+    padding-top: 80px; /* Space for the close button */
+    border-radius: 0;
+  }
+
+  .nav-open nav {
+    right: 0; /* Slide into view */
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav {
+    flex-direction: column; /* Stack nav links vertically */
+    align-items: flex-start; /* Align to the left */
+    padding: 20px;
+    height: 100%;
+  }
+
+  .nav li a {
+    width: 100%; /* Make links take full width */
+    text-align: left;
+  }
+
+  /* --- Content Layouts --- */
+  .description,
+  .character-body {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
+  }
+
+  #hornetgif {
+    float: none; /* Remove float for centered layout */
+    border-radius: 15px; /* Adjust border for stacked layout */
+    max-width: 80%;
+  }
+
+  /* --- Grids --- */
+  .boss-grid,
+  .character-grid,
+  .area-grid {
+    /* Use a smaller minimum for cards on small screens */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  /* --- Responsive Tables --- */
+  .tool-table {
+    display: block; /* Allow the table to be scrollable */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent content from wrapping */
+  }
 }

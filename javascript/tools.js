@@ -25,35 +25,44 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Create table header
     const thead = document.createElement("thead");
-    thead.innerHTML = `
+    let headerHtml = `
         <tr>
             <th>Image</th>
             <th>Name</th>
             <th>Description</th>
             <th>Location</th>
+    `;
+    if (category === "redtools") {
+      headerHtml += `
             <th>Uses</th>
             <th>Refill Cost</th>
-        </tr>
-    `;
+      `;
+    }
+    headerHtml += `</tr>`;
+    thead.innerHTML = headerHtml;
     table.appendChild(thead);
 
     const tbody = document.createElement("tbody");
     tools.forEach((tool) => {
       const toolRow = document.createElement("tr");
       toolRow.className = "tool-row";
-
-      toolRow.innerHTML = `
+      let rowHtml = `
         <td>
           <div class="parallax-container"><img src="${tool.image}" alt="${
-        tool.name
-      }" class="tool-image-table"></div>
+        tool.name || ""
+      }" class="tool-image-table" /></div>
         </td>
-        <td>${tool.name}</td>
-        <td>${tool.description}</td>
-        <td>${tool.location}</td>
-        <td>${tool.uses || "N/A"}</td>
-        <td>${tool.refill_cost || "N/A"}</td>
+        <td>${tool.name || ""}</td>
+        <td>${tool.description || ""}</td>
+        <td>${tool.location || tool.uses || ""}</td>
       `;
+      if (category === "redtools") {
+        rowHtml += `
+          <td>${tool.uses || "N/A"}</td>
+          <td>${tool.refill_cost || "N/A"}</td>
+        `;
+      }
+      toolRow.innerHTML = rowHtml;
       tbody.appendChild(toolRow);
     });
     table.appendChild(tbody);
