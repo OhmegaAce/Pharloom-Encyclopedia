@@ -6,9 +6,9 @@ const bossData = {
       location: "The Marrow",
       health: 150,
       phases: 2,
-      image: "/images/Bosses/bellbeast.png",
+      image: "../images/Bosses/bellbeast.png",
       theme: "Bell Beast",
-      music: "/music/bosses/bellbeast.mp3",
+      music: "../music/bosses/bellbeast.mp3",
       information: {
         "in-game events":
           "The Bell Beast is initially found in The Marrow, where she is trapped in Silk. Once the Bell Beast is freed using the Silkspear skill, she attacks Hornet. After her defeat, the Bell Beast allows Hornet to ride her and acts as the game's fast travel system. The Bell Beast also drops the first Silk Heart which takes Hornet into a Silk dream when she collects it. Upon waking, Hornet is now on the station platform next to the ready and waiting Bell Beast. In Act 3 upon reaching any Bellway, the Bell Beast is missing from their station and a hole is open where they would normally reside. Hornet can enter this hole and drop into the Bellways where she then fights the Bell Eater. Upon defeating the Bell Eater, the Bell Beast returns to deliver the final blow before Hornet returns back to the station. It is then revealed that the Bell Beast is now a mother and has a litter of Beastlings. From them Hornet learns the Beastling Call which can be played on her Needolin on any stable surface to summon Beastlings to take her directly to whichever Bellway station the Bell Beast is presently at.",
@@ -69,9 +69,9 @@ const bossData = {
       location: "Any Bellway (Act 3)",
       health: 800,
       phases: 2,
-      image: "/images/Bosses/belleater.png",
+      image: "../images/Bosses/belleater.png",
       theme: "Bell Beast",
-      music: "/music/bosses/bellbeast.mp3",
+      music: "../music/bosses/bellbeast.mp3",
       information: {
         "in-game events":
           "Upon starting Act 3, visiting and calling out in any Bellway will cause the Bell Eater to burst out and roar instead of the Bell Beast. Afterwards, Hornet can follow the Bell Eater down a hole into the tunnels where it will be fought as a boss. It is finished off by Bell Beast, who returns in to deliver the final blow. The Bell Beast is now accompanied by its Beastlings who teach Hornet the Beastling Call.",
@@ -142,9 +142,9 @@ const bossData = {
       location: "The Slab",
       health: 700,
       phases: 2,
-      image: "/images/Bosses/broodmother.png",
+      image: "../images/Bosses/broodmother.png",
       theme: "Cut Through",
-      music: "/music/bosses/cutthrough.mp3",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -200,9 +200,9 @@ const bossData = {
       location: "Cogwork Core",
       health: 630,
       phases: 4,
-      image: "/images/Bosses/cogworkdancers.png",
+      image: "../images/Bosses/cogworkdancers.png",
       theme: "Cogwork Dancers",
-      music: "/music/bosses/cogworkdancers.mp3",
+      music: "../music/bosses/cogworkdancers.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -255,9 +255,9 @@ const bossData = {
       location: "Craw Lake",
       health: 1300,
       phases: 1,
-      image: "/images/Bosses/crawfather.png",
+      image: "../images/Bosses/crawfather.png",
       theme: "Cut Through",
-      music: "/music/bosses/cutthrough.mp3",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -307,9 +307,9 @@ const bossData = {
       location: "Coral Tower",
       health: 1650,
       phases: 2,
-      image: "/images/Bosses/crustkingkhann.png",
+      image: "../images/Bosses/crustkingkhann.png",
       theme: "Crust King Khann",
-      music: "/music/bosses/crustkingkhann.mp3",
+      music: "../music/bosses/crustkingkhann.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -376,9 +376,9 @@ const bossData = {
       location: "Sinner's Road",
       health: 600,
       phases: 2,
-      image: "/images/Bosses/disgracedcheflugoli.png",
+      image: "../images/Bosses/disgracedcheflugoli.png",
       theme: "Cut Through",
-      music: "/music/bosses/cutthrough.mp3",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -430,9 +430,9 @@ const bossData = {
       location: "Wisp Thicket",
       health: 640,
       phases: 2,
-      image: "/images/Bosses/fatheroftheflame.png",
+      image: "../images/Bosses/fatheroftheflame.png",
       theme: "Sister Splinter",
-      music: "/music/bosses/sistersplinter.mp3",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -481,9 +481,9 @@ const bossData = {
       location: "The Slab",
       health: 1300,
       phases: 2,
-      image: "/images/Bosses/firstsinner.png",
+      image: "../images/Bosses/firstsinner.png",
       theme: "Widow",
-      music: "/music/bosses/widow.mp3",
+      music: "../music/bosses/widow.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -550,9 +550,9 @@ const bossData = {
       location: "Deep Docks",
       health: 1240,
       phases: 3,
-      image: "/images/Bosses/forebrotherssignisandgron.png",
+      image: "../images/Bosses/forebrotherssignisandgron.png",
       theme: "Fourth Chorus",
-      music: "/music/bosses/fourthchorus.mp3",
+      music: "../music/bosses/fourthchorus.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -626,9 +626,9 @@ const bossData = {
       location: "Far Fields",
       health: 500,
       phases: 4,
-      image: "/images/Bosses/fourthchorus.png",
+      image: "../images/Bosses/fourthchorus.png",
       theme: "Fourth Chorus",
-      music: "/music/bosses/fourthchorus.mp3",
+      music: "../music/bosses/fourthchorus.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -686,7 +686,7 @@ const bossData = {
         "Greymoor, Sinner's Road, Choral Chambers, Whispering Vaults, High Halls",
       health: 460,
       phases: 1,
-      image: "/images/Bosses/garmondandzaza.png",
+      image: "../images/Bosses/garmondandzaza.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -729,9 +729,9 @@ const bossData = {
       location: "The Cradle",
       health: 1095,
       phases: 6,
-      image: "/images/Bosses/grandmothersilk.png",
+      image: "../images/Bosses/grandmothersilk.png",
       theme: "Awakening",
-      music: "/music/bosses/awakening.mp3",
+      music: "../music/bosses/awakening.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -838,9 +838,9 @@ const bossData = {
       location: "Blasted Steps",
       health: 400,
       phases: 1,
-      image: "/images/Bosses/greatconchflies.png",
+      image: "../images/Bosses/greatconchflies.png",
       theme: "Incisive Battle",
-      music: "/music/bosses/incisivebattle.mp3",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -881,9 +881,9 @@ const bossData = {
       location: "Bilewater",
       health: 650,
       phases: 2,
-      image: "/images/Bosses/groalthegreat.png",
+      image: "../images/Bosses/groalthegreat.png",
       theme: "Cut Through",
-      music: "/music/bosses/cutthrough.mp3",
+      music: "../music/bosses/cutthrough.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -940,9 +940,9 @@ const bossData = {
       location: "Far Fields",
       health: 1000,
       phases: 1,
-      image: "/images/Bosses/gurrtheoutcast.png",
+      image: "../images/Bosses/gurrtheoutcast.png",
       theme: "Incisive Battle",
-      music: "/music/bosses/incisivebattle.mp3",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -994,9 +994,9 @@ const bossData = {
       location: "Deep Docks",
       health: 250,
       phases: 1,
-      image: "/images/Bosses/lace.png",
+      image: "../images/Bosses/lace.png",
       theme: "Lace",
-      music: "/music/bosses/lace.mp3",
+      music: "../music/bosses/lace.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1047,9 +1047,9 @@ const bossData = {
       location: "The Cradle",
       health: 800,
       phases: 3,
-      image: "/images/Bosses/lace.png",
+      image: "../images/Bosses/lace.png",
       theme: "Lace",
-      music: "/music/bosses/lace.mp3",
+      music: "../music/bosses/lace.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1098,9 +1098,9 @@ const bossData = {
       location: "Blasted Steps",
       health: 720,
       phases: 2,
-      image: "/images/Bosses/lastjudge.png",
+      image: "../images/Bosses/lastjudge.png",
       theme: "Last Judge",
-      music: "/music/bosses/lastjudge.mp3",
+      music: "../music/bosses/lastjudge.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1186,9 +1186,9 @@ const bossData = {
       location: "Greymoor",
       phases: 2,
       health: 600,
-      image: "/images/Bosses/moorwing.png",
+      image: "../images/Bosses/moorwing.png",
       theme: "Strive",
-      music: "/music/bosses/strive.mp3",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1247,9 +1247,9 @@ const bossData = {
       location: "Ruined Chapel",
       phases: 1,
       health: 120,
-      image: "/images/Bosses/mossmother.png",
+      image: "../images/Bosses/mossmother.png",
       theme: "Strive",
-      music: "/music/bosses/strive.mp3",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1281,9 +1281,9 @@ const bossData = {
       location: "Shellwood",
       phases: 2,
       health: 1250,
-      image: "/images/Bosses/nyleth.png",
+      image: "../images/Bosses/nyleth.png",
       theme: "Nyleth",
-      music: "/music/bosses/nyleth.mp3",
+      music: "../music/bosses/nyleth.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1338,7 +1338,7 @@ const bossData = {
       location: "Lost Verdania",
       phases: 1,
       health: 480,
-      image: "/images/Bosses/palestag.png",
+      image: "../images/Bosses/palestag.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -1371,9 +1371,9 @@ const bossData = {
       location: "Exhaust Organ",
       phases: 2,
       health: 650,
-      image: "/images/Bosses/phantom.png",
+      image: "../images/Bosses/phantom.png",
       theme: "Phantom",
-      music: "/music/bosses/phantom.mp3",
+      music: "../music/bosses/phantom.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1441,9 +1441,9 @@ const bossData = {
       location: "Blasted Steps, Mount Fey",
       phases: 1,
       health: 910,
-      image: "/images/Bosses/pinstress.png",
+      image: "../images/Bosses/pinstress.png",
       theme: "Strive",
-      music: "/music/bosses/strive.mp3",
+      music: "../music/bosses/strive.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1479,7 +1479,7 @@ const bossData = {
       location: "Wormways",
       phases: 1,
       health: 1000,
-      image: "/images/Bosses/plasmifiedzango.png",
+      image: "../images/Bosses/plasmifiedzango.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -1529,9 +1529,9 @@ const bossData = {
       location: "Chapel of the Beast",
       phases: 2,
       health: 550,
-      image: "/images/Bosses/savagebeastfly.png",
+      image: "../images/Bosses/savagebeastfly.png",
       theme: "Incisive Battle",
-      music: "/music/bosses/incisivebattle.mp3",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1579,9 +1579,9 @@ const bossData = {
       location: "Far Fields",
       phases: 2,
       health: 650,
-      image: "/images/Bosses/savagebeastfly.png",
+      image: "../images/Bosses/savagebeastfly.png",
       theme: "Incisive Battle",
-      music: "/music/bosses/incisivebattle.mp3",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1624,7 +1624,7 @@ const bossData = {
       location: "Cogwork Core, Choral Chambers, High Halls",
       phases: 1,
       health: 800,
-      image: "/images/Bosses/secondsentinel.png",
+      image: "../images/Bosses/secondsentinel.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -1685,7 +1685,7 @@ const bossData = {
       location: "Greymoor",
       phases: 1,
       health: 600,
-      image: "/images/Bosses/shakra.png",
+      image: "../images/Bosses/shakra.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -1728,9 +1728,9 @@ const bossData = {
       location: "Shellwood, Greymoor, Fleatopia",
       phases: 2,
       health: 1185,
-      image: "/images/Bosses/shrineguardianseth.png",
+      image: "../images/Bosses/shrineguardianseth.png",
       theme: "Nyleth",
-      music: "/music/bosses/nyleth.mp3",
+      music: "../music/bosses/nyleth.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1798,9 +1798,9 @@ const bossData = {
       location: "Shellwood",
       phases: 2,
       health: 310,
-      image: "/images/Bosses/sistersplinter.png",
+      image: "../images/Bosses/sistersplinter.png",
       theme: "Sister Splinter",
-      music: "/music/bosses/sistersplinter.mp3",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           phases: [
@@ -1848,9 +1848,9 @@ const bossData = {
       location: "Far Fields",
       phases: 3,
       health: 1500,
-      image: "/images/Bosses/skarrsingerkarmelita.png",
+      image: "../images/Bosses/skarrsingerkarmelita.png",
       theme: "Skarrsinger Karmelita",
-      music: "/music/bosses/skarrsingerkarmelita.mp3",
+      music: "../music/bosses/skarrsingerkarmelita.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1925,9 +1925,9 @@ const bossData = {
       location: "The Marrow",
       phases: 1,
       health: 450,
-      image: "/images/Bosses/skulltyrant.png",
+      image: "../images/Bosses/skulltyrant.png",
       theme: "Incisive Battle",
-      music: "/music/bosses/incisivebattle.mp3",
+      music: "../music/bosses/incisivebattle.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -1965,7 +1965,7 @@ const bossData = {
       location: "Bonegrave",
       phases: 1,
       health: 500,
-      image: "/images/Bosses/summonedsaviour.png",
+      image: "../images/Bosses/summonedsaviour.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -2015,9 +2015,9 @@ const bossData = {
       location: "Whiteward",
       phases: 3,
       health: 1000,
-      image: "/images/Bosses/theunravelled.png",
+      image: "../images/Bosses/theunravelled.png",
       theme: "Sister Splinter",
-      music: "/music/bosses/sistersplinter.mp3",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2095,9 +2095,9 @@ const bossData = {
       location: "The Stage",
       phases: 2,
       health: 700,
-      image: "/images/Bosses/trobbio.png",
+      image: "../images/Bosses/trobbio.png",
       theme: "Trobbio",
-      music: "/music/bosses/trobbio.mp3",
+      music: "../music/bosses/trobbio.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2179,9 +2179,9 @@ const bossData = {
       location: "Voltnest",
       phases: 1,
       health: 550,
-      image: "/images/Bosses/voltvyrm.png",
+      image: "../images/Bosses/voltvyrm.png",
       theme: "Sister Splinter",
-      music: "/music/bosses/sistersplinter.mp3",
+      music: "../music/bosses/sistersplinter.mp3",
       information: {
         "behavior and tactics": {
           summary:
@@ -2215,7 +2215,7 @@ const bossData = {
       location: "Sands of Karak",
       phases: 1,
       health: 900,
-      image: "/images/Bosses/watcherattheedge.png",
+      image: "../images/Bosses/watcherattheedge.png",
       information: {
         "behavior and tactics": {
           summary:
@@ -2276,9 +2276,9 @@ const bossData = {
       location: "Bellhart",
       phases: 3,
       health: 360,
-      image: "/images/Bosses/widow.png",
+      image: "../images/Bosses/widow.png",
       theme: "Widow",
-      music: "/music/bosses/widow.mp3",
+      music: "../music/bosses/widow.mp3",
       information: {
         "behavior and tactics": {
           phases: [

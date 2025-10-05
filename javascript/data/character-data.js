@@ -2,7 +2,7 @@ const characterData = {
   merchants: [
     {
       name: "Creige",
-      image: "/images/NPCs/Merchants/Creige.png",
+      image: "../images/NPCs/Merchants/Creige.png",
       description:
         "Creige is a Merchant who appears in Hollow Knight: Silksong. He sells a Nectar drink at Halfway Home in exchange for Rosaries.",
       background: "Missing Information",
@@ -11,7 +11,7 @@ const characterData = {
     },
     {
       name: "Forge-Daughter",
-      image: "/images/NPCs/Merchants/Forge-Daughter.webp",
+      image: "../images/NPCs/Merchants/Forge-Daughter.webp",
       description:
         "Forge Daughter is a Merchant who appears in Hollow Knight: Silksong. She sells wares at her shop in Deep Docks in exchange for Rosaries and Craftmetal.",
       background:
@@ -21,7 +21,7 @@ const characterData = {
     },
     {
       name: "Frey",
-      image: "/images/NPCs/Merchants/Frey.png",
+      image: "../images/NPCs/Merchants/Frey.png",
       description:
         "Frey is a Merchant in Hollow Knight: Silksong. She sells wares at her shop in Bellhart in exchange for Rosaries.",
       background:
@@ -31,7 +31,7 @@ const characterData = {
     },
     {
       name: "Grindle",
-      image: "/images/NPCs/Merchants/Grindle_Idle.png",
+      image: "../images/NPCs/Merchants/Grindle_Idle.png",
       description:
         "Grindle is a thief and a Merchant who appears in Hollow Knight: Silksong. He is found in multiple locations, but eventually settles in the Blasted Steps and exchanges various goods for Rosaries.",
       background: "Missing information",
@@ -40,7 +40,7 @@ const characterData = {
     },
     {
       name: "Jubliana",
-      image: "/images/NPCs/Merchants/jubliana.png",
+      image: "../images/NPCs/Merchants/jubliana.png",
       description:
         "Jubilana is a Merchant in Hollow Knight: Silksong. She sells wares at her shop in Songclave in exchange for Rosaries.",
       background:
@@ -50,7 +50,7 @@ const characterData = {
     },
     {
       name: "Kratt",
-      image: "/images/NPCs/Merchants/kratt.png",
+      image: "../images/NPCs/Merchants/kratt.png",
       description:
         "Kratt is a Merchant in Hollow Knight: Silksong. He offers a hot spa service at the Flea Caravan in exchange for Rosaries.",
       background: "Missing information",
@@ -59,7 +59,7 @@ const characterData = {
     },
     {
       name: "Loddie",
-      image: "/images/NPCs/Merchants/loddie.png",
+      image: "../images/NPCs/Merchants/loddie.png",
       description:
         "Loddie is a Merchant in Hollow Knight: Silksong. He offers a pin-throwing game in The Marrow in exchange for several rewards.",
       background: "Missing information",
@@ -68,7 +68,7 @@ const characterData = {
     },
     {
       name: "Lumble The Lucky",
-      image: "/images/NPCs/Merchants/lumblethelucky.png",
+      image: "../images/NPCs/Merchants/lumblethelucky.png",
       description:
         "Lumble the Lucky is a Merchant in Hollow Knight: Silksong. He offers to play a dice-throwing game with Hornet.",
       background: "Missing information",
@@ -77,7 +77,7 @@ const characterData = {
     },
     {
       name: "Mort",
-      image: "/images/NPCs/Merchants/mort.png",
+      image: "../images/NPCs/Merchants/mort.png",
       description:
         "Mort is a Merchant in Hollow Knight: Silksong. He sells wares at his shop in Pilgrim's Rest in exchange for Rosaries.",
       background: "Missing information",
@@ -86,7 +86,7 @@ const characterData = {
     },
     {
       name: "Mottled Skarr",
-      image: "/images/NPCs/Merchants/mottledskarr.png",
+      image: "../images/NPCs/Merchants/mottledskarr.png",
       description:
         "Mottled Skarr is a Merchant in Hollow Knight: Silksong. He sells wares at his shop in Hunter's March in exchange for Rosaries.",
       background:
@@ -96,7 +96,7 @@ const characterData = {
     },
     {
       name: "Pebb",
-      image: "/images/NPCs/Merchants/pebb.png",
+      image: "../images/NPCs/Merchants/pebb.png",
       description:
         "Pebb is a Merchant in Hollow Knight: Silksong. She sells wares at her shop in Bone Bottom in exchange for Rosaries.",
       background: "Missing Information",
@@ -105,7 +105,7 @@ const characterData = {
     },
     {
       name: "Pinmaster Plinney",
-      image: "/images/NPCs/Merchants/pinmasterplinney.png",
+      image: "../images/NPCs/Merchants/pinmasterplinney.png",
       description:
         "Pinmaster Plinney is a Merchant in Hollow Knight: Silksong. He provides Needle upgrades in exchange for Pale Oil and Rosaries.",
       background: "Missing Information",
@@ -114,7 +114,7 @@ const characterData = {
     },
     {
       name: "Relic Seeker Scrounge",
-      image: "/images/NPCs/Merchants/relicseekerscrounge.png",
+      image: "../images/NPCs/Merchants/relicseekerscrounge.png",
       description:
         "Relic Seeker Scrounge is a Merchant in Hollow Knight: Silksong. She buys relics in her shop in Bellhart exchange for Rosaries.",
       background: "missing information",
@@ -123,7 +123,7 @@ const characterData = {
     },
     {
       name: "Shakra",
-      image: "/images/NPCs/Merchants/Npc_shakra.webp",
+      image: "../images/NPCs/Merchants/Npc_shakra.webp",
       description:
         "Shakra is a Merchant and boss in Hollow Knight: Silksong. She sells maps and mapping tools in exchange for Rosaries. Her location is indicated by her throwing rings littering the surroundings and her singing in the distance.",
       background:
@@ -133,7 +133,7 @@ const characterData = {
     },
     {
       name: "Skynx",
-      image: "/images/NPCs/Merchants/skynx.png",
+      image: "../images/NPCs/Merchants/skynx.png",
       description:
         "Skynx is a Merchant who appears only in Steel Soul Mode in Hollow Knight: Silksong. They replace Styx in this mode, and provide Rosaries in exchange for Silkeaters.",
       background: "Missing information",
@@ -142,7 +142,7 @@ const characterData = {
     },
     {
       name: "Tipp & Pill",
-      image: "/images/NPCs/Merchants/tippandpill.png",
+      image: "../images/NPCs/Merchants/tippandpill.png",
       description:
         "Tipp and Pill are Merchants in Hollow Knight: Silksong. They offer deliveries in Bellhart in exchange for Rosaries. Tipp is the round one and Pill is the tall one.",
       background: "Missing information",
@@ -151,7 +151,7 @@ const characterData = {
     },
     {
       name: "Twelfth Architect",
-      image: "/images/NPCs/Merchants/twelftharchitect.png",
+      image: "../images/NPCs/Merchants/twelftharchitect.png",
       description:
         "Twelfth Architect is a Merchant in Hollow Knight: Silksong. They sell wares at their shop in the Underworks in exchange for Rosaries and Craftmetal.",
       background:
@@ -161,7 +161,7 @@ const characterData = {
     },
     {
       name: "Vaultkeeper Cardinius",
-      image: "/images/NPCs/Merchants/vaultkeepercardinius.png",
+      image: "../images/NPCs/Merchants/vaultkeepercardinius.png",
       description:
         "Vaultkeeper Cardinius is a Merchant in Hollow Knight: Silksong. They buy Psalm Cylinders in their shop in Whispering Vaults in exchange for Rosaries.",
       background:
@@ -171,7 +171,7 @@ const characterData = {
     },
     {
       name: "Vog",
-      image: "/images/NPCs/Merchants/vog.png",
+      image: "../images/NPCs/Merchants/vog.png",
       description:
         "Vog is a Merchant in Hollow Knight: Silksong. She sells map pins showing the location of lost Fleas at the Flea Caravan in exchange for Rosaries.",
       background:
@@ -183,7 +183,7 @@ const characterData = {
   wanderers: [
     {
       name: "Garmond and Zaza",
-      image: "/images/NPCs/Wanderers/garmondandzaza.png",
+      image: "../images/NPCs/Wanderers/garmondandzaza.png",
       description:
         "Garmond and Zaza are two NPCs and bosses in Hollow Knight: Silksong. They are on a quest to avenge the haunting of their home village. Garmond is the rider, while Zaza is the mount.",
       background:
@@ -193,7 +193,7 @@ const characterData = {
     },
     {
       name: "Gilly",
-      image: "/images/NPCs/Wanderers/gilly.png",
+      image: "../images/NPCs/Wanderers/gilly.png",
       description: "Gilly is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Gilly travelled to Hunter's March in order to study the area. She hopes to discover why Hunter's March is relatively unaffected by the Haunting, and believes her findings may help stop the rest of Pharloom from falling to the Haunting.</p>",
@@ -202,7 +202,7 @@ const characterData = {
     },
     {
       name: "Green Prince",
-      image: "/images/NPCs/Wanderers/greenprince.png",
+      image: "../images/NPCs/Wanderers/greenprince.png",
       description: "Green Prince is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Green Prince is the former ruler of Verdania, which he ruled alongside his partner. Green Prince's partner gave his life to become the model for the Cogwork Dancers in an attempt to save Verdania from ruin.</p><p>Green Prince is the only surviving Verdanian.</p>",
@@ -211,7 +211,7 @@ const characterData = {
     },
     {
       name: "Grishkin",
-      image: "/images/NPCs/Wanderers/grishkin.png",
+      image: "../images/NPCs/Wanderers/grishkin.png",
       description:
         "Grishkin is an NPC in Hollow Knight: Silksong. Grishkin is a part of the Flea Caravan.",
       background: "Missing information",
@@ -220,7 +220,7 @@ const characterData = {
     },
     {
       name: "Pilby",
-      image: "/images/NPCs/Wanderers/pilby.png",
+      image: "../images/NPCs/Wanderers/pilby.png",
       description:
         "Pilby (initially known as Little Pilgrim) is an NPC in Hollow Knight: Silksong.",
       background:
@@ -230,7 +230,7 @@ const characterData = {
     },
     {
       name: "Second Sentinel",
-      image: "/images/NPCs/Wanderers/secondsentinel.png",
+      image: "../images/NPCs/Wanderers/secondsentinel.png",
       description:
         "Second Sentinel is an NPC and boss in Hollow Knight: Silksong.",
       background:
@@ -240,7 +240,7 @@ const characterData = {
     },
     {
       name: "Sherma",
-      image: "/images/NPCs/Wanderers/sherma.png",
+      image: "../images/NPCs/Wanderers/sherma.png",
       description:
         "Sherma is a wandering NPC in Hollow Knight: Silksong. He is a bright and cheerful pilgrim on his way to The Citadel, and crosses paths with Hornet on their journeys.",
       background:
@@ -250,7 +250,7 @@ const characterData = {
     },
     {
       name: "Seth",
-      image: "/images/NPCs/Wanderers/seth.png",
+      image: "../images/NPCs/Wanderers/seth.png",
       description:
         "Shrine Guardian Seth is a boss and a wandering NPC in Hollow Knight: Silksong.",
       background:
@@ -260,7 +260,7 @@ const characterData = {
     },
     {
       name: "Varga",
-      image: "/images/NPCs/Wanderers/varga.png",
+      image: "../images/NPCs/Wanderers/varga.png",
       description:
         "Varga is an NPC in Hollow Knight: Silksong. Varga is a member of the Flea Caravan.",
       background: "Missing information",
@@ -271,7 +271,7 @@ const characterData = {
   questNpcs: [
     {
       name: "Alchemist Zylotol",
-      image: "/images/NPCs/Quest-NPCs/alchemistzylotol.png",
+      image: "../images/NPCs/Quest-NPCs/alchemistzylotol.png",
       description: "Alchemist Zylotol is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Alchemist Zylotol is a scientist experimenting with Plasmium. He was sent to Pharloom by his master, the discoverer of Plasmium, who wished for him to study the effects of a foreign land on its development. He was accompanied by his assistant, Zango, who died in the Wormways while carring out Alchemist Zylotol's instructions to plant Plasmium seeds in the caves.</p>",
@@ -280,7 +280,7 @@ const characterData = {
     },
     {
       name: "Caretaker",
-      image: "/images/NPCs/Quest-NPCs/caretaker.png",
+      image: "../images/NPCs/Quest-NPCs/caretaker.png",
       description: "The Caretaker is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>The Caretaker is a disguised Snail Shaman. He is also the Chapel Maid's brother, and the Bell Hermit's nephew. He went into hiding to avoid detection by Grand Mother Silk, secretly plotting a way to possibly defeat her.</p><p>The Caretaker is a weathered bellringer of a fading family, pragmatic and wary. Lately, he seems to know of a trap that could unseat the monarch and free Hornet without forcing her to claim the crown. Though fearful of the consequences, he quietly longs for a kingdom unshackled and reluctantly guides any bold hunter toward the scattered relics and kin whose souls and artifacts will make the plan possible. He plays a crucial role in Act 2 with the Silk and Soul wish, opening a way to begin Act 3.</p>",
@@ -289,7 +289,7 @@ const characterData = {
     },
     {
       name: "Crull and Benjin",
-      image: "/images/NPCs/Quest-NPCs/crullandbenjin.png",
+      image: "../images/NPCs/Quest-NPCs/crullandbenjin.png",
       description: "Crull and Benjin are NPCs in Hollow Knight: Silksong.",
       background: "Missing information",
       events:
@@ -297,7 +297,7 @@ const characterData = {
     },
     {
       name: "Fleamaster Mooshka",
-      image: "/images/NPCs/Quest-NPCs/fleamastermooshka.png",
+      image: "../images/NPCs/Quest-NPCs/fleamastermooshka.png",
       description:
         "Fleamaster Mooshka is an NPC in Hollow Knight: Silksong. He is the leader of the Flea Caravan.",
       background: "Missing information",
@@ -306,7 +306,7 @@ const characterData = {
     },
     {
       name: "Greyroot",
-      image: "/images/NPCs/Quest-NPCs/greyroot.png",
+      image: "../images/NPCs/Quest-NPCs/greyroot.png",
       description: "Greyroot is an NPC in Hollow Knight: Silksong.",
       background: "<p>Greyroot is a being that resides in Shellwood.</p>",
       events:
@@ -314,7 +314,7 @@ const characterData = {
     },
     {
       name: "Huntress",
-      image: "/images/NPCs/Quest-NPCs/huntress.png",
+      image: "../images/NPCs/Quest-NPCs/huntress.png",
       description: "Huntress is an NPC in Hollow Knight: Silksong.",
       background: "Missing information",
       events:
@@ -322,7 +322,7 @@ const characterData = {
     },
     {
       name: "Loyal Mergwin",
-      image: "/images/NPCs/Quest-NPCs/loyalmergwin.png",
+      image: "../images/NPCs/Quest-NPCs/loyalmergwin.png",
       description:
         "Loyal Mergwin is an NPC who appears in Hollow Knight: Silksong.",
       background:
@@ -332,7 +332,7 @@ const characterData = {
     },
     {
       name: "Mister Mushroom",
-      image: "/images/NPCs/Quest-NPCs/mistermushroom.png",
+      image: "../images/NPCs/Quest-NPCs/mistermushroom.png",
       description:
         "Mister Mushroom is an NPC found throughout Pharloom after Grand Mother Silk is entrapped with the Soul Snare.",
       background: "Missing information",
@@ -341,7 +341,7 @@ const characterData = {
     },
     {
       name: "Moss Druid",
-      image: "/images/NPCs/Quest-NPCs/mossdruid.png",
+      image: "../images/NPCs/Quest-NPCs/mossdruid.png",
       description: "Moss Druid is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Through dialogues, the Moss Druid hints that they might be the only one of their kind left.</p><p>The bell tied upon the staff which they use is noted to be of some significance.</p>",
@@ -350,7 +350,7 @@ const characterData = {
     },
     {
       name: "Nuu",
-      image: "/images/NPCs/Quest-NPCs/nuu.png",
+      image: "../images/NPCs/Quest-NPCs/nuu.png",
       description:
         "Nuu is an NPC in Hollow Knight: Silksong. She gives Hornet the Hunter's Journal, along with a Wish to fill out one hundred entries in the journal.",
       background: "Missing information",
@@ -359,7 +359,7 @@ const characterData = {
     },
     {
       name: "Pinstress",
-      image: "/images/NPCs/Quest-NPCs/pinstress.png",
+      image: "../images/NPCs/Quest-NPCs/pinstress.png",
       description: "Pinstress is an NPC and boss in Hollow Knight: Silksong.",
       background:
         "<p>Pinstress is a warrior of the order of the Pinstress, a group of female warriors who were once renowned in Pharloom. The order of the Pinstress was once allied with the Citadel, before the Citadel turned against them and stamped out their order.</p><p>Pinstress and Seamstress are the only surviving members of the order of the Pinstress. While Seamstress has turned her back on the ways of the order, Pinstress still holds true to their values.</p><p>Pinstress resides in Blasted Steps, where she hopes to avoid the attention of the Citadel.</p>",
@@ -368,7 +368,7 @@ const characterData = {
     },
     {
       name: "Runt",
-      image: "/images/NPCs/Quest-NPCs/runt.png",
+      image: "../images/NPCs/Quest-NPCs/runt.png",
       description: "Runt is an NPC who appears in Hollow Knight: Silksong.",
       background:
         "<p>Runt is one of the newborns from the recently hatched brood of the Huntress, so named due to them being smaller and weaker than the rest of their siblings. They appear in Act 3, only being present if the Broodfeast wish is not completed by the end of Act 2.</p>",
@@ -377,7 +377,7 @@ const characterData = {
     },
     {
       name: "Seamstress",
-      image: "/images/NPCs/Quest-NPCs/seamstress.png",
+      image: "../images/NPCs/Quest-NPCs/seamstress.png",
       description: "Seamstress is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Seamstress is a former warrior of the order of the Pinstress, a group of female warriors who were once renowned in Pharloom. The order of the Pinstress was once allied with the Citadel, before the Citadel turned against them and stamped out their order.</p><p>Seamstress and Pinstress are the only surviving members of the order of the Pinstress. While Pinstress still holds true to the ways of the order, Seamstress has turned her back on them.</p><p>At one point before settling with more peaceful values, Seamstress encountered and fought Fourth Chorus, one of the Citadel's gargantuan automatons sent in pursuit of her, eventually immobilizing the machine under a pile of rubble while leaving her pin impaled on its neck.</p>",
@@ -386,7 +386,7 @@ const characterData = {
     },
     {
       name: "Snail Shamans",
-      image: "/images/NPCs/Quest-NPCs/snailshamans.png",
+      image: "../images/NPCs/Quest-NPCs/snailshamans.png",
       description:
         "The Snail Shamans are three NPCs in Hollow Knight: Silksong. They are a family of Snail Shamans who help Hornet create the Soul Snare during the Silk and Soul task.",
       background: "Missing information",
@@ -395,7 +395,7 @@ const characterData = {
     },
     {
       name: "Sprintmaster Swift",
-      image: "/images/NPCs/Quest-NPCs/sprintmasterswift.png",
+      image: "../images/NPCs/Quest-NPCs/sprintmasterswift.png",
       description: "Sprintmaster Swift is an NPC in Hollow Knight: Silksong.",
       background: "Missing information",
       events:
@@ -403,7 +403,7 @@ const characterData = {
     },
     {
       name: "Steel Seer Zi",
-      image: "/images/NPCs/Quest-NPCs/steelseerzi.png",
+      image: "../images/NPCs/Quest-NPCs/steelseerzi.png",
       description:
         "Steel Seer Zi is an NPC who appears in Hollow Knight: Silksong. She is located at the far east edge of Blasted Steps only in Steel Soul Mode and gives the wish A Vassal Lost.",
       background:
@@ -412,7 +412,7 @@ const characterData = {
     },
     {
       name: "Yarnaby",
-      image: "/images/NPCs/Quest-NPCs/yarnaby.png",
+      image: "../images/NPCs/Quest-NPCs/yarnaby.png",
       description: "Yarnaby is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Yarnaby is the former physician of Bellhart. She was exiled from Bellhart due to her unorthodox practices.</p>",
@@ -423,7 +423,7 @@ const characterData = {
   miscellaneous: [
     {
       name: "Ballow",
-      image: "/images/NPCs/Miscellaneous-NPCs/ballow.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/ballow.png",
       description: "Ballow is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Ballow is the assistant of Forge Daughter and can be found shovelling coal into a metal carapace beside her shop.</p>",
@@ -432,7 +432,7 @@ const characterData = {
     },
     {
       name: "Bell Beast",
-      image: "/images/NPCs/Miscellaneous-NPCs/bellbeast.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/bellbeast.png",
       description:
         "The Bell Beast is a main boss and NPC in Hollow Knight: Silksong.",
       background: "Missing Information",
@@ -441,7 +441,7 @@ const characterData = {
     },
     {
       name: "Bell Hermit",
-      image: "/images/NPCs/Miscellaneous-NPCs/bellhermit.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/bellhermit.png",
       description: "Bell Hermit is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>The Bell Hermit is a disguised Snail Shaman, as well as the Caretaker and Chapel Maid's uncle. He also has an unnamed son or nephew who had died at Bilewater.</p>",
@@ -450,7 +450,7 @@ const characterData = {
     },
     {
       name: "Broodling",
-      image: "/images/NPCs/Miscellaneous-NPCs/broodling.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/broodling.png",
       description: "Broodling is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Broodling is a juvenile form of Broodmother, being fed by the older flies in order to grow to full maturity and produce more eggs.</p>",
@@ -459,7 +459,7 @@ const characterData = {
     },
     {
       name: "Chapel Maid",
-      image: "/images/NPCs/Miscellaneous-NPCs/chapelmaid.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/chapelmaid.png",
       description: "Chapel Maid is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>The Chapel Maid is a disguised Snail Shaman, as well as the Caretaker's sister, and the Bell Hermit's niece. She also has an unnamed cousin who had died at Bilewater. She has tasked herself with looking after the Shamans' old chapel after they disbanded and went into hiding.</p>",
@@ -468,7 +468,7 @@ const characterData = {
     },
     {
       name: "Conductor Ballador",
-      image: "/images/NPCs/Miscellaneous-NPCs/conductorballador.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/conductorballador.png",
       description: "Conductor Ballador is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Not much is known about the Conductor, though from his dialogue and his position next to The Forum, it is possible he was originally responsible for the entire choir in the High Halls or beyond. He is sickly, hidden in a hospital-like covered bed with a machine threading Silk inside, likely keeping him alive. The Conductors seem to undergo some form of intensive surgery to sustain themselves.</p>",
@@ -477,7 +477,7 @@ const characterData = {
     },
     {
       name: "Eva",
-      image: "/images/NPCs/Miscellaneous-NPCs/eva.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/eva.png",
       description: "Eva is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Eva was the despised child of the Weavers, a life spun from rune and shell, birthed in Weavenest Atla within a shell of iron which sustains her. She is a failed attempt to defy a curse shared by the Weavers, which makes conceiving a child near impossible, and an attempt by the Weavers to mimic divinity. The difference between her and the Weavers brought only distance between them.</p>",
@@ -486,7 +486,7 @@ const characterData = {
     },
     {
       name: "Fayforn",
-      image: "/images/NPCs/Miscellaneous-NPCs/fayforn.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/fayforn.png",
       description:
         "The Fayforn is an NPC in Hollow Knight: Silksong. She grants Hornet the Faydown Cloak.",
       background:
@@ -496,7 +496,7 @@ const characterData = {
     },
     {
       name: "Flick the Fixer",
-      image: "/images/NPCs/Miscellaneous-NPCs/flickthefixer.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/flickthefixer.png",
       description:
         "Flick the Fixer is an NPC in Hollow Knight: Silksong. He builds the Wishwall in Bone Bottom, and repairs broken objects like the Bench.",
       background: "Missing information",
@@ -505,7 +505,7 @@ const characterData = {
     },
     {
       name: "Loam",
-      image: "/images/NPCs/Miscellaneous-NPCs/loam.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/loam.png",
       description: "Loam is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Loam runs on a treadmill in the Underworks that fuels the Citadel and keeps the area operational. He runs ceaselessly in the hope that the bugs of the Citadel will allow him to leave the Underworks as a reward for his hard work.</p>",
@@ -514,7 +514,7 @@ const characterData = {
     },
     {
       name: "Mask Maker",
-      image: "/images/NPCs/Miscellaneous-NPCs/maskmaker.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/maskmaker.png",
       description:
         "Mask Maker is an NPC in Hollow Knight: Silksong. He provides lore on masks and on Pharloom's history.",
       background:
@@ -524,7 +524,7 @@ const characterData = {
     },
     {
       name: "Old Penitent",
-      image: "/images/NPCs/Miscellaneous-NPCs/oldpenitent.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/oldpenitent.png",
       description: "Old Penitent is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Old Penitent is a Penitent who willingly resides in the Slab. They were sent to the Slab after committing an unspecified crime, and wish to remain there until their sin has been forgiven.</p>",
@@ -533,7 +533,7 @@ const characterData = {
     },
     {
       name: "Pious Isamor",
-      image: "/images/NPCs/Miscellaneous-NPCs/piousisamor.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/piousisamor.png",
       description: "Pious Isamor is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>It seems this statue was made for the purpose of indoctrinating the pilgrims that arrived at the Citadel for them to join the ranks of the Choir.</p>",
@@ -542,7 +542,7 @@ const characterData = {
     },
     {
       name: "Pondcatcher Reed",
-      image: "/images/NPCs/Miscellaneous-NPCs/pondcatcherreed.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/pondcatcherreed.png",
       description: "Pondcatcher Reed is an NPC in Hollow Knight: Silksong.",
       background:
         "<p>Pondcatcher Reed a resident of Bellhart. They are a hunter who ventures out into Shellwood to find food for the other Bellhart residents.</p><p>Although Pondcatcher Reed is a resident of Bellhart, they do not seem to have their own Bellhome. Instead, they can be found either wandering the streets of Bellhart, or making their way to or from Shellwood.</p>",
@@ -551,7 +551,7 @@ const characterData = {
     },
     {
       name: "Red Memory NPCs",
-      image: "/images/NPCs/Miscellaneous-NPCs/redmemorynpcs.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/redmemorynpcs.png",
       description:
         "Red Memory is an area in Hollow Knight: Silksong visited as part of the Act 3 plotline. In it, Hornet journeys through her own memories to find the Everbloom.",
       background: "Missing Information",
@@ -560,7 +560,7 @@ const characterData = {
     },
     {
       name: "Karmelita",
-      image: "/images/NPCs/Miscellaneous-NPCs/karmelita.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/karmelita.png",
       description:
         "Skarrsinger Karmelita is an NPC and boss in Hollow Knight: Silksong. Hornet must defeat her to claim the Hunter's Heart.",
       background:
@@ -570,7 +570,7 @@ const characterData = {
     },
     {
       name: "Styx",
-      image: "/images/NPCs/Miscellaneous-NPCs/styx.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/styx.png",
       description: "Styx is an NPC in Hollow Knight: Silksong.",
       background: "Missing information",
       events:
@@ -578,7 +578,7 @@ const characterData = {
     },
     {
       name: "Sula",
-      image: "/images/NPCs/Miscellaneous-NPCs/sula.png",
+      image: "../images/NPCs/Miscellaneous-NPCs/sula.png",
       description: "Sula is an NPC who appears in Hollow Knight: Silksong.",
       background:
         "<p>Sula is Steel Seer Zi's vassal, who they share masters with. Tired of serving them for so long, they decided to run away and call upon the Void to summon a champion to protect themself from their masters' wrath.</p>",

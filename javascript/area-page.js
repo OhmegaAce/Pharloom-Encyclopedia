@@ -13,16 +13,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   try {
-    // Load the data script dynamically
-    const dataScript = document.createElement("script");
-    dataScript.src = "/javascript/data/area-data.js";
-    document.head.appendChild(dataScript);
-
-    await new Promise((resolve, reject) => {
-      dataScript.onload = resolve;
-      dataScript.onerror = reject;
-    });
-
     // Find the area by its URL-friendly name
     const area = areaData.areas.find(
       (a) => a.name.toLowerCase().replace(/ /g, "") === areaNameQuery
@@ -52,20 +42,16 @@ document.addEventListener("DOMContentLoaded", async () => {
     const parallaxContainer = document.createElement("div");
     parallaxContainer.className = "parallax-container";
     const img = document.createElement("img");
-    // Ensure the image path is absolute
-    img.src = area.image.startsWith("../")
-      ? "/" + area.image.substring(3)
-      : area.image;
+    // Correctly construct the relative path from the template's location
+    img.src = `../../${area.image.substring(3)}`;
     img.alt = area.name;
     parallaxContainer.appendChild(img);
     imageContainer.appendChild(parallaxContainer);
 
     // If the area has music, create the audio player
     if (area.music) {
-      // Ensure the music path is absolute
-      const musicPath = area.music.startsWith("../")
-        ? "/" + area.music.substring(3)
-        : area.music;
+      // Correctly construct the relative path for the music file
+      const musicPath = `../../${area.music.substring(3)}`;
       const audioPlayerContainer = document.createElement("div");
       audioPlayerContainer.className = "audio-player-container";
 

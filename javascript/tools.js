@@ -1,5 +1,17 @@
-document.addEventListener("DOMContentLoaded", async () => {
-  // Function to display tools in a given container
+document.addEventListener("DOMContentLoaded", () => {
+  // This function will run once the main logic is ready to execute.
+  const initializePage = () => {
+    // Data is now guaranteed to be loaded.
+    displayTools("red", "red-tools-container");
+    displayTools("blue", "blue-tools-container");
+    displayTools("yellow", "yellow-tools-container");
+  };
+
+  // --- Core Functions ---
+
+  /**
+   * Displays tools of a specific category in a given container.
+   */
   const displayTools = (category, containerId) => {
     const container = document.getElementById(containerId);
     if (!container) {
@@ -7,86 +19,61 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    if (typeof toolData === "undefined" || !toolData[category]) {
-      container.innerHTML = "<p>No tool data available for this category.</p>";
-      return;
-    }
+    try {
+      const tools = toolData[category];
+      if (!tools || tools.length === 0) {
+        container.innerHTML = "<p>No tools found in this category.</p>";
+        return;
+      }
 
-    const tools = toolData[category];
-    if (tools.length === 0) {
-      container.innerHTML = "<p>No tools found in this category.</p>";
-      return;
-    }
-
-    container.innerHTML = ""; // Clear loading message
-
-    const table = document.createElement("table");
-    table.className = "tool-table";
-
-    // Create table header
-    const thead = document.createElement("thead");
-    let headerHtml = `
-        <tr>
-            <th>Image</th>
+      // Clear loading message and create table
+      container.innerHTML = "";
+      const table = document.createElement("table");
+      table.className = "tool-table";
+      table.innerHTML = `
+        <thead>
+          <tr>
+            <th>Icon</th>
             <th>Name</th>
             <th>Description</th>
             <th>Location</th>
-    `;
-    if (category === "redtools") {
-      headerHtml += `
             <th>Uses</th>
             <th>Refill Cost</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
       `;
-    }
-    headerHtml += `</tr>`;
-    thead.innerHTML = headerHtml;
-    table.appendChild(thead);
-
-    const tbody = document.createElement("tbody");
-    tools.forEach((tool) => {
-      const toolRow = document.createElement("tr");
-      toolRow.className = "tool-row";
-      let rowHtml = `
-        <td>
-          <div class="parallax-container"><img src="${tool.image}" alt="${
-        tool.name || ""
-      }" class="tool-image-table" /></div>
-        </td>
-        <td>${tool.name || ""}</td>
-        <td>${tool.description || ""}</td>
-        <td>${tool.location || tool.uses || ""}</td>
-      `;
-      if (category === "redtools") {
-        rowHtml += `
+      const tbody = table.querySelector("tbody");
+      tools.forEach((tool) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td><div class="parallax-container"><img src="${tool.image}" alt="${
+          tool.name
+        }" class="tool-image-table parallax-image"></div></td>
+          <td>${tool.name}</td>
+          <td>${tool.description}</td>
+          <td>${tool.location || "N/A"}</td>
           <td>${tool.uses || "N/A"}</td>
           <td>${tool.refill_cost || "N/A"}</td>
         `;
-      }
-      toolRow.innerHTML = rowHtml;
-      tbody.appendChild(toolRow);
-    });
-    table.appendChild(tbody);
-    container.appendChild(table);
+        tbody.appendChild(row);
+      });
+      container.appendChild(table);
+    } catch (error) {
+      console.error(`Error loading ${category} data:`, error);
+      container.innerHTML = "<p>Error loading tool information.</p>";
+    }
   };
 
-  // --- Load data script and then render all categories ---
-  try {
-    // Load the data script dynamically
-    const dataScript = document.createElement("script");
-    dataScript.src = "/javascript/data/tool-data.js";
-    document.head.appendChild(dataScript);
-
-    // Wait for the script to load before proceeding
-    await new Promise((resolve, reject) => {
-      dataScript.onload = resolve;
-      dataScript.onerror = reject;
-    });
-
-    // Now that data is loaded, display all tool categories
-    displayTools("redtools", "red-tools-container");
-    displayTools("bluetools", "blue-tools-container");
-    displayTools("yellowtools", "yellow-tools-container");
-  } catch (error) {
-    console.error("Failed to load tool data script:", error);
+  // --- Initialization Logic ---
+  if (typeof toolData !== "undefined") {
+    initializePage();
+  } else {
+    const dataScript = document.querySelector('script[src*="tool-data.js"]');
+    if (dataScript) {
+      dataScript.addEventListener("load", initializePage);
+    } else {
+      console.error("Could not find the tool-data.js script tag.");
+    }
   }
 });

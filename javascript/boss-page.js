@@ -12,13 +12,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     return;
   }
 
-  // Load the data script dynamically
-  const dataScript = document.createElement("script");
-  dataScript.src = "/javascript/data/boss-data.js";
-  document.head.appendChild(dataScript);
-
   try {
-    await new Promise((resolve) => (dataScript.onload = resolve));
     // Find the boss by its ID
     const boss = bossData.bosses.find((b) => b.id == bossId);
 
@@ -87,7 +81,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const parallaxContainer = document.createElement("div");
     parallaxContainer.className = "parallax-container";
     const img = document.createElement("img");
-    img.src = boss.image;
+    // Correctly construct the relative path from the template's location
+    img.src = `../../${boss.image.substring(3)}`;
     img.alt = boss.name;
     parallaxContainer.appendChild(img);
     imageContainer.appendChild(parallaxContainer);
@@ -104,7 +99,8 @@ document.addEventListener("DOMContentLoaded", async () => {
       themeName.textContent = `Theme: "${trackName}"`;
       audioPlayerContainer.appendChild(themeName);
 
-      const audio = new Audio(boss.music);
+      // Correctly construct the relative path for the music file
+      const audio = new Audio(`../../${boss.music.substring(3)}`);
       audio.loop = true;
 
       const playButton = document.createElement("button");

@@ -1,5 +1,18 @@
-document.addEventListener("DOMContentLoaded", async () => {
-  // Function to display characters in a given container
+document.addEventListener("DOMContentLoaded", () => {
+  // This function will run once the main logic is ready to execute.
+  const initializePage = () => {
+    // Data is now guaranteed to be loaded.
+    displayCharacters("merchants", "merchants-container");
+    displayCharacters("wanderers", "wanderers-container");
+    displayCharacters("questNpcs", "quest-npcs-container");
+    displayCharacters("miscellaneous", "miscellaneous-container");
+  };
+
+  // --- Core Functions ---
+
+  /**
+   * Displays characters of a specific category in a given container.
+   */
   const displayCharacters = (category, containerId) => {
     const container = document.getElementById(containerId);
     if (!container) {
@@ -26,7 +39,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   };
 
-  // Function to create character link cards
+  /**
+   * Creates an HTML anchor element (a card) for a single character.
+   */
   const createCharacterEntry = (character, category) => {
     // Create a URL-friendly name
     const characterQueryName = character.name.toLowerCase().replace(/ /g, "");
@@ -45,26 +60,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     return entry;
   };
 
-  // --- Load data script and then render all categories ---
-  try {
-    // Load the data script dynamically
-    const dataScript = document.createElement("script");
-    dataScript.src = "/javascript/data/character-data.js";
-    document.head.appendChild(dataScript);
+  // --- Initialization Logic ---
 
-    // Wait for the script to load before proceeding
-    await new Promise((resolve, reject) => {
-      dataScript.onload = resolve;
-      dataScript.onerror = reject;
-    });
-
-    // Now that data is loaded, display all character categories
-    displayCharacters("merchants", "merchants-container");
-    displayCharacters("wanderers", "wanderers-container");
-    displayCharacters("questNpcs", "quest-npcs-container");
-    displayCharacters("miscellaneous", "miscellaneous-container");
-  } catch (error) {
-    console.error("Failed to load character data script:", error);
-    // You could display an error message on the page here if you wanted
+  // Check if the data is already available (it might be if the script loaded fast).
+  if (typeof characterData !== "undefined") {
+    initializePage();
+  } else {
+    // If data isn't ready, find the script tag for character-data.js and wait for it to load.
+    const dataScript = document.querySelector(
+      'script[src*="character-data.js"]'
+    );
+    if (dataScript) {
+      dataScript.addEventListener("load", initializePage);
+    } else {
+      console.error("Could not find the character-data.js script tag.");
+    }
   }
 });

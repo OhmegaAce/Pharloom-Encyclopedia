@@ -36,7 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="image-audio-container">
                     <div class="parallax-container">
                         <img src="${
-                          enemy.image || "../../images/image-coming-soon.png"
+                          "../" +
+                          (enemy.image || "../images/image-coming-soon.png")
                         }" alt="${enemy.name}" class="parallax-image">
                     </div>
                     <div class="enemy-stats">
@@ -47,8 +48,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="stat-item">
                             <h4>Drops</h4>
                             <p>
-                                <img src="/images/icons/shard.png" class="icon" alt="Shards"> ${shardsText}
-                                <img src="/images/icons/rosary.png" class="icon" alt="Rosary Beads"> ${
+                                <img src="../../images/icons/shard.png" class="icon" alt="Shards"> ${shardsText}
+                                <img src="../../images/icons/rosary.png" class="icon" alt="Rosary Beads"> ${
                                   enemy.drops.beads
                                 }
                             </p>

@@ -1,5 +1,5 @@
 const toolData = {
-  redtools: [
+  red: [
     {
       name: "Straight Pin",
       image: "../images/Tools/red/straightpin.png",
@@ -171,7 +171,7 @@ const toolData = {
       image: "../images/Tools/red/flintslate.png",
       description:
         "Sharpening slate made from cut and polished Flintgem. Temporarily super-heats the needle's blade, imbuing each slash with flame and increasing lethality.",
-      uses: "Found in Deep Docks, beyond the Simple Key door.",
+      location: "Found in Deep Docks, beyond the Simple Key door.",
       uses: "3/3/4/5/6",
       refill_cost: 13.33,
     },
@@ -215,7 +215,7 @@ const toolData = {
       refill_cost: "N/A",
     },
   ],
-  bluetools: [
+  blue: [
     {
       name: "Druid's Eye",
       image: "../images/Tools/blue/druidseye.png",
@@ -384,7 +384,7 @@ const toolData = {
       location: "Reward for defeating Pinstress.",
     },
   ],
-  yellowtools: [
+  yellow: [
     {
       name: "Compass",
       image: "../images/Tools/yellow/compass.png",

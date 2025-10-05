@@ -13,8 +13,8 @@ const enemyData = {
         shards: [2, 3],
         beads: 0,
       },
-      thumbnail: "/images/Enemies/thumbnail/mossgrub.png",
-      image: "/images/Enemies/enemy/mossgrub.png",
+      thumbnail: "../images/Enemies/thumbnail/mossgrub.png",
+      image: "../images/Enemies/enemy/mossgrub.png",
     },
     {
       name: "Massive Mossgrub",
@@ -29,50 +29,56 @@ const enemyData = {
         shards: 7,
         beads: 0,
       },
-      thumbnail: "/images/Enemies/thumbnail/massivemossgrub.png",
-      image: "/images/Enemies/enemy/massivemossgrub.png",
+      thumbnail: "../images/Enemies/thumbnail/massivemossgrub.png",
+      image: "../images/Enemies/enemy/massivemossgrub.png",
     },
     {
       name: "Mossmir",
-      health: 0,
+      health: 12,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small fluttering creature capable of defending itself with its small stinger.",
+        hornetnote:
+          "This bug is soft and clumsy, but to its fortune its home caves seem relatively free of effective predators. I wonder why that is.",
       },
       drops: {
-        shards: 0,
+        shards: [2, 3],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mossmir.png",
+      image: "../images/Enemies/enemy/mossmir.png",
     },
     {
       name: "Moss Mother",
-      health: 0,
+      health: 120,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Adult Mossmir with fully developed stinger and hardened hide.",
+        hornetnote:
+          "Motherhood is an instinct that can push creatures beyond what seems their normal limits. It turns even weaker beasts like these into formidable foes.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mossmother.png",
+      image: "../images/Enemies/enemy/mossmother.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Aknid",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Winged insect that feeds upon moss and lichen in the caves above Bone Bottom.",
+        hornetnote:
+          "In its natural state it would avoid potential predators, but Pharloom's Haunting now compels it to aggression. Fortunately, its jaws are ill-suited for combat.",
       },
       drops: {
-        shards: 0,
+        shards: [2, 3],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/aknid.png",
+      image: "../images/Enemies/enemy/aknid.png",
     },
     {
       name: "",
