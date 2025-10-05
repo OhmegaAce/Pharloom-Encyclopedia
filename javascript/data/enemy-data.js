@@ -81,32 +81,36 @@ const enemyData = {
       image: "../images/Enemies/enemy/aknid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skull Scuttler",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small, soft bug that uses the hard skulls of the Marrow for protection and disguise.",
+        hornetnote:
+          "In every land, creatures find new and surprising ways to disguise themselves. One must be wary always.",
       },
       drops: {
-        shards: 0,
+        shards: [2, 3],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skullscuttler.png",
+      image: "../images/Enemies/enemy/skullscuttler.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skull Wing",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Airborne relative of the grounded Skull Scuttler, found only in the Marrow's deepest, hottest caves.",
+        hornetnote:
+          "Such feeble creatures could only survive thanks to the rarity of predators in these super-heated caverns.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skullwing.png",
+      image: "../images/Enemies/enemy/skullwing.png",
     },
     {
       name: "",
