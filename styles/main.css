@@ -448,6 +448,42 @@ nav {
   transition: width 0.1s linear;
 }
 
+/* ------------------------------ */
+/* Enemy Stats Styling            */
+/* ------------------------------ */
+.enemy-stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item h4 {
+  margin: 0 0 5px 0;
+  color: #ffaa00;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.stat-item p {
+  margin: 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+}
 /* ============================================ */
 /* Hamburger Menu Button                        */
 /* ============================================ */
