@@ -319,144 +319,163 @@ const enemyData = {
       image: "../images/Enemies/enemy/hoker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Flintbeetle",
+      health: 95,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Rarely seen beetle that spends most of its life nestled deep in bone and rock. The flintgems on its shell excrete an explosive powder.",
+        hornetnote:
+          "Its bright gems could be used to make beautiful, but short-lived jewellery. An amusing idea for a gift... or a trap.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/flintbeetle.png",
+      image: "../images/Enemies/enemy/flintbeetle.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Rhinogrund",
+      health: 150,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Long-Horned beast of Pharloom's lowlands. Relies on its horn to both impale and to wrench the ground beneath it, flinging dangerous debris.",
+        hornetnote:
+          "Certain tools and skills can pierce its defences. I should adjust my strategy as needed.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/rhinogrund.png",
+      image: "../images/Enemies/enemy/rhinogrund.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Gromling",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Young masked worm that delights in ambushing intruders within its tunnels.",
+        hornetnote:
+          "A frustrating fiend. They flee beneath the bone whenever I try to strike them down.",
       },
       drops: {
-        shards: 0,
+        shards: [3, 4],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/gromling.png",
+      image: "../images/Enemies/enemy/gromling.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Grom",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Burrowing worm that uses its many blunted teeth to dig through even the hardest bone.",
+        hornetnote:
+          "They ceaselessly churn through rock and bone without ever seeming to rest. Do they have a destination? Or are they compelled to dig forever deeper?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/grom.png",
+      image: "../images/Enemies/enemy/grom.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Bell Beast",
+      health: 150,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Huge, hardbone bug that lives within and travels through the veins of old bells across Pharloom.",
+        hornetnote:
+          "This one has allied themself with me, either as thanks for their saving or respect for one judged as equal. Whichever the reason, their fellowship is welcome.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/bellbeast.png",
+      image: "../images/Enemies/enemy/bellbeast.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Groveller",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Basic bug of Pharloom, laid low upon the ground.",
+        hornetnote:
+          "Taken by Pharloom's Haunting, the bug is now capable of little more than prayer and aggression.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: [2, 3],
+        beads: 5,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimgroveller.png",
+      image: "../images/Enemies/enemy/pilgrimgroveller.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Pouncer",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Agile bug of Pharloom, its higher functions have been lost to the Haunting.",
+        hornetnote:
+          "With a softer shell than most, they would have relied on their athleticism to survive.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: [2, 3],
+        beads: 5,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimpouncer.png",
+      image: "../images/Enemies/enemy/pilgrimpouncer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Hornfly",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Short pilgrim that uses their long horn to launch upon threats.",
+        hornetnote:
+          "Birth equipped this one well. In its assault it becomes its own projectile.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 2,
+        beads: 8,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimhornfly.png",
+      image: "../images/Enemies/enemy/pilgrimhornfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Hulk",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Sturdy bug lost to the Haunting. Rolls at threats with no care for its own discomfort.",
+        hornetnote:
+          "A rare built bug within these ailing lands. Most pilgrims' shells seem small by comparison. What nourishment did they discover to grow so large?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 5,
+        beads: 6,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimhulk.png",
+      image: "../images/Enemies/enemy/pilgrimhulk.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Bellbearer",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Common bug wielding a set of old bells. The bug will fling the bells at anyone it deems still free.",
+        hornetnote:
+          "Their bells would once have rung with hope and mirth, lifting the spirits of any climbing companions. Sadly, those instruments have turned purely to combative use.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 9,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimbellbearer.png",
+      image: "../images/Enemies/enemy/pilgrimbellbearer.png",
     },
     {
       name: "",
