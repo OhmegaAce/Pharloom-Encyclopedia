@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Load the data script dynamically
     const dataScript = document.createElement("script");
-    dataScript.src = "../javascript/data/area-data.js";
+    dataScript.src = "/javascript/data/area-data.js";
     document.head.appendChild(dataScript);
 
     await new Promise((resolve, reject) => {
@@ -43,19 +43,29 @@ document.addEventListener("DOMContentLoaded", async () => {
     const entryDiv = document.createElement("div");
     entryDiv.className = "character-entry";
 
+    const bodyDiv = document.createElement("div");
+    bodyDiv.className = "character-body";
+
     const imageContainer = document.createElement("div");
     imageContainer.className = "image-audio-container";
 
     const parallaxContainer = document.createElement("div");
     parallaxContainer.className = "parallax-container";
     const img = document.createElement("img");
-    img.src = area.image;
+    // Ensure the image path is absolute
+    img.src = area.image.startsWith("../")
+      ? "/" + area.image.substring(3)
+      : area.image;
     img.alt = area.name;
     parallaxContainer.appendChild(img);
     imageContainer.appendChild(parallaxContainer);
 
     // If the area has music, create the audio player
     if (area.music) {
+      // Ensure the music path is absolute
+      const musicPath = area.music.startsWith("../")
+        ? "/" + area.music.substring(3)
+        : area.music;
       const audioPlayerContainer = document.createElement("div");
       audioPlayerContainer.className = "audio-player-container";
 
@@ -64,7 +74,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       themeName.textContent = `Theme: "${area.theme || area.name}"`;
       audioPlayerContainer.appendChild(themeName);
 
-      const audio = new Audio(area.music);
+      const audio = new Audio(musicPath);
       audio.loop = true;
 
       const playButton = document.createElement("button");
@@ -127,7 +137,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     infoDiv.innerHTML =
       infoHtml || "<p>No detailed information available for this area.</p>";
 
-    entryDiv.append(imageContainer, infoDiv);
+    bodyDiv.append(imageContainer, infoDiv);
+    entryDiv.appendChild(bodyDiv);
     contentContainer.appendChild(entryDiv);
   } catch (error) {
     console.error("Error loading area page data:", error);

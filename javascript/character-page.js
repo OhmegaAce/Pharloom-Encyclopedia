@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Load the data script dynamically
   const dataScript = document.createElement("script");
-  dataScript.src = "../javascript/data/character-data.js";
+  dataScript.src = "/javascript/data/character-data.js";
   document.head.appendChild(dataScript);
 
   try {

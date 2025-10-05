@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Load the data script dynamically
     const dataScript = document.createElement("script");
-    dataScript.src = "../javascript/data/area-data.js";
+    dataScript.src = "/javascript/data/area-data.js";
     document.head.appendChild(dataScript);
 
     // Wait for the script to load before proceeding
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     areaData.areas.forEach((area) => {
       // Create a URL-friendly name for the query parameter
       const areaQueryName = area.name.toLowerCase().replace(/ /g, "");
-      const areaLink = `area-template.html?name=${areaQueryName}`;
+      const areaLink = `templates/area-template.html?name=${areaQueryName}`;
 
       const areaLinkCard = document.createElement("a");
       areaLinkCard.className = "area-link-card"; // Use a new class for styling links

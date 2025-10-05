@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // Load the data script dynamically
   const dataScript = document.createElement("script");
-  dataScript.src = "../javascript/data/boss-data.js";
+  dataScript.src = "/javascript/data/boss-data.js";
   document.head.appendChild(dataScript);
 
   try {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Create HTML for each boss
     bossData.bosses.forEach((boss) => {
       // Use the unique ID for the link
-      const bossLink = `boss-template.html?id=${boss.id}`;
+      const bossLink = `templates/boss-template.html?id=${boss.id}`;
 
       const bossLinkCard = document.createElement("a");
       bossLinkCard.className = "boss-link-card"; // New class for grid layout

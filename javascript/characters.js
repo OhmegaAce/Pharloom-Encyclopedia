@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const createCharacterEntry = (character, category) => {
     // Create a URL-friendly name
     const characterQueryName = character.name.toLowerCase().replace(/ /g, "");
-    const characterLink = `character-template.html?category=${category}&name=${characterQueryName}`;
+    const characterLink = `templates/character-template.html?category=${category}&name=${characterQueryName}`;
 
     const entry = document.createElement("a");
     entry.className = "character-link-card";
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Load the data script dynamically
     const dataScript = document.createElement("script");
-    dataScript.src = "../javascript/data/character-data.js";
+    dataScript.src = "/javascript/data/character-data.js";
     document.head.appendChild(dataScript);
 
     // Wait for the script to load before proceeding

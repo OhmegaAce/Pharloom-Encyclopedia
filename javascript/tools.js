@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   try {
     // Load the data script dynamically
     const dataScript = document.createElement("script");
-    dataScript.src = "../javascript/data/tool-data.js";
+    dataScript.src = "/javascript/data/tool-data.js";
     document.head.appendChild(dataScript);
 
     // Wait for the script to load before proceeding

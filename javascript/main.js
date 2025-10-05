@@ -12,4 +12,30 @@ document.addEventListener("DOMContentLoaded", () => {
       menuToggle.setAttribute("aria-expanded", isExpanded);
     });
   }
+
+  // --- Back to Top Button Logic ---
+  const backToTopButton = document.getElementById("back-to-top-btn");
+
+  if (backToTopButton) {
+    // Show or hide the button based on scroll position
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 100 ||
+        document.documentElement.scrollTop > 100
+      ) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document smoothly
+    backToTopButton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 });

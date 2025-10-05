@@ -484,6 +484,35 @@ nav {
 .nav-open .menu-toggle span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
+/* ============================================ */
+/* Back to Top Button                           */
+/* ============================================ */
+#back-to-top-btn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%; /* Make it circular */
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#back-to-top-btn:hover {
+  background-color: #ce0000;
+  transform: translateY(-3px);
+}
+
 /* ============================================ */
 /* Responsive Styles for Mobile                 */
 /* ============================================ */
