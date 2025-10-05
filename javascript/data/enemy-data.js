@@ -113,186 +113,210 @@ const enemyData = {
       image: "../images/Enemies/enemy/skullwing.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skull Brute",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Soft bug beneath a huge, horned skull. Charges at intruders to protect its territory and its smaller companions.",
+        hornetnote:
+          "Either its size has made it fearless or the Haunting has removed its sense of self-preservation.",
       },
       drops: {
-        shards: 0,
+        shards: [7, 11],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skullbrute.png",
+      image: "../images/Enemies/enemy/skullbrute.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skull Tyrant",
+      health: 450,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Rare, enormous Skull Scuttler. The Marrow's largest predator, and the most feared for its ferocious temperament.",
+        hornetnote:
+          "Though surely fierce, the skull it bears looks taken from an even larger beast. If not for the bones as proof, I would scarcely believe bugs could grow to such scale.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skulltyrant.png",
+      image: "../images/Enemies/enemy/skulltyrant.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Kilik",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small bony bug that favours dark tunnels. Can expand its spiked carapace to ward against attacking predators.",
+        hornetnote:
+          "I am fond of simple, effective traps such as this bug's extendable spikes. An unwary predator would be skewered clean through.",
       },
       drops: {
-        shards: 0,
+        shards: [4, 5],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/kilik.png",
+      image: "../images/Enemies/enemy/kilik.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Beastfly",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aggressive fly of Pharloom's lowlands. Rams prey with its hardbone mask.",
+        hornetnote:
+          "Dancing around this simple creature as it charges back and forth is the sort of game I delighted in as a child. Alas, I now have more pressing matters to attend to.",
       },
       drops: {
-        shards: 0,
+        shards: [4, 5],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/beastfly.png",
+      image: "../images/Enemies/enemy/beastfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Savage Beastfly",
+      health: 550,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Angered, adult Beastfly with a weighty body and a thickened hardshell mask.",
+        hornetnote:
+          "Civilisation encroaches from this kingdom's crown, but the lowlands are still ruled by great beasts. Its roar stirs something deep within me, some primal instinct.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/savagebeastfly.png",
+      image: "../images/Enemies/enemy/savagebeastfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Caranid",
+      health: 14,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Common winged bug of the lowlands. Generally docile, but will attack if threats come close.",
+        hornetnote:
+          "Their plump, round shape makes them well-suited for target practice. Difficult to resist testing my aim on them...",
       },
       drops: {
-        shards: 0,
+        shards: [4, 5],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/caranid.png",
+      image: "../images/Enemies/enemy/caranid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Vicious Caranid",
+      health: 27,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aggressively winged bug of the lowlands. When angered, it rapidly whips its bladed tail as a weapon.",
+        hornetnote:
+          "Its wings are quite small compared to its bulk. Perhaps it uses the warm air of these fiery lands to help stay airborne. Clever, if so.",
       },
       drops: {
-        shards: 0,
+        shards: [7, 8],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/viciouscaranid.png",
+      image: "../images/Enemies/enemy/viciouscaranid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Hardbone Hopper",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Grazing creature with sharp senses that nimbly retreats from danger.",
+        hornetnote:
+          "Despite the Haunting of its shell, it has not been overcome with aggression. Its desire to flee remains too strong.",
       },
       drops: {
-        shards: 0,
+        shards: [4, 5],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/hardbonehopper.png",
+      image: "../images/Enemies/enemy/hardbonehopper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Hardbone Elder",
+      health: 110,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tall creature with sharp senses. Defends its herd with powerful legs and a sharp tipped mask.",
+        hornetnote:
+          "There is surprising strength hidden in their thin, elegant limbs. It would be a pleasure to ride upon it...",
       },
       drops: {
-        shards: 0,
+        shards: [6, 9],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/hardboneelder.png",
+      image: "../images/Enemies/enemy/hardboneelder.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Tarmite",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Flying bone mite that lives near magma. Roasts its prey by spitting scorching tar.",
+        hornetnote:
+          "Its sticky spit would no doubt make a useful crafting material if moulded fresh. Unfortunately, I cannot stop to experiment.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/tarmite.png",
+      image: "../images/Enemies/enemy/tarmite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mawling",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Young, bony bug that can curl its body to form a ball.",
+        hornetnote:
+          "Their rough, ridged shell grips tight to any surface. Even walls and roofs become pathways for these nimble bugs.",
       },
       drops: {
-        shards: 0,
+        shards: 3,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mawling.png",
+      image: "../images/Enemies/enemy/mawling.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Marrowmaw",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Giant roller of the lowlands. Its ridged hide will crush smaller creatures beneath it.",
+        hornetnote:
+          "Sheer bulk makes for an effective weapon, but requires much sustenance. This creature would have spent most of its time eating. An acceptable life for some.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/marrowmaw.png",
+      image: "../images/Enemies/enemy/marrowmaw.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Hoker",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Spine-shooting drifter of the lowlands.",
+        hornetnote:
+          "Whatever admiration I had for its fleecy down is spoilt by its disturbing mask... and its steely spines.",
       },
       drops: {
-        shards: 0,
+        shards: [4, 6],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/hoker.png",
+      image: "../images/Enemies/enemy/hoker.png",
     },
     {
       name: "",
