@@ -556,74 +556,82 @@ const enemyData = {
       image: "../images/Enemies/enemy/pilgrimguide.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Overgrown Pilgrim",
+      health: 23,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Aged pilgrim, overgrown with lichen and moss.",
+        hornetnote:
+          "The moss looks to grow even inside their stomach, which the pilgrim spits at foes in compressed gobs. A foul form of offence.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: [3, 5],
+        beads: 13,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/overgrownpilgrim.png",
+      image: "../images/Enemies/enemy/overgrownpilgrim.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Covetous Pilgrim",
+      health: 85,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Strong bug replete with rosaries. If angered they will whip their strings in a ceaseless onslaught.",
+        hornetnote:
+          "Is this abundance a sign of purity or greed? The way faith is measured in this land is curious indeed.",
       },
       drops: {
         shards: 0,
-        beads: 0,
+        beads: 60,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/covetouspilgrim.png",
+      image: "../images/Enemies/enemy/covetouspilgrim.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Snitchfly",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Pernicious looter found all over Pharloom.",
+        hornetnote:
+          "While these bothersome bugs are left free to forage, no loose rosary or trinket is safe.",
       },
       drops: {
         shards: 0,
-        beads: 0,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/snitchfly.png",
+      image: "../images/Enemies/enemy/snitchfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lavalug",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Sticky mollusc that defends itself by spraying burning fluid from growths on its back.",
+        hornetnote:
+          "What seems at first a purely defensive mechanism may also be necessary to rid this creature of excess heat.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lavalug.png",
+      image: "../images/Enemies/enemy/lavalug.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lavalarga",
+      health: 85,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Fully grown mollusc able to unleash a gushing torrent of burning fluid from its back.",
+        hornetnote:
+          "To survive while storing so much searing fluid within... Before I would have believed it impossible, but Pharloom is home to many marvels.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lavalarga.png",
+      image: "../images/Enemies/enemy/lavalarga.png",
     },
     {
       name: "",
