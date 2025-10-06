@@ -792,144 +792,162 @@ const enemyData = {
       image: "../images/Enemies/enemy/fertid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Flapping Fertid",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Docile bugs whose wings mimic the grasses of the Far Fields. A common snack for larger predators.",
+        hornetnote:
+          "When roosting, it would look convincingly plant-like. In flight, its bulbous body quickly ruins the ruse.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/flappingfertid.png",
+      image: "../images/Enemies/enemy/flappingfertid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Fourth Chorus",
+      health: 500,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Towering iron automaton, driven by rotor and cog.",
+        hornetnote:
+          "A terrifying achievement of Pharloom, to build a construct so large and yet so nimble.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/fourthchorus.png",
+      image: "../images/Enemies/enemy/fourthchorus.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarrlid",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Small burrowing ant, servant to the larger Skarr.",
+        hornetnote:
+          "These bugs work mainly as finders and foragers for the warriors of their tribe. Combat has not long been their nature.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrlid.png",
+      image: "../images/Enemies/enemy/skarrlid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarrwing",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Darting predator that clings fast to roofs and outcrops, often summoned to aid its larger companions.",
+        hornetnote:
+          "They would make effective hunting companions, though even without the Haunting I suspect their loyalty would always remain to their clan.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrwing.png",
+      image: "../images/Enemies/enemy/skarrwing.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarr Scout",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Young ant hunter wielding sickles carved from teeth. Will often call for aid if danger comes close.",
+        hornetnote:
+          "Despite their youth, they are impressive opponents. It seems likely their tribe were trained for combat from birth.",
       },
       drops: {
         shards: 0,
-        beads: 0,
+        beads: 13,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrscout.png",
+      image: "../images/Enemies/enemy/skarrscout.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarr Stalker",
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Skilled ant hunter bearing blade and armour fashioned from bone.",
+        hornetnote:
+          "Fierce, strong and disciplined... yet these qualities do not protect them from the Haunting. Is such a fate inevitable in these lands?",
       },
       drops: {
         shards: 0,
-        beads: 0,
+        beads: 25,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrstalker.png",
+      image: "../images/Enemies/enemy/skarrstalker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Spear Skarr",
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Winged ant hunter that strikes from the air with its bone lance.",
+        hornetnote:
+          "In my youth, I envied all bugs with wings. I even fancied I might grow a pair... I have since learned better. Accept the limitations of one's body... and augment with tools as needed.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/spearskarr.png",
+      image: "../images/Enemies/enemy/spearskarr.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarrgard",
+      health: 150,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Huge ant hunter tasked to protect the stores and passages of its tribe.",
+        hornetnote:
+          "Theirs is the perfect shell for their duty, a wall of a warrior and an adept fighter. If I hope to claim their treasures, I must bring my best.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrgard.png",
+      image: "../images/Enemies/enemy/skarrgard.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Gurr the Outcast",
+      health: 1000,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Huge, yet stealthy Skarr. An expert trapper and master of the undergrowth.",
+        hornetnote:
+          "His tracks and traps... It should have been obvious from the start, this old hunter sought to draw me in. But what reason drove him to test himself so brutally? That answer I suspect I shall never know.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/gurrtheoutcast.png",
+      image: "../images/Enemies/enemy/gurrtheoutcast.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Last Claw",
+      health: 130,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Elite former hunter acting as the final line of defence before their mother.",
+        hornetnote:
+          "Their skill once saw them chosen, and I can plainly see why. They would have lived and trained only for this duty.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lastclaw.png",
+      image: "../images/Enemies/enemy/lastclaw.png",
     },
     {
       name: "",
