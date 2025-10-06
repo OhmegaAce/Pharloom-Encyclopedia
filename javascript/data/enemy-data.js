@@ -478,74 +478,82 @@ const enemyData = {
       image: "../images/Enemies/enemy/pilgrimbellbearer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Winged Pilgrim",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Short-horned bug born with underdeveloped wings.",
+        hornetnote:
+          "Flight it possesses, but only just. It may lift from the stone, but those wings would never carry it far.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 6,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wingedpilgrim.png",
+      image: "../images/Enemies/enemy/wingedpilgrim.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Elder Pilgrim",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Thick-set bug consumed by haunted thread. Uses their solid frame to crush others.",
+        hornetnote:
+          "A lucky bug to be able to grow old. Pharloom's roads take most much earlier.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/elderpilgrim.png",
+      image: "../images/Enemies/enemy/elderpilgrim.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Winged Pilgrim Bellbearer",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Pilgrim endowed with large wings, carrying a brace of iron bells.",
+        hornetnote:
+          "On uneven terrain their union of flight and range can provide a challenge even for me.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 2,
+        beads: 6,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wingedpilgrimbellbearer.png",
+      image: "../images/Enemies/enemy/wingedpilgrimbellbearer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Hiker",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Hard-Shelled bug with a climber's pin. Their pin, once aid, has become a weapon, though the bug is unrefined in its use.",
+        hornetnote:
+          "A bug once frail, pushed by twisted thread beyond its mortal limits.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 14,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimhiker.png",
+      image: "../images/Enemies/enemy/pilgrimhiker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pilgrim Guide",
+      health: 24,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Old pilgrim carrying a heavy iron bell staff.",
+        hornetnote:
+          "The large bell seems to signify them as once leader of a climbing troupe, though the Haunting has erased that former authority.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 5,
+        beads: 15,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pilgrimguide.png",
+      image: "../images/Enemies/enemy/pilgrimguide.png",
     },
     {
       name: "",
