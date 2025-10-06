@@ -634,144 +634,162 @@ const enemyData = {
       image: "../images/Enemies/enemy/lavalarga.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Smelt Shoveller",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Low level worker lost to Pharloom's haunting. Instinct keeps them at their task, though in much simpler fashion than before.",
+        hornetnote:
+          "This kingdom appears more advanced in metalwork than my own ever was, in great part due to the natural heat source at its base. Working in such an environment is an impressive feat.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: [3, 5],
+        beads: 7,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/smeltshoveller.png",
+      image: "../images/Enemies/enemy/smeltshoveller.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Flintstone Flyer",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aerial worker lost to Pharloom's Haunting. Bears a pouch full with flintstone which they will fling at intruders.",
+        hornetnote:
+          "That incendiary material they carry is a natural wonder, with many potential applications. What a waste to carelessly throw it at me whenever I pass by.",
       },
       drops: {
         shards: 0,
-        beads: 0,
+        beads: 8,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/flintstoneflyer.png",
+      image: "../images/Enemies/enemy/flintstoneflyer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Flintflame Flyer",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Brave worker carrying unstable flintflame and wearing a heavy bell to protect against potential ignition.",
+        hornetnote:
+          "Theirs would be a high risk life, followed by a short, searing end.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/flintflameflyer.png",
+      image: "../images/Enemies/enemy/flintflameflyer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Smokerock Sifter	",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cymbal bearing worker of the Deep Docks. Pans the hauls of smokerock to find traces of more precious minerals.",
+        hornetnote:
+          "The Haunting has stolen some important part of these bugs, yet still they attempt their former task. Until, that is, they sense my presence...",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/smokerocksifter.png",
+      image: "../images/Enemies/enemy/smokerocksifter.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Deep Diver",
+      health: 90,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Bell-clad bug responsible for mining the deeper, treacherous depths below their docks.",
+        hornetnote:
+          "Their heavier bells armour them well against my strikes, but against that oppressive heat... can they help at all?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 10,
+        beads: 20,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/deepdiver.png",
+      image: "../images/Enemies/enemy/deepdiver.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Forebrothers Signis & Gron",
+      health: 1240,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Elder overseers of the Deep Docks, responsible for the oversight and punishment of lesser workers.",
+        hornetnote:
+          "Lost in the madness of the Haunting, they still commanded the endless excavation of their caves.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/forebrotherssignisandgron.png",
+      image: "../images/Enemies/enemy/forebrotherssignisandgron.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cragglite",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Infant form of the more formidable Craggler.",
+        hornetnote:
+          "If left to grow, these young bugs will fight for dominance until only one remains.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cragglite.png",
+      image: "../images/Enemies/enemy/cragglite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Craggler",
+      health: 200,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Thick-plated scuttler that prefers high places.",
+        hornetnote:
+          "Holds an extensive supply of searing acid in a layered sack within its shell. The acid rains from its mouth upon any creature it sees as food.",
       },
       drops: {
-        shards: 0,
+        shards: 25,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/craggler.png",
+      image: "../images/Enemies/enemy/craggler.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Brushflit",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tiny, timid creatures that huddle in flocks and flee at the first hint of danger.",
+        hornetnote:
+          "They call out to their fellows at the smallest sense of threat. A successful hunt here means staying silent and hidden right up until the decisive strike.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/brushflit.png",
+      image: "../images/Enemies/enemy/brushflit.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Fertid",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Skittish scrambler of the Far Fields. Its antennae resemble stalks of grass to aid in camouflage.",
+        hornetnote:
+          "It has no means to defend itself. Its only hope for survival is to be mistaken for a plant.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/fertid.png",
+      image: "../images/Enemies/enemy/fertid.png",
     },
     {
       name: "",
