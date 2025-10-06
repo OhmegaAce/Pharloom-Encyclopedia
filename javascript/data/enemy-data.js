@@ -714,7 +714,7 @@ const enemyData = {
       image: "../images/Enemies/enemy/deepdiver.png",
     },
     {
-      name: "Forebrothers Signis & Gron",
+      name: "Forebrothers Signis and Gron",
       health: 1240,
       lore: {
         huntersnote:
