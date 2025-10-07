@@ -2057,284 +2057,322 @@ const enemyData = {
       image: "../images/Enemies/enemy/steelspinekai.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Yuma",
+      health: 5,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Gelatinous coral drifter of simple mind and placid demeanour.",
+        hornetnote:
+          "A creature at its most basic. This one is no threat to me, or any other.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/yuma.png",
+      image: "../images/Enemies/enemy/yuma.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Yumama",
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Large, gelatinous drifter. Chases away threats by hurling its bulk around.",
+        hornetnote:
+          "When defeated, it splits into many smaller forms. Yet another remarkable creature of this land before the monarch.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/yumama.png",
+      image: "../images/Enemies/enemy/yumama.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Karaka",
+      health: 90,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Staunch and skilled bladebug of a once flourishing land lost to time.",
+        hornetnote:
+          "The core member of a powerful order, trained fearless and faithful. Theirs was a kingdom of warriors, one built upon their blades.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/karaka.png",
+      image: "../images/Enemies/enemy/karaka.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Kakri",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Lithe, winged scouts frequently paired with their heavier brethren.",
+        hornetnote:
+          "Its training resembles my own, favouring fast strikes and rapid movement. Once a hunter, perhaps?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/kakri.png",
+      image: "../images/Enemies/enemy/kakri.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Yago",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Wide-masked aerial attacker trained to act as support for its grounded companions while remaining at range.",
+        hornetnote:
+          "Not a frontline force, but in my assault upon their tower all emerge to see me stilled.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/yago.png",
+      image: "../images/Enemies/enemy/yago.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Karak Gor",
+      health: 140,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Heavy, hard-shelled charger relying on weight and strength.",
+        hornetnote:
+          "Far tougher for being matched inside their encrusted domain. They must have lived their whole lives within their tower, to command it so.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/karakgor.png",
+      image: "../images/Enemies/enemy/karakgor.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Alita",
+      health: 80,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Leaping hunter of a bygone age. The swiftest of their sect, deftly skilled with spinning foreblades.",
+        hornetnote:
+          "In contests of speed against strength, I have seen the swift more often triumphant, a lesson I have taken to my own heart.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/alita.png",
+      image: "../images/Enemies/enemy/alita.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Corrcrust Karaka",
+      health: 105,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Overgrown elder, able to spawn burning bubbles from within its coral-cased shell.",
+        hornetnote:
+          "This bug's fusion with the crust-growth... It seems intentional, though I imagine the union is far from comfortable.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/corrcrustkaraka.png",
+      image: "../images/Enemies/enemy/corrcrustkaraka.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Crust King Khann",
+      health: 1650,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Hardened warrior lord of a bygone age, able to command the coral crust to his bidding.",
+        hornetnote:
+          "For his stern stewardship his legions seemed utterly loyal. For less combative bugs his would have been a hard rule.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/crustkingkhann.png",
+      image: "../images/Enemies/enemy/crustkingkhann.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Watcher at the Edge",
+      health: 900,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Old warrior guarding the border of their domain, stiffened by time and awoken by song.",
+        hornetnote:
+          "They held long at their vigil, far beyond the age of their brethren, yet still when roused they swung their blade with remarkable ease.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/watcherattheedge.png",
+      image: "../images/Enemies/enemy/watcherattheedge.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Voltvyrm",
+      health: 350,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Coiled nest of charged worms. Assaults intruders with bolts of crackling electricity.",
+        hornetnote:
+          "Barely a bug, and possessing only basic thought, yet instinct alone proved enough to turn it deadly.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/voltvyrm.png",
+      image: "../images/Enemies/enemy/voltvyrm.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Drapefly",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Erratic, flying pest that nests in rags and curtains.",
+        hornetnote:
+          "Like fabric somehow sprung to life. Its pelt is perfectly matched to the rags it infests.",
       },
       drops: {
-        shards: 0,
+        shards: 2,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/drapefly.png",
+      image: "../images/Enemies/enemy/drapefly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Drapelord",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Elder Drapefly grown big from age and consumption. Its heavy body allows it to hit much harder than its younger companions.",
+        hornetnote: "Greed will always see some bugs swell above their kin.",
       },
       drops: {
-        shards: 0,
+        shards: 6,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/drapelord.png",
+      image: "../images/Enemies/enemy/drapelord.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Drapemite",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cloth-covered crawler with sharpened forelimbs. Lives and breeds in dark places.",
+        hornetnote:
+          "Pharloom's structures seem almost built for them. The endless corners and cracks, so perfect for mites to burrow and nest.",
       },
       drops: {
-        shards: 0,
+        shards: 2,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/drapemite.png",
+      image: "../images/Enemies/enemy/drapemite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Giant Drapemite",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Full-sized mite of the Citadel cloaked in an old curtain.",
+        hornetnote:
+          "Few creatures of that Silk stricken place would find nourishment enough to grow so large.",
       },
       drops: {
-        shards: 0,
+        shards: 7,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/giantdrapemite.png",
+      image: "../images/Enemies/enemy/giantdrapemite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Underworker",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Feeble servant of the Underworks with a long twistpin and hard shell.",
+        hornetnote:
+          "With all the refuse collapsing throughout their domain, the worker's stiff shell would be essential if they held any hope to survive.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 2,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/underworker.png",
+      image: "../images/Enemies/enemy/underworker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Underscrub",
+      health: 27,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Drained yet dedicated labourer, wielding a coarse steel brush.",
+        hornetnote:
+          "That they ever hoped to keep their domain clean... What futility.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 1,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/underscrub.png",
+      image: "../images/Enemies/enemy/underscrub.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Undersweep",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Uses their steel bristled pin to scrub the soot from vents and pipes.",
+        hornetnote:
+          "Their sharp cleaning implement is as filthy as the rest of the place. They only layer grime on grime.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 7,
+        beads: 1,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/undersweep.png",
+      image: "../images/Enemies/enemy/undersweep.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Underpoke",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Drained worker on the verge of collapse. Consumed by the Haunting, they continue to work far beyond their mortal limits.",
+        hornetnote:
+          "They toiled incessantly for the Citadel, their shells bent and greyed, and now the kingdom's curse means not even death can relieve them.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 5,
+        beads: 3,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/underpoke.png",
+      image: "../images/Enemies/enemy/underpoke.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Underloft",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Exhausted bug, grown sickly from the smog of the Underworks. The worker's twistpins, once tools of repair, now serve as spun projectiles.",
+        hornetnote:
+          "The cost of so much grandeur... Did I peer closely enough into the foundations of my own kingdom?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 3,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/underloft.png",
+      image: "../images/Enemies/enemy/underloft.png",
     },
     {
       name: "",
