@@ -950,564 +950,635 @@ const enemyData = {
       image: "../images/Enemies/enemy/lastclaw.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skarrsinger Karmelita",
+      health: 1500,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Song queen of the Skarr and their most talented warrior.",
+        hornetnote:
+          "This graceful ruler once possessed skill to rival my own. At her youthful peak, her voice united all Skarr in her service.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skarrsingerkarmelita.png",
+      image: "../images/Enemies/enemy/skarrsingerkarmelita.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mite",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Verminous pest, common throughout the dark corners of Greymoor.",
+        hornetnote:
+          "Individually they offer little challenge, but their numbers are surely vast, and most remain hidden.",
       },
       drops: {
-        shards: 0,
+        shards: 3,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mite.png",
+      image: "../images/Enemies/enemy/mite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Fluttermite",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Airborne pest, less common than its grounded siblings. Attacks with sharp fangs if agitated.",
+        hornetnote:
+          "Similar bugs would gnaw away at unguarded food supplies in my homeland. As a child, I would hunt them, eager to make use of myself and test my skills.",
       },
       drops: {
-        shards: 0,
+        shards: 3,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/fluttermite.png",
+      image: "../images/Enemies/enemy/fluttermite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mitemother",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aged female mite, grown larger and stronger than most of its kin.",
+        hornetnote:
+          "Poor of sight but possessing a keen sense of smell, it uses its bulk to charge at foreign scents. Remaining fierce so far into old age is an admirable trait.",
       },
       drops: {
-        shards: 0,
+        shards: 10,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mitemother.png",
+      image: "../images/Enemies/enemy/mitemother.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Dreg Catcher",
+      health: 21,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Bug charged to catch dregs of Silk that fall from the Citadel. Will attack with its staff if provoked.",
+        hornetnote:
+          "These bugs look to have spent every waking moment at their work. Grim, endless labour in service of the unseen Citadel above.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/dregcatcher.png",
+      image: "../images/Enemies/enemy/dregcatcher.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Silk Snipper",
+      health: 29,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Scissor-wielding bug charged to cut and spool fallen dregs of Silk for return to the Citadel above.",
+        hornetnote:
+          "Is it the Haunting that drove them to cackling madness, or was their unending toil the cause even before that?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 5,
+        beads: 18,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/silksnipper.png",
+      image: "../images/Enemies/enemy/silksnipper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Thread Raker",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tall bug charged to pile Silk dregs in preparation for respooling. Their sharp rake now doubles equally well as a stabbing weapon.",
+        hornetnote:
+          "Theirs seems a sad, grueling task, serving their lifetime for a Citadel unseen.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 8,
+        beads: 19,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/threadraker.png",
+      image: "../images/Enemies/enemy/threadraker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Moorwing",
+      health: 600,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Winged mite-beast, bred large to catch workers who once tried to flee their tasks.",
+        hornetnote:
+          "With its wranglers long dead, the Moorwing stalked the towers of Greymoor, feasting on passing pilgrims and tenders alike.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/moorwing.png",
+      image: "../images/Enemies/enemy/moorwing.png",
     },
     {
-      name: "",
+      name: "Wisp",
       health: 0,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Short-lived sprite born of flickering flame.",
+        hornetnote:
+          "To live only a single, bright moment... What would one feel? Is it glorious, or only despair? Or could it be both, mixed equal?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wisp.png",
+      image: "../images/Enemies/enemy/wisp.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Burning Bug",
+      health: 90,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Many-legged insect fanatically obsessed with flame.",
+        hornetnote:
+          "These ones somehow learnt to call and guide the scorching Wisps that share their thicket. Whether through dominance or reverence is unclear.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/burningbug.png",
+      image: "../images/Enemies/enemy/burningbug.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Father of the Flame",
+      health: 640,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Totem and god, built and worshipped by the Burning Bugs.",
+        hornetnote:
+          "The remains of an aged bug were housed at the pyre's heart. The structure suggested they wished for immolation. If so, I have seen their wish granted.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/fatheroftheflame.png",
+      image: "../images/Enemies/enemy/fatheroftheflame.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Craw",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Screeching scavenger that roosts high in caverns and preys on passing pilgrims.",
+        hornetnote:
+          "By this swooping menace, a simple bug could be easily overcome. More dangerous still, they rarely attack alone.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/craw.png",
+      image: "../images/Enemies/enemy/craw.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Tallcraw",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Rag-winged adult crawbug bearing a scavenged pin.",
+        hornetnote:
+          "Far more hostile than their younger companions but seemingly less likely to roam far from their nest.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/tallcraw.png",
+      image: "../images/Enemies/enemy/tallcraw.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Squatcraw",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Stout adult crawbug bearing several short pins.",
+        hornetnote:
+          "A cowardly sort. They will try to remain at range to throw their sharp weapons. Best to rush them down and cut quick.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/squatcraw.png",
+      image: "../images/Enemies/enemy/squatcraw.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Craw Juror",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Screeching scavenger dyed black in mourning at their land's collapse.",
+        hornetnote:
+          "Weak, afraid, and aware of the imminent end. I understand their desperation, but my death will not prevent the coming fall.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/crawjuror.png",
+      image: "../images/Enemies/enemy/crawjuror.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Tallcraw Juror",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Elder crawbug serving in a sacred ceremony.",
+        hornetnote:
+          "Curiosity saw me answer their summons, but I shall not allow them to stall me long. I must work fast to fix my grand mistake.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/tallcrawjuror.png",
+      image: "../images/Enemies/enemy/tallcrawjuror.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Squatcraw Juror",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Short elder crawbug eagerly serving in their court.",
+        hornetnote:
+          "They seek to slay their only chance at survival. Alas, any words would fall useless. I have only my blade to offer response.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/squatcrawjuror.png",
+      image: "../images/Enemies/enemy/squatcrawjuror.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Crawfather",
+      health: 1300,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Lord and justice of Pharloom's craws. Delivers death to condemned bugs with his steel-plated beak.",
+        hornetnote:
+          "Did he recognise my part played in this land's void-strung state? If so, perhaps his judgment was not unfair. To these bugs I have brought much destruction.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/crawfather.png",
+      image: "../images/Enemies/enemy/crawfather.png",
     },
     {
-      name: "",
+      name: "Muckmaggot",
       health: 0,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Mindless infant larva, coated in a thick slime.",
+        hornetnote:
+          "They cling fast to the shells of other bugs, destroying any hope for concentration or comfort.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/muckmaggot.png",
+      image: "../images/Enemies/enemy/muckmaggot.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Slubberlug",
+      health: 22,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Younger form of a Muckroach. Attacks prey by leaping from the water and snapping with its flexible jaws.",
+        hornetnote:
+          "These creatures look to have been bred deliberately in watery pens. If they are food to be, their scent suggests they must taste vile.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/slubberlug.png",
+      image: "../images/Enemies/enemy/slubberlug.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Muckroach",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Starved pack bug with an insatiable appetite. Despite their tough hide and pungent meat, roaches breed rapidly so are sometimes farmed for food.",
+        hornetnote:
+          "A revolting creature. My shell itches at their presence. In the pens where their numbers grow vast, I am forever on edge.",
       },
       drops: {
-        shards: 0,
+        shards: 5,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/muckroach.png",
+      image: "../images/Enemies/enemy/muckroach.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Bloatroach",
+      health: 80,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Obese offshoot of the Muckroaches, born of the Citadel's exhaust smog. The winged roach's sagging stomach is filled with sizzling bile.",
+        hornetnote:
+          "Its form is absurd... Surely it would not be able to hold itself in the air? The noxious gasses in its stomach must provide its levity.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/bloatroach.png",
+      image: "../images/Enemies/enemy/bloatroach.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Roachcatcher",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Short, nimble bug who uses bolas to keep beasts corralled and caged.",
+        hornetnote:
+          "Their throwing weapon is well-suited to the wide caverns they inhabit. These sly little bugs have a keen claw for crafting.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/roachcatcher.png",
+      image: "../images/Enemies/enemy/roachcatcher.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Roachfeeder",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tall roach tender charged to feed Muckroaches on a lean diet of maggot gruel.",
+        hornetnote:
+          "The feeder's curled pin looks designed to keep ravenous roaches at bay, and the tender from turning into the meal.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/roachfeeder.png",
+      image: "../images/Enemies/enemy/roachfeeder.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Roachkeeper",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Grizzled older roach tender weighted with a lasso of heavy chain.",
+        hornetnote:
+          "Though their mind is largely lost their skill with a chain has not been forgotten. Does the Haunting eternally bind a bug to the task it had in life?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 20,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/roachkeeper.png",
+      image: "../images/Enemies/enemy/roachkeeper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Roachserver",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Brutish cook responsible for dicing Muckroach meat into edible portions.",
+        hornetnote:
+          "Could their actions be called skill? I see only a crude mangling of meat. Yet I wonder, before the Haunting snared their minds was it any different?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/roachserver.png",
+      image: "../images/Enemies/enemy/roachserver.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Disgraced Chef Lugoli",
+      health: 600,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Once exulted chef, exiled from the Citadel for repeated culinary crimes",
+        hornetnote:
+          "Returned to their home caves, this chef continued to devise delicacies too repulsive for any bug still sane.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/disgracedcheflugoli.png",
+      image: "../images/Enemies/enemy/disgracedcheflugoli.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Wraith",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Anguished spectre of lingering thread. Despite its ephemeral nature, strong strikes can dispel the Wraith for a time.",
+        hornetnote:
+          "Not a bug but a projection of another's will in smog and Silk.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wraith.png",
+      image: "../images/Enemies/enemy/wraith.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mothleaf Lagnia",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "A rare, calmer bug of Bilewater, survives its hazardous surroundings by hiding as a plant.",
+        hornetnote:
+          "This one is pretty, but not as soft as it first seems. The plant it mimics is flaked and coarse, and the bug's coat shares similar texture.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mothleaflagnia.png",
+      image: "../images/Enemies/enemy/mothleaflagnia.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Miremite",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Crawling insect with a sizzling bile sack in its abdomen.",
+        hornetnote:
+          "The threat of its exploding rear is an effective deterrent to predators, but the slightest jolt or fall can cause its premature end.",
       },
       drops: {
-        shards: 0,
+        shards: 5,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/miremite.png",
+      image: "../images/Enemies/enemy/miremite.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Swamp Squit",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Plentiful pest with a sharp proboscis and a belly full of bile.",
+        hornetnote:
+          "More dangerous in the moment of its explosive and corrosive death than it ever was in life.",
       },
       drops: {
-        shards: 0,
+        shards: 3,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/swampSquit.png",
+      image: "../images/Enemies/enemy/swampSquit.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Spit Squit",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Hovering pest with a hollowed proboscis able to spit gobs of sizzling bile.",
+        hornetnote:
+          "To subsist on the sickly water in this fetid environment it spits out the most toxic elements. Over generations, this former survival technique has turned into an effective hunting tool.",
       },
       drops: {
-        shards: 0,
+        shards: 2,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/spitSquit.png",
+      image: "../images/Enemies/enemy/spitSquit.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Stilkin",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cunning bug that hunts with darts fashioned from stake and bile.",
+        hornetnote:
+          "They know well their domain, lurking in wait in its byways and bogs, always ready to pounce.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/stilkin.png",
+      image: "../images/Enemies/enemy/stilkin.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Stilkin Trapper",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Trap setting bug carrying a pouch of sharpened long-stakes.",
+        hornetnote:
+          "More bother than the bug themself are the countless traps they have already laid throughout their caves.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/stilkinTrapper.png",
+      image: "../images/Enemies/enemy/stilkinTrapper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Groal the Great",
+      health: 650,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Chief and chaplain of the Stilkin, forever raging against the Citadel that chokes their caves and sees them suffer.",
+        hornetnote:
+          "This one's strength was much enhanced by stolen soul. They are not the first who tried to hoard it, or to mould it towards such violent ends.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/groalthegreat.png",
+      image: "../images/Enemies/enemy/groalthegreat.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Barnak",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Toothy growth that lives on cave roofs. Wraps wayward bugs with its long tongue and drags them up to be consumed.",
+        hornetnote:
+          "Hiding its tongue amongst fronds so similar... There is impressive style to this one's trickery.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/barnak.png",
+      image: "../images/Enemies/enemy/barnak.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Ductsucker",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Suction creature surviving on the thick slime that coats its caves.",
+        hornetnote:
+          "This mindless bug seems to sense only through its tendrils, yet despite that simplicity it still poses a serious threat.",
       },
       drops: {
-        shards: 0,
+        shards: 12,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/ductsucker.png",
+      image: "../images/Enemies/enemy/ductsucker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pond Skipper",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Hard-shelled insect common upon the surface of Shellwood Pond. Once a staple food for passing pilgrims.",
+        hornetnote:
+          "The way they skate along the water's surface is so elegant. Surely it is a skill that can be learned? When time permits, I should attempt the task.",
       },
       drops: {
-        shards: 0,
+        shards: 3,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pondskipper.png",
+      image: "../images/Enemies/enemy/pondskipper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pondcatcher",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Old catcher over Shellwood Pond, bearing a longpin and stricken by the Haunting.",
+        hornetnote:
+          "Once a hunter purely for food, now they hunt unthinking and unending.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pondcatcher.png",
+      image: "../images/Enemies/enemy/pondcatcher.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shellwood Gnat",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tiny, soft creature that armours itself using the hard, hollow growths of Shellwood.",
+        hornetnote:
+          "If the woody hide is shattered, the bug will still bravely, foolishly try to attack.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shellwoodgnat.png",
+      image: "../images/Enemies/enemy/shellwoodgnat.png",
     },
     {
       name: "",
