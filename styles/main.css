@@ -275,7 +275,11 @@ nav {
 }
 
 #enemy-container .parallax-container img {
-  max-width: 80px; /* Smaller images for the denser grid */
+  /* Set a fixed size for all enemy thumbnails */
+  width: 80px;
+  height: 80px;
+  /* Ensure the image scales correctly without distortion */
+  object-fit: contain;
 }
 
 #enemy-container .character-link-name {
