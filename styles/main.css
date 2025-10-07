@@ -101,18 +101,21 @@ nav {
 .nav li a {
   text-decoration: none;
   padding: 8px 16px;
-  background: linear-gradient(45deg, #ff0000, #000000);
+  /* Create a double-wide gradient and set its initial position */
+  background: linear-gradient(45deg, #ff0000, #000000, #ff0000);
+  background-size: 200% 100%;
+  background-position: 100% 0;
   color: white;
   border: 2px solid #ff4500;
   border-radius: 8px;
-  transition: all 0.3s ease;
+  transition: background-position 0.5s ease, transform 0.3s ease; /* Animate background-position */
   display: inline-block;
   text-align: center;
 }
 
 .nav li a:hover {
-  /* The transform is now handled by parallax.js, so we remove it from here */
-  background: linear-gradient(45deg, #000000, #ff0000);
+  /* On hover, slide the background to its other end */
+  background-position: 0 0;
 }
 
 /* -------------------- */
