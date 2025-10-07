@@ -2375,74 +2375,82 @@ const enemyData = {
       image: "../images/Enemies/enemy/underloft.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Undercrank",
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Heavy, hard-shelled worker, forever repairing the Citadel's crumbling Underworks.",
+        hornetnote:
+          "There seem no ranks in their domain, yet this one has risen above the rest. A station likely gained through intimidation and thuggery.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 11,
+        beads: 3,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/undercrank.png",
+      image: "../images/Enemies/enemy/undercrank.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Envoy",
+      health: 38,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Guide and ofttimes leader within the Citadel's Choir.",
+        hornetnote:
+          "Bugs like these crossed the caves to bring me to Pharloom. I cut down many before my capture. Then I had thought them minded and cunning. Now I see the singular will that haunts them all.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 13,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/envoy.png",
+      image: "../images/Enemies/enemy/envoy.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Pouncer",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Agile bug, and one of few hardy pilgrims to have reached the Citadel.",
+        hornetnote:
+          "Once one of Pharloom's favoured bugs, and yet their domain and their shells would have been the first to fall to the Haunting.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 2,
+        beads: 14,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirpouncer.png",
+      image: "../images/Enemies/enemy/choirpouncer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Hornhead",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Full-grown former pilgrim serving the Citadel.",
+        hornetnote:
+          "Did this one grow large thanks to the Citadel's excess, or was its formidable size the reason it ever survived to reach this place?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirhornhead.png",
+      image: "../images/Enemies/enemy/choirhornhead.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Bellbearer",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Winged devout of the Citadel, carrying a brace of gilded bells.",
+        hornetnote:
+          "Pharloom proves often the effectiveness of bells as weapons. Never before had I considered them as such.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 2,
+        beads: 11,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirbellbearer.png",
+      image: "../images/Enemies/enemy/choirbellbearer.png",
     },
     {
       name: "",
