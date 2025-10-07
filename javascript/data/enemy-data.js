@@ -2646,10 +2646,12 @@ const enemyData = {
     },
     {
       name: "Dregwheel",
-      health: 0,
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Shell of a small bug possessed by Silk dregs. The husk will stretch its Silk to form a crude, crushing wheel.",
+        hornetnote:
+          "Living Silk commanding a dead shell... An affront to nature, and one all too common across Pharloom.",
       },
       drops: {
         shards: 0,
@@ -2660,10 +2662,12 @@ const enemyData = {
     },
     {
       name: "Surgeon",
-      health: 0,
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cruel physician of Whiteward, responsible for operations and modifications on the Citadel's bugs.",
+        hornetnote:
+          "Their procedures with Silk may have prolonged life within the Citadel, but they unknowingly gifted many minds to the monarch.",
       },
       drops: {
         shards: 0,
@@ -2674,227 +2678,258 @@ const enemyData = {
     },
     {
       name: "Mortician",
-      health: 0,
+      health: 95,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Altered servant of the Citadel's Whiteward, responsible for the cremation of husks and the recycling of Silk from their shells.",
+        hornetnote:
+          "It lies low to the ground, perhaps out of reverence for its task, but can spring up suddenly to attack. Its shear makes for a deadly weapon with surprising reach.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 30,
       },
       thumbnail: "../images/Enemies/thumbnail/mortician.png",
       image: "../images/Enemies/enemy/mortician.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "The Unravelled",
+      health: 1000,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tormented will of countless husks made manifest in a pit of Silk dregs.",
+        hornetnote:
+          "The souls of so many bugs, obsessed with Silk, consumed by it. Their pain shall forever remain in that pit. Even I do not possess strength enough to cleanse it.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/theunravelled.png",
+      image: "../images/Enemies/enemy/theunravelled.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Underfly",
+      health: 4,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small automaton built to work, without complaint, in the scorching heat of the Underworks' Cauldron.",
+        hornetnote:
+          "It is no wonder these constructs were cast. No mortal bug would last long inside that scorching place. Even my shell struggles to withstand its heat.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkunderfly.png",
+      image: "../images/Enemies/enemy/cogworkunderfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Hauler",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small automaton with a shielded shell, intended to carry loads of dangerous flintflame.",
+        hornetnote:
+          "Born and built only to work until time stiffens its limbs. Perhaps it is mercy this construct knows nothing of the freedom it lacks.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkhauler.png",
+      image: "../images/Enemies/enemy/cogworkhauler.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Crawler",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Automaton built in the shape of a scuttling bug. Its back contains retractable pins, intended to cut song cylinders free of any obstruction.",
+        hornetnote:
+          "Its form is certainly based on bugs found outside the Citadel. In my own craftwork, I too often look to nature for inspiration.",
       },
       drops: {
-        shards: 0,
+        shards: 1,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkcrawler.png",
+      image: "../images/Enemies/enemy/cogworkcrawler.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogworker",
+      health: 28,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Flighted automaton, responsible for repairing and extending the Core.",
+        hornetnote:
+          "More effective an opponent than would be guessed. The precarity of its winding domain can make even its simple assault a challenge.",
       },
       drops: {
-        shards: 0,
+        shards: 1,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworker.png",
+      image: "../images/Enemies/enemy/cogworker.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Spine",
+      health: 21,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Spherical, winged automaton housing many sharp spikes.",
+        hornetnote:
+          "I cannot decipher its function to the greater Core. Is it built for defense? If so, its passivity seems far from optimal.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkspine.png",
+      image: "../images/Enemies/enemy/cogworkspine.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Choirbug",
+      health: 35,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Bug forged of iron, rotor and cog. The automaton works tirelessly to maintain the Core that houses it.",
+        hornetnote:
+          "Its core is filled with fine mechanisms, but that alone should not produce such a convincing mimic of life. Silk must also be used to animate this artifice, though exactly how I am not sure.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkchoirbug.png",
+      image: "../images/Enemies/enemy/cogworkchoirbug.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Cleanser",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Steam shooting automaton, forged to clean the Cogwork Core and keep it free of infestation.",
+        hornetnote:
+          "An inspired use of steam. I must remember its construction when designing future tools.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkcleanser.png",
+      image: "../images/Enemies/enemy/cogworkcleanser.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Defender",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cogwork construct forged primarily for the Core's protection. Bears a shield and poke-pin, and possesses a lethal understanding of their use.",
+        hornetnote:
+          "It has no true mind, and yet fights effectively, adjusting its strategy to my movements. Where exactly are its thoughts written?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkdefender.png",
+      image: "../images/Enemies/enemy/cogworkdefender.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Clapper",
+      health: 145,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Rare automaton intended to perform the ringing of bells and cymbals in the depths of the Core.",
+        hornetnote:
+          "I have not yet seen the bell this automaton is designed to ring, nor do I ever wish to hear it. Such a clamour would no doubt be unpleasant to experience.",
       },
       drops: {
-        shards: 0,
+        shards: 20,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkclapper.png",
+      image: "../images/Enemies/enemy/cogworkclapper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cogwork Dancers",
+      health: 630,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Automatons of impeccable construction, welcoming entrants to their chambers with a display of deadly dance.",
+        hornetnote:
+          "Two cogwork bugs, and yet the soul seemed singular? A sad, yet masterful imitation of life, imbued inside shells of iron.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cogworkdancers.png",
+      image: "../images/Enemies/enemy/cogworkdancers.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Vaultborn",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Young acolyte raised in the darkest vaults, destined to ascend to the rank of Scrollreader.",
+        hornetnote:
+          "In entering their domain, I freed these bugs to infest the greater vaults. They are a nuisance, and I have only myself to blame.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 5,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/vaultborn.png",
+      image: "../images/Enemies/enemy/vaultborn.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lampbearer",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Disciple of the Whispering Vaults, tasked to navigate its dim recesses to retrieve old scrolls.",
+        hornetnote:
+          "An essential bug if one ever hoped to navigate that dark maze of stacks and scrolls.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 20,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lampbearer.png",
+      image: "../images/Enemies/enemy/lampbearer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Scrollreader",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Gilded servant of the Whispering Vaults, born to read and recall the near endless scrolls of prayer.",
+        hornetnote:
+          "Did they ever truly understand those inscrutable scrolls? Or is it all merely pretence, an endless act to maintain their order's station within the Citadel?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 8,
+        beads: 23,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/scrollreader.png",
+      image: "../images/Enemies/enemy/scrollreader.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Vaultkeeper",
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "High caste bug, responsible for delivering sermons and leading prayer for those beyond the walls of the Whispering Vaults.",
+        hornetnote:
+          "Most likely this one's true charge was to root out and condemn those not seen as sufficiently fervent.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 20,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/vaultkeeper.png",
+      image: "../images/Enemies/enemy/vaultkeeper.png",
     },
     {
       name: "",
