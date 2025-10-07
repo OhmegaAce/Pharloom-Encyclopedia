@@ -68,6 +68,7 @@ h2 {
   background-position: center;
   background-position-y: px;
   padding-bottom: 70px;
+  filter: drop-shadow(1px 1px 2px black);
 }
 
 /* -------------------- */
@@ -140,6 +141,8 @@ nav {
   height: auto;
   transition: transform 0.1s ease-out; /* Match JS for smoother follow */
   transform-style: preserve-3d;
+  /* Add a drop shadow to make the image pop */
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.7));
 }
 
 .parallax-container .tool-image-table {
@@ -561,12 +564,15 @@ nav {
   background-color: #ff4500;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 0; /* Remove padding to use flexbox for centering */
   border-radius: 50%; /* Make it circular */
   width: 50px;
   height: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s, transform 0.3s;
+  /* Use flexbox to center the image inside */
+  justify-content: center;
+  align-items: center;
 }
 
 #back-to-top-btn:hover {
@@ -575,9 +581,8 @@ nav {
 }
 
 #back-to-top-btn img {
-  width: 15px;
-  height: 15px;
-  margin: auto;
+  width: 20px; /* Adjust size as needed */
+  height: auto;
 }
 /* ============================================ */
 /* Responsive Styles for Mobile                 */
