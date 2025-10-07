@@ -63,8 +63,11 @@ footer {
 /* -------------------- */
 h2 {
   text-align: center;
-  border-bottom-style: dashed;
-  border-color: red;
+  background-image: url("../images/icons/divider.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: px;
+  padding-bottom: 70px;
 }
 
 /* -------------------- */
@@ -571,6 +574,10 @@ nav {
   transform: translateY(-3px);
 }
 
+#back-to-top-btn img {
+  width: 15px;
+  height: 15px;
+}
 /* ============================================ */
 /* Responsive Styles for Mobile                 */
 /* ============================================ */
