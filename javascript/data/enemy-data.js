@@ -2453,105 +2453,119 @@ const enemyData = {
       image: "../images/Enemies/enemy/choirbellbearer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Flyer",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aerial bug of the Citadel, unarmed but for its short horn.",
+        hornetnote:
+          "For this bug to have survived Pharloom's climb it must have teamed with stouter companions. I cannot imagine it succeeding alone.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 11,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirflyer.png",
+      image: "../images/Enemies/enemy/choirflyer.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Elder",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Aged former pilgrim. Uses their wings to position above threats and crush them under their large shell.",
+        hornetnote:
+          "Time allowed their shell to grow thick, all the better for battering their targets.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 6,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirelder.png",
+      image: "../images/Enemies/enemy/choirelder.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choristor",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Disciple of the Choir, elevated above other pilgrims, and forced to cowl their face forever more.",
+        hornetnote:
+          "Their use of a pin shows hard training. Their use of Silk, unfurled from a spool held close, shows skill far beyond standard bugs.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 15,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choristor.png",
+      image: "../images/Enemies/enemy/choristor.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Reed",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Disciple of the Choir, charged to maintain its perfect order, by sharp pin if necessary.",
+        hornetnote:
+          "A form well suited for combat, lithe and fast. No surprise it seems to rank so high amongst its cult.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 7,
+        beads: 20,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/reed.png",
+      image: "../images/Enemies/enemy/reed.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Grand Reed",
+      health: 130,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "High standing insect of the Choir, bearing a bow. This elite Reed has been trained and fed beyond its smaller fellows.",
+        hornetnote:
+          "This bug bears a spool of Silk, which they flail to attack. Though somewhat crude, theirs is a technique much reminiscent of Weavers. I wonder who taught them such a use?",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 32,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/grandreed.png",
+      image: "../images/Enemies/enemy/grandreed.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Choir Clapper",
+      health: 230,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Mighty percussive disciple of the Choir, wielding a mallet and a Silk spool to wrap and enhance their attacks.",
+        hornetnote:
+          "There is no finesse in its use of Silk. It consumes its slim supply only to amplify its force.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/choirclapper.png",
+      image: "../images/Enemies/enemy/choirclapper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Clawmaiden",
+      health: 48,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Puppet servants of the Citadel, suspended on strings of Silk. An early form of automaton, requiring extensive Silk to maintain its service.",
+        hornetnote:
+          "If given a chance, this one will steal silk from any significant source, including my own shell.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/clawmaiden.png",
+      image: "../images/Enemies/enemy/clawmaiden.png",
     },
     {
-      name: "",
+      name: "Memoria",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2561,11 +2575,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/memoria.png",
+      image: "../images/Enemies/enemy/memoria.png",
     },
     {
-      name: "",
+      name: "Minister",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2575,11 +2589,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/minister.png",
+      image: "../images/Enemies/enemy/minister.png",
     },
     {
-      name: "",
+      name: "Maestro",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2589,11 +2603,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/maestro.png",
+      image: "../images/Enemies/enemy/maestro.png",
     },
     {
-      name: "",
+      name: "Second Sentinel",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2603,11 +2617,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/secondsentinel.png",
+      image: "../images/Enemies/enemy/secondsentinel.png",
     },
     {
-      name: "",
+      name: "Dreg Husk",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2617,11 +2631,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/dregusk.png",
+      image: "../images/Enemies/enemy/dregusk.png",
     },
     {
-      name: "",
+      name: "Dregwheel",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2631,11 +2645,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/dregwheel.png",
+      image: "../images/Enemies/enemy/dregwheel.png",
     },
     {
-      name: "",
+      name: "Surgeon",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2645,11 +2659,11 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/surgeon.png",
+      image: "../images/Enemies/enemy/surgeon.png",
     },
     {
-      name: "",
+      name: "Mortician",
       health: 0,
       lore: {
         huntersnote: "",
@@ -2659,8 +2673,8 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mortician.png",
+      image: "../images/Enemies/enemy/mortician.png",
     },
     {
       name: "",
