@@ -1581,424 +1581,480 @@ const enemyData = {
       image: "../images/Enemies/enemy/shellwoodgnat.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Wood Wasp",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Pointed, darting insect that builds a hardy hive from Shellwood's dried bark.",
+        hornetnote:
+          "Destroying the hives will limit their presence in the wood. Useful to me now, as I pass along the branches. Dangerous in time for the wood's order. Even a small disruption can tip a fragile balance.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/woodwasp.png",
+      image: "../images/Enemies/enemy/woodwasp.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Splinter",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Insect formed to imitate a branch, capable of remaining perfectly still for long periods, but unexpectedly Swift when roused.",
+        hornetnote:
+          "Avoiding their ambush is a good test of my senses, and my ability to rapidly retaliate.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/splinter.png",
+      image: "../images/Enemies/enemy/splinter.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Splinterhorn",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Insect formed to imitate a branch, born with sharp, retractable horns atop its head.",
+        hornetnote:
+          "Its shell gives it the advantage of surprise, but also forces it into a slender, brittle shape that cannot withstand a heavy attack.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/splinterhorn.png",
+      image: "../images/Enemies/enemy/splinterhorn.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Splinterbark",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Winged insect with a flaky shell that perfectly mimics its environment.",
+        hornetnote:
+          "Its assault... like a young bug's toy turned deadly. Could I, in time, fashion a spinning tool to match?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/splinterbark.png",
+      image: "../images/Enemies/enemy/splinterbark.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Sister Splinter",
+      health: 310,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Imposing old insect nesting in the heights of Shellwood. Her command of twig and branch ensured no pilgrim ever survived her territory.",
+        hornetnote:
+          "This one lived long and fed much. The wood will be much safer for their slaying.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/sistersplinter.png",
+      image: "../images/Enemies/enemy/sistersplinter.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Phacia",
+      health: 15,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Drifting bug disguised as a flower. Disperses crackling clouds of pollen if threatened.",
+        hornetnote:
+          "Quite a beautiful creature. In my own kingdom's court, it would have been highly favoured as an ornamental pet.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/phacia.png",
+      image: "../images/Enemies/enemy/phacia.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pollenica",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Floral foe that reacts instinctively to movement nearby. Spits pellets of crackling pollen that burst on impact.",
+        hornetnote:
+          "What exceptional senses it possesses. It detects me with ease, even when not a single sound is made.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pollenica.png",
+      image: "../images/Enemies/enemy/pollenica.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Gahlia",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Floral foe with a core shaped to mimic a mask. The core can be thrust forth to bludgeon unwary bugs.",
+        hornetnote:
+          "The false mask alone is frightening enough to scare away smaller pests.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/gahlia.png",
+      image: "../images/Enemies/enemy/gahlia.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shrine Guardian Seth",
+      health: 1185,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Eternal defender of the Shellwood Shrine. His pin and cymbal show many marks of their use.",
+        hornetnote:
+          "He offered fair warning and challenge, a duel in the purest sense. I admire his honour, and his skill.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shrineguardianseth.png",
+      image: "../images/Enemies/enemy/shrineguardianseth.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Nyleth",
+      health: 1250,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Ancient heart of Shellwood, connected to all its living things.",
+        hornetnote:
+          "Her presence would once have maintained the wood's fragile order, allowing the safe passage of bugs across its branches.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/nyleth.png",
+      image: "../images/Enemies/enemy/nyleth.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Furm",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Burrower that nests in the Bellvein and seeks out hard bells to protect its soft body.",
+        hornetnote:
+          "I would very much like to feel their soft fur, if only they weren't so hostile.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/furm.png",
+      image: "../images/Enemies/enemy/furm.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Winged Furm",
+      health: 30,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Furred bug beneath a heavy bell. It has grown too large to burrow, but in maturing has developed small wings.",
+        hornetnote:
+          "Huge and soft, a fantastic combination ruined by their haunted aggression.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wingedfurm.png",
+      image: "../images/Enemies/enemy/wingedfurm.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pharlid",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small arachnid found in many crevices and caves throughout Pharloom.",
+        hornetnote:
+          "Something in their assault reminds me of my own skill, though their talents are born purely of instinct. My technique is formed from hard training.",
       },
       drops: {
-        shards: 0,
+        shards: 5,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pharlid.png",
+      image: "../images/Enemies/enemy/pharlid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pharlid Diver",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Arachnid that nestles within dark holes in cavern roofs. Pounces on prey from far above.",
+        hornetnote:
+          "A smart hunter learns to wait long in ambush, always ready to strike the first blow.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pharliddiver.png",
+      image: "../images/Enemies/enemy/pharliddiver.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shardillard",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Devious ambusher that poses as a fossil.",
+        hornetnote:
+          "Once roused, the bug will crash its steely shell into walls, floors and foes.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shardillard.png",
+      image: "../images/Enemies/enemy/shardillard.png",
     },
     {
-      name: "",
+      name: "Sandcarver",
       health: 0,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Shell plated worm that lives beneath pools of shifting sand.",
+        hornetnote:
+          "Bursts forth at movement sensed close, and will consume any object or bug careless enough to fall into its maw.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/sandcarver.png",
+      image: "../images/Enemies/enemy/sandcarver.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Squirmm",
+      health: 12,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Wriggling young grub that lives in darkness.",
+        hornetnote:
+          "If allowed the opportunity, these creatures will grow into a form larger and more oppressive.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/squirmm.png",
+      image: "../images/Enemies/enemy/squirmm.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Judge",
+      health: 75,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Gilded guardian of the Blasted Steps, bearing a cymbal and mallet.",
+        hornetnote:
+          "They remorselessly eliminate any pilgrim or passerby deemed impure to their sight. The countless husks, strewn on paths beside them, tell of their conclusive decisions.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 7,
+        beads: 19,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/judge.png",
+      image: "../images/Enemies/enemy/judge.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Last Judge",
+      health: 720,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Final arbiter of the Blasted Steps, tasked to ensure only the sinless ever step beyond the Grand Gate.",
+        hornetnote:
+          "The huge Judge likely stood through countless generations, never defeated, never wavering in their charge.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lastjudge.png",
+      image: "../images/Enemies/enemy/lastjudge.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Coral Furm",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Dark-furred bug protecting itself with a spiked coral nut.",
+        hornetnote:
+          "Its fur is thick and silky. Sadly, lost to its Haunting, I shall never safely be able to touch it.",
       },
       drops: {
-        shards: 0,
+        shards: 4,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/coralfurm.png",
+      image: "../images/Enemies/enemy/coralfurm.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Driznit",
+      health: 29,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Nesting creature that fuses its face with sharpened coral.",
+        hornetnote:
+          "It is easy to be caught off-guard by the ricocheting trajectory of its flung mask, especially in tight corners.",
       },
       drops: {
-        shards: 0,
+        shards: 5,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/driznit.png",
+      image: "../images/Enemies/enemy/driznit.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Driznarga",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Large male Driznit, ferocious and territorial. Fires its heavy coral mask at intruders.",
+        hornetnote:
+          "A fine shot with its sharp mask. Its aggression has no ill effect on its aim.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/driznarga.png",
+      image: "../images/Enemies/enemy/driznarga.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pokenabbin",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Drifting creature with a wide coral mask and hard proboscis to stab its prey.",
+        hornetnote:
+          "Passively waits for prey to blunder into its path. A technique that should not necessarily be derided. Whatever is effective is best.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pokenabbin.png",
+      image: "../images/Enemies/enemy/pokenabbin.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Conchfly",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small bug that crafts a shell of sharpened coral. Spins its shell at rapid speed to cut through crust and bone.",
+        hornetnote:
+          "The way it darts in and out of the ground has an almost playful quality to it. An amusing and effective way to ambush prey.",
       },
       drops: {
-        shards: 0,
+        shards: 6,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/conchfly.png",
+      image: "../images/Enemies/enemy/conchfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Great Conchfly",
+      health: 400,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Elder Conchfly crowned with a huge coral horn. Once partnered with a mate, they will rarely be seen alone.",
+        hornetnote:
+          "To pair with another is a base instinct, and one that brings some bugs great joy. I once sought similar union, but of my own mates none could match my lifespan.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/greatconchfly.png",
+      image: "../images/Enemies/enemy/greatconchfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Crustcrawler",
+      health: 25,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Soft-shelled scrambler encased in coral.",
+        hornetnote:
+          "Hidden amongst their tower's matching crust, these smaller bugs would have survived and thrived.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/crustcrawler.png",
+      image: "../images/Enemies/enemy/crustcrawler.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Crustcrag",
+      health: 80,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Coral hulk with a dense shell, bred to immense size by the Citadel's Memorium.",
+        hornetnote:
+          "Nature distorted... This bug was born tiny and mild. The Citadel deformed it in futile hope it may sustain.",
       },
       drops: {
-        shards: 0,
+        shards: 7,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/crustcrag.png",
+      image: "../images/Enemies/enemy/crustcrag.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Kai",
+      health: 5,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Plump, plentiful drifter of a coral past.",
+        hornetnote:
+          "They once teemed around their tower, in numbers immense. It is a rare chance to witness such a bountiful display of life.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/kai.png",
+      image: "../images/Enemies/enemy/kai.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Spinebeak Kai",
+      health: 5,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Steel horned floater, able to defend itself and its companions.",
+        hornetnote:
+          "A critical member of the larger flock. Without them present the Kai would be fast driven to extinction by larger predators.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/spinebeakkai.png",
+      image: "../images/Enemies/enemy/spinebeakkai.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Steelspine Kai",
+      health: 5,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Toughened Kai capable of extending sharp spikes from within its shellsack.",
+        hornetnote:
+          "Seeming soft, but hiding a sharp surprise. Any larger predator attempting a bite would learn a pointed and painful lesson.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/steelspinekai.png",
+      image: "../images/Enemies/enemy/steelspinekai.png",
     },
     {
       name: "",
