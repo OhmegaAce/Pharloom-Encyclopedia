@@ -1836,7 +1836,7 @@ const enemyData = {
       image: "../images/Enemies/enemy/sandcarver.png",
     },
     {
-      name: "Squirmm",
+      name: "Squirrm",
       health: 12,
       lore: {
         huntersnote: "Wriggling young grub that lives in darkness.",
@@ -1847,8 +1847,8 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "../images/Enemies/thumbnail/squirmm.png",
-      image: "../images/Enemies/enemy/squirmm.png",
+      thumbnail: "../images/Enemies/thumbnail/squirrm.png",
+      image: "../images/Enemies/enemy/squirrm.png",
     },
     {
       name: "Judge",

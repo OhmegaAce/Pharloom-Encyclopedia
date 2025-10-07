@@ -577,6 +577,7 @@ nav {
 #back-to-top-btn img {
   width: 15px;
   height: 15px;
+  margin: auto;
 }
 /* ============================================ */
 /* Responsive Styles for Mobile                 */
