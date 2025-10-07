@@ -2566,10 +2566,12 @@ const enemyData = {
     },
     {
       name: "Memoria",
-      health: 0,
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Learned disciple of the Choir charged to maintain the Citadel's Memorium.",
+        hornetnote:
+          "From the outset, theirs was a hopeless task. Those wild lands could never be replicated within a space so artificial.",
       },
       drops: {
         shards: 0,
@@ -2580,38 +2582,44 @@ const enemyData = {
     },
     {
       name: "Minister",
-      health: 0,
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Gold ranked disciple of the Choir and direct servant to the Citadel's Conductors.",
+        hornetnote:
+          "The lethality of these bugs is unexpected. Their bodies were never built for combat. The Haunting has altered their nature dramatically.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 27,
       },
       thumbnail: "../images/Enemies/thumbnail/minister.png",
       image: "../images/Enemies/enemy/minister.png",
     },
     {
       name: "Maestro",
-      health: 0,
+      health: 65,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Choir commander of the High Halls, able to summon and command cogflies at a flick of their baton.",
+        hornetnote:
+          "Once they summoned song from their subjects. Now they rise only to command an end to those unstrung.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 8,
+        beads: 11,
       },
       thumbnail: "../images/Enemies/thumbnail/maestro.png",
       image: "../images/Enemies/enemy/maestro.png",
     },
     {
       name: "Second Sentinel",
-      health: 0,
+      health: 800,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Cogwork knight of Pharloom, once protector of its pilgrims, and master of the scissor blade.",
+        hornetnote:
+          "The talent and intelligence of this construct goes far beyond others I have witnessed. They seem less built as a tool to serve than an attempt at life itself. ",
       },
       drops: {
         shards: 0,
@@ -2622,10 +2630,12 @@ const enemyData = {
     },
     {
       name: "Dreg Husk",
-      health: 0,
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Remains of a Citadel bug possessed by Silk dregs. The husk will lash out wildly with the many sharp pins caught inside its thread.",
+        hornetnote:
+          "There is old anguish bound upon these threads, the result of countless cruel procedures. ",
       },
       drops: {
         shards: 0,
