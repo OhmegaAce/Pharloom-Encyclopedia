@@ -2641,8 +2641,8 @@ const enemyData = {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "../images/Enemies/thumbnail/dregusk.png",
-      image: "../images/Enemies/enemy/dregusk.png",
+      thumbnail: "../images/Enemies/thumbnail/dreghusk.png",
+      image: "../images/Enemies/enemy/dreghusk.png",
     },
     {
       name: "Dregwheel",
