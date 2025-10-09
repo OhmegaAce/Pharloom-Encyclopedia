@@ -2932,844 +2932,822 @@ const enemyData = {
       image: "../images/Enemies/enemy/vaultkeeper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Trobbio",
+      health: 700,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Haughty thespian convinced that only dazzling performance can raise Pharloom from the throes of death.",
+        hornetnote:
+          "His desire to see Pharloom saved may have been well intentioned, but he seemed quite happy for others to die upon the stage in pursuit of his goal.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/trobbio.png",
+      image: "../images/Enemies/enemy/trobbio.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Tormented Trobbio",
+      health: 950,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Depressed thespian, consumed by the melancholy of a collapsing world.",
+        hornetnote:
+          "This one chose to embrace the doom to come. I shall not share such easy surrender.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/tormentedtrobbio.png",
+      image: "../images/Enemies/enemy/tormentedtrobbio.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Penitent",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Humbled prisoner serving their sentence for sin committed within the Citadel.",
+        hornetnote:
+          "All are haunted here, the jailers and the jailed. Do they realise they will never leave this place? Or how long they have stayed already?",
       },
       drops: {
-        shards: 0,
+        shards: 9,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/penitent.png",
+      image: "../images/Enemies/enemy/penitent.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Puny Penitent",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small bug, shackled and cowled for sin committed within the Citadel.",
+        hornetnote:
+          "Their thick shroud leaves them sightless, yet it seems to matter little. They have no care for their safety, wishing only to charge at those they sense as sinful.",
       },
       drops: {
-        shards: 0,
+        shards: 5,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/punypenitent.png",
+      image: "../images/Enemies/enemy/punypenitent.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Freshfly",
+      health: 5,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Infant fly, freshly hatched. At this age the soft, blind fly is little more than a bother.",
+        hornetnote: "The less these gruesome bugs breed, the better.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/freshfly.png",
+      image: "../images/Enemies/enemy/freshfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Scabfly",
+      health: 20,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Sticky young fly, born and grown in service to the Slab.",
+        hornetnote:
+          "Foul creatures birthed into servitude. Their plight elicits no sympathy from me.",
       },
       drops: {
-        shards: 0,
+        shards: 2,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/scabfly.png",
+      image: "../images/Enemies/enemy/scabfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Guardfly",
+      health: 45,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Starved servant of the Slab, bearing a hooked longpin.",
+        hornetnote:
+          "The smell from these jailers overwhelms my senses. I strongly doubt they have ever thought to bathe.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 3,
+        beads: 8,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/guardfly.png",
+      image: "../images/Enemies/enemy/guardfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Wardenfly",
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Heavy, hairy jailer responsible for capturing sinners and punishing prisoners.",
+        hornetnote:
+          "Disgusting both in manner and stench. I feel no remorse to see them felled.",
       },
       drops: {
-        shards: 0,
-        beads: 0,
+        shards: 4,
+        beads: 12,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wardenfly.png",
+      image: "../images/Enemies/enemy/wardenfly.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Broodmother",
+      health: 700,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Mad matriarch of the Slab rarely seen outside her warren. From her all jailers are born and bred.",
+        hornetnote:
+          "With this one vanquished, I hope to have sped the end for that jail and its distasteful order.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/broodmother.png",
+      image: "../images/Enemies/enemy/broodmother.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Driftlin",
+      health: 4,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Gentle glider of Mount Fay. Its downy wings and cowl allow it to resist even the most cutting cold.",
+        hornetnote:
+          "This one would make a perfect pet, but for the freezing temperatures it requires for comfort.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/driftlin.png",
+      image: "../images/Enemies/enemy/driftlin.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mnemonid",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Flighted creature formed from coldshard. If shattered it will quickly reform.",
+        hornetnote:
+          "The coldshard, even when destroyed it remembers its former shape. A remarkable material, and perhaps even more astonishing there seems life contained within it.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mnemonid.png",
+      image: "../images/Enemies/enemy/mnemonid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Mnemonord",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Huge flighted creature formed from coldshard.",
+        hornetnote:
+          "This larger form carries so much weight it can barely move from its place.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/mnemonord.png",
+      image: "../images/Enemies/enemy/mnemonord.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Servitor Ignim",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Small construct built by Weavers past, brought to life through Silk runes threaded within.",
+        hornetnote:
+          "Though the Weavers have long passed from Pharloom, this servant still performs its function.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/servitorignim.png",
+      image: "../images/Enemies/enemy/servitorignim.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Servitor Boran",
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Broken construct built by Weavers past, able to fire a focused beam of silklight to carve halls and chambers through ice and bone.",
+        hornetnote:
+          "The servitor has been heavily damaged by time and the elements. Its actions have grown erratic. It seems no longer able to discern friend from foe.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/servitorboran.png",
+      image: "../images/Enemies/enemy/servitorboran.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Winged Lifeseed",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Mindless sack filled with Plasmium. When broken the Plasmium can be consumed for its temporary benefits to health.",
+        hornetnote:
+          "My unique shell can resist the darker deformations of this substance, but even I have limits...",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wingedlifeseed.png",
+      image: "../images/Enemies/enemy/wingedlifeseed.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Plasmid",
+      health: 60,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Mutated young worm infected with Plasmium. The new form displays potent regenerative skill.",
+        hornetnote:
+          "Pharloom shall quickly learn the curse of this substance. What benefits it provides can be swiftly outweighed.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/plasmid.png",
+      image: "../images/Enemies/enemy/plasmid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Plasmidas",
+      health: 80,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Large worm mutated heavily by Plasmium. The creature has become fused to the roof of its cave, no longer able to move freely.",
+        hornetnote:
+          "In my home caves, when once this substance was allowed to flourish, I saw similar aberrations. This is wonder tainted strong with revulsion.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/plasmidas.png",
+      image: "../images/Enemies/enemy/plasmidas.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Plasmified Zango",
+      health: 1000,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Husk of an alchemist's assistant granted false life by Plasmium.",
+        hornetnote:
+          "He carelessly seeded these caves with that cursed substance... His final fate seems fair reward for those efforts, yet I feel some sympathy. It is an alluring power.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/plasmifiedzango.png",
+      image: "../images/Enemies/enemy/plasmifiedzango.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Leaf Glider",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Fine winged flyer that survives in flocks.",
+        hornetnote:
+          "So light they can rest atop still water's surface. An elegant bug indeed.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/leafglider.png",
+      image: "../images/Enemies/enemy/leafglider.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Leaf Roller",
+      health: 42,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Pointed scurrier posing as plant life.",
+        hornetnote:
+          "Simple. Graceful. Another fine bug lost forever from these lands.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/leafroller.png",
+      image: "../images/Enemies/enemy/leafroller.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pendra",
+      health: 22,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Flighty insect that lives beside still waters.",
+        hornetnote:
+          "Though generally passive, their sharp masks can cause injury if carelessly blundered into.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pendra.png",
+      image: "../images/Enemies/enemy/pendra.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pendragor",
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Heavy insect that lives near large bodies of water. Its weighty body is best avoided.",
+        hornetnote:
+          "When they do not hinder my path, I find their simple motion rather pleasant.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pendragor.png",
+      image: "../images/Enemies/enemy/pendragor.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Nuphar",
+      health: 70,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Predatory plant with a powerful jaw shaped to resemble a lily pad.",
+        hornetnote:
+          "A snapping surprise on first encounter, though one easily avoided once aware.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/nuphar.png",
+      image: "../images/Enemies/enemy/nuphar.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Cloverstag",
+      health: 62,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Placid native of Verdania. Its hide closely mimics the flora of its territory.",
+        hornetnote:
+          "An impressive act of mimicry. To match so closely with its land, their clover caves must have sustained through generations uncounted.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cloverstag.png",
+      image: "../images/Enemies/enemy/cloverstag.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Palestag",
+      health: 480,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Fabled first Cloverstag of Verdania's wilds. Commands the grass and leaves to aid its attack.",
+        hornetnote:
+          "Myth made real in memory. The creature seemed completely at one with the flora around it. Did it ever truly exist as I have seen it?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/palestag.png",
+      image: "../images/Enemies/enemy/palestag.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Kindanir",
+      health: 55,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Child of Verdania, fully capable to fight despite its young age.",
+        hornetnote:
+          "Fierce and fast, and defending their lands even from birth. These are children to be proud of.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/kindanir.png",
+      image: "../images/Enemies/enemy/kindanir.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Verdanir",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Darting warrior with sharpened forelimbs and heightened senses.",
+        hornetnote:
+          "They rarely relax, always alert for potential danger, even deep in their own territory. To defeat them my focus must match their own.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/verdanir.png",
+      image: "../images/Enemies/enemy/verdanir.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Escalion",
+      health: 100,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Blindingly fast, winged warrior able to launch pointed pinions from its forelimbs.",
+        hornetnote:
+          "Born with many tools I would once have desired for myself. Fortunately, I have trained hard around those limits.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/escalion.png",
+      image: "../images/Enemies/enemy/escalion.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Clover Dancers",
+      health: 1160,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Dual princes of old Verdania, beloved by their subjects for their grace and for the ballet of death they delivered upon outsiders.",
+        hornetnote:
+          "For one to love another so similar to themselves, is that selfless or vain?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/cloverdancers.png",
+      image: "../images/Enemies/enemy/cloverdancers.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shadow Creeper",
+      health: 40,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Shell-plated worm found only in the deepest depths. Seems to survive despite consuming no food or liquid.",
+        hornetnote:
+          "A creature long familiar to me. I suspect that no matter how far I travel, if I descend deep enough they will always be there.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shadowcreeper.png",
+      image: "../images/Enemies/enemy/shadowcreeper.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shadow Charger",
+      health: 80,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Bulky worm of the deepest depths. Lives in tight crevices and uses its weighty body to batter.",
+        hornetnote:
+          "These ones grow large, yet I have never observed them eating, or sleeping. They seem such simple bugs... but I suspect they are not truly our cousins.",
       },
       drops: {
-        shards: 0,
+        shards: 14,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shadowcharger.png",
+      image: "../images/Enemies/enemy/shadowcharger.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Gloomsac",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Tiny empty creature, barely a bug. Swallows its prey whole and sucks their nutrients until nothing remains.",
+        hornetnote:
+          "This one disturbs me... There is something in its simplicity. Do I almost feel fear?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/gloomsac.png",
+      image: "../images/Enemies/enemy/gloomsac.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Gargant Gloom",
+      health: 200,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Enormous tubular beast uniquely suited to living close to the void below.",
+        hornetnote:
+          "Amazingly, the creature carries the void's black liquid in its stomach, violently spraying it forth if threatened.",
       },
       drops: {
-        shards: 0,
+        shards: 12,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/gargantgloom.png",
+      image: "../images/Enemies/enemy/gargantgloom.png",
     },
     {
-      name: "",
+      name: "Void Tendrils",
       health: 0,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Lashing fragments of pure darkness, shaped into sharpened tentacles.",
+        hornetnote:
+          "The void that will claim all things... In the barbed forms it chooses its nature can be seen clear.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/voidtendrils.png",
+      image: "../images/Enemies/enemy/voidtendrils.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Void Mass",
+      health: 190,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Dense knot of husks bound tight by void soaked Silk.",
+        hornetnote:
+          "Silk and shells corrupted. That void seeks now to claim this land whole. These poor shells are only the beginning.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/voidmass.png",
+      image: "../images/Enemies/enemy/voidmass.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Summoned Saviour",
+      health: 500,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Mass of old masks swollen and animated by writhing void.",
+        hornetnote:
+          "A creature born of a bug's desperate hope for strength. Few possess the skill to call the void, and of those that can, none possess the means to tame it.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/summonedsaviour.png",
+      image: "../images/Enemies/enemy/summonedsaviour.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Wingmould",
+      health: 1,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "False fly with a rune etched shell. A tortured mix of soul and void is caged within.",
+        hornetnote:
+          "A crude construct of my father's fallen domain. Only a fool believes that void can be fashioned to do their bidding.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/wingmould.png",
+      image: "../images/Enemies/enemy/wingmould.png",
     },
     {
-      name: "",
+      name: "Garpid",
       health: 0,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Sightless burrower that reacts violently to the slightest sound.",
+        hornetnote:
+          "A common enough bug, though not to be underestimated. The acuteness of their other senses more than makes up for their lack of vision.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/garpid.png",
+      image: "../images/Enemies/enemy/garpid.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Imoba",
+      health: 50,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Slow drifting bug with a heavy top shell. The bug reacts little to threats, even those that could claim its life.",
+        hornetnote:
+          "The poor creature has lived a life too calm and coddled. It would not fare well in the world beyond its walls.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/imoba.png",
+      image: "../images/Enemies/enemy/imoba.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Skrill",
+      health: 17,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Common crawler that lives beneath sand.",
+        hornetnote:
+          "This surface dweller is free of Silk. Its nature remains its own. The monarch's influence must only have stretched below it.",
       },
       drops: {
-        shards: 0,
+        shards: [2, 3],
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/skrill.png",
+      image: "../images/Enemies/enemy/skrill.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Bell Eater",
+      health: 800,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Long dormant centipede, awoken and enraged by Pharloom's crumbling collapse.",
+        hornetnote:
+          "A monster in the classic form of tales from youth. Its slaying was done as much by my fierce travelling companion as by myself.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/belleater.png",
+      image: "../images/Enemies/enemy/belleater.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Huge Flea",
+      health: 200,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Oversized bug, briefly consumed by anger after its long time caged.",
+        hornetnote:
+          "I would not have guessed so large and marvellous a flea existed. I am pleased it saw sense before I had to strike a killing blow.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/hugeflea.png",
+      image: "../images/Enemies/enemy/hugeflea.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Shakra",
+      health: 600,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Warrior cartographer of a tribe from Pharloom's edge. Her skills in battle could challenge the kingdom's best.",
+        hornetnote:
+          "She has lived a mere fraction of my lifetime and yet her rings prove a ferocious match. As gifted a warrior as I have ever encountered, and one I am fortunate to call a friend.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/shakra.png",
+      image: "../images/Enemies/enemy/shakra.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Garmond and Zaza",
+      health: 460,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Vigorous old knight and their noble companion, working together to see their lands cut free from haunted madness.",
+        hornetnote:
+          "They too seek the spectre at the Haunting's heart, though I fear that foe would pose a challenge beyond their mortal limits.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/garmondandzaza.png",
+      image: "../images/Enemies/enemy/garmondandzaza.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lost Garmond",
+      health: 900,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Old knight consumed by black thread.",
+        hornetnote:
+          "A tragic fate for a once honourable bug. Those void soaked threads... Their physical might is nothing compared to the corruption they wreak upon a soul.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lostgarmond.png",
+      image: "../images/Enemies/enemy/lostgarmond.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Pinstress",
+      health: 910,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Blade maiden of a once renown warrior sect, survived long beyond the rest of her order.",
+        hornetnote:
+          "I like her. For her willingness to teach and her spirit still strong, despite a long age spent solitary... she has my respect.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/pinstress.png",
+      image: "../images/Enemies/enemy/pinstress.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Widow",
+      health: 360,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Crazed fanatic able to guide Pharloom's haunted Silk by music played upon it.",
+        hornetnote:
+          "Her body seemed a Weaver's, but her mask had been forcibly removed, and her own Silk was bound useless by heavy pins lodged through her spine.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/widow.png",
+      image: "../images/Enemies/enemy/widow.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "First Sinner",
+      health: 1300,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Ancient Weaver condemned for a transgression lost to time.",
+        hornetnote:
+          "This one's husk held a masterful talent, to weave Silk into blazing runes. Throughout my life, I have seen runes woven for many tasks. Was she the first to hone such skills?",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/firstsinner.png",
+      image: "../images/Enemies/enemy/firstsinner.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Phantom",
+      health: 650,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote:
+          "Mournful creature tasked alone to expel the Citadel's choking refuse. Their talent with a longpin is unmatched.",
+        hornetnote:
+          "Though grey with age, their frayed form suggested a being strung from Silk, one who welcomed a decisive end in combat over a slow decline.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/phantom.png",
+      image: "../images/Enemies/enemy/phantom.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lace",
+      health: 250,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Manic fencer who delights in battle.",
+        hornetnote:
+          "A bug born entirely of thread. Much Silk would have been needed to see her sustained. A fragile form of life, but life nonetheless.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lace.png",
+      image: "../images/Enemies/enemy/lace.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Grandmother Silk",
+      health: 1095,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Monarch of Pharloom, and the primal source of Silk.",
+        hornetnote:
+          "Heart of the Haunting, long lulled to slumber and desperate to wake. The higher being’s threads stretched throughout Pharloom, snaring its bugs and driving them to madness and discord.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/grandmothersilk.png",
+      image: "../images/Enemies/enemy/grandmothersilk.png",
     },
     {
-      name: "",
-      health: 0,
+      name: "Lost Lace",
+      health: 1800,
       lore: {
-        huntersnote: "",
-        hornetnote: "",
+        huntersnote: "Silk-spun child possessed by the void.",
+        hornetnote:
+          "To quell the mother's rage, and see this kingdom saved, I will claim her back. This one... the dark shall not take.",
       },
       drops: {
         shards: 0,
         beads: 0,
       },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
-    },
-    {
-      name: "",
-      health: 0,
-      lore: {
-        huntersnote: "",
-        hornetnote: "",
-      },
-      drops: {
-        shards: 0,
-        beads: 0,
-      },
-      thumbnail: "",
-      image: "",
+      thumbnail: "../images/Enemies/thumbnail/lostlace.png",
+      image: "../images/Enemies/enemy/lostlace.png",
     },
   ],
 };
