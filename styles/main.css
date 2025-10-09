@@ -166,11 +166,12 @@ nav {
 }
 
 /* ---------- */
-/* Map iframe */
+/* Map Styles */
 /* ---------- */
-.map {
-  position: relative;
-  width: 100%;
+#image-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------------------------- */
@@ -335,6 +336,12 @@ nav {
   color: #ffaa00;
   text-shadow: 2px 2px 4px black;
 }
+
+/* Reduce the size of images in the area grid on the map page */
+.area-grid .parallax-container img {
+  max-width: 100px; /* Reduced from the default 150px */
+}
+
 /* ------------------------- */
 /* Boss Tactics Styling      */
 /* ------------------------- */
@@ -529,6 +536,7 @@ nav {
   width: 16px;
   height: 16px;
 }
+
 /* ============================================ */
 /* Hamburger Menu Button                        */
 /* ============================================ */
@@ -601,6 +609,33 @@ nav {
   width: 20px; /* Adjust size as needed */
   height: auto;
 }
+
+/* ============================================ */
+/* Area Page Specific Layout                    */
+/* ============================================ */
+/* Target the container on the area page to override the default flex layout */
+#area-content-container .character-body {
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Increase the size of the area image, but only when it's in the column layout */
+#area-content-container
+  .character-body[style*="flex-direction: column"]
+  .parallax-container
+  img,
+#area-content-container.glass-container
+  > .character-entry
+  > .character-body
+  .parallax-container
+  img {
+  max-width: 500px; /* Increased from 150px */
+}
+
+#area-content-container .information {
+  width: 100%; /* Allow the info box to take the full width */
+}
+
 /* ============================================ */
 /* Responsive Styles for Mobile                 */
 /* ============================================ */

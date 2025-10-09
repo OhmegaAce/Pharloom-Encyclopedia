@@ -1,25 +1,25 @@
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("area-name-header");
   const contentContainer = document.getElementById("area-content-container");
   const title = document.querySelector("title");
 
-  // Get area name from URL query parameter
+  // Get area name from URL query parameter (e.g., ?name=bellheart)
   const params = new URLSearchParams(window.location.search);
-  const areaNameQuery = params.get("name");
+  const areaQueryName = params.get("name");
 
-  if (!areaNameQuery) {
+  if (!areaQueryName) {
     contentContainer.innerHTML = "<p>No area specified.</p>";
     return;
   }
 
   try {
-    // Find the area by its URL-friendly name
+    // Find the area by matching the query name
     const area = areaData.areas.find(
-      (a) => a.name.toLowerCase().replace(/ /g, "") === areaNameQuery
+      (a) => a.name.toLowerCase().replace(/ /g, "") === areaQueryName
     );
 
     if (!area) {
-      contentContainer.innerHTML = `<p>Area not found: ${areaNameQuery}</p>`;
+      contentContainer.innerHTML = `<p>Area "${areaQueryName}" not found.</p>`;
       return;
     }
 
@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     title.textContent = `Pharloom Encyclopedia :: Areas :: ${area.name}`;
     header.textContent = area.name;
 
-    // --- Create and populate the content using DOM methods ---
-    contentContainer.innerHTML = ""; // Clear loading message
+    // --- Create and populate the content ---
+    contentContainer.innerHTML = ""; // Clear any previous content
 
     const entryDiv = document.createElement("div");
     entryDiv.className = "character-entry";
@@ -50,17 +50,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // If the area has music, create the audio player
     if (area.music) {
-      // Correctly construct the relative path for the music file
-      const musicPath = `../../${area.music.substring(3)}`;
       const audioPlayerContainer = document.createElement("div");
       audioPlayerContainer.className = "audio-player-container";
 
       const themeName = document.createElement("p");
       themeName.className = "theme-name";
-      themeName.textContent = `Theme: "${area.theme || area.name}"`;
+      const trackName = area.theme || area.name;
+      themeName.textContent = `Theme: "${trackName}"`;
       audioPlayerContainer.appendChild(themeName);
 
-      const audio = new Audio(musicPath);
+      const audio = new Audio(`../../${area.music.substring(3)}`);
       audio.loop = true;
 
       const playButton = document.createElement("button");
@@ -79,55 +78,43 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       const progressBarContainer = document.createElement("div");
       progressBarContainer.className = "progress-bar-container";
+
       const progressBar = document.createElement("div");
       progressBar.className = "progress-bar";
       progressBarContainer.appendChild(progressBar);
 
       audio.addEventListener("timeupdate", () => {
-        progressBar.style.width = `${
-          (audio.currentTime / audio.duration) * 100
-        }%`;
+        const progressPercent = (audio.currentTime / audio.duration) * 100;
+        progressBar.style.width = `${progressPercent}%`;
       });
 
       progressBarContainer.addEventListener("click", (e) => {
-        audio.currentTime =
-          (e.offsetX / progressBarContainer.clientWidth) * audio.duration;
+        const width = progressBarContainer.clientWidth;
+        const clickX = e.offsetX;
+        const duration = audio.duration;
+        audio.currentTime = (clickX / width) * duration;
       });
 
-      audioPlayerContainer.append(playButton, progressBarContainer);
+      audioPlayerContainer.appendChild(playButton);
+      audioPlayerContainer.appendChild(progressBarContainer);
       imageContainer.appendChild(audioPlayerContainer);
     }
 
     const infoDiv = document.createElement("div");
     infoDiv.className = "information";
-
-    // Build the information HTML string, including all available data
-    let infoHtml = "";
-    if (
-      area.information &&
-      area.information.toLowerCase() !== "missing information"
-    ) {
-      infoHtml += `<h3>Information</h3><p>${area.information}</p>`;
-    }
-    if (
-      area.description &&
-      area.description.toLowerCase() !== "missing information"
-    ) {
-      // Add a separator if there was already information
-      if (infoHtml) {
-        infoHtml += `<hr style="border-color: rgba(255, 255, 255, 0.3); border-style: dashed; margin: 20px 0;">`;
-      }
-      infoHtml += `<h3>Description</h3><p>${area.description}</p>`;
-    }
-
-    infoDiv.innerHTML =
-      infoHtml || "<p>No detailed information available for this area.</p>";
+    infoDiv.innerHTML = `
+      <h3>Information</h3>
+      <p>${area.information || "No information available."}</p>
+      <h3>Description</h3>
+      <p>${area.description || "No description available."}</p>
+    `;
 
     bodyDiv.append(imageContainer, infoDiv);
     entryDiv.appendChild(bodyDiv);
     contentContainer.appendChild(entryDiv);
   } catch (error) {
     console.error("Error loading area page data:", error);
-    contentContainer.innerHTML = "<p>Error loading area information.</p>";
+    contentContainer.innerHTML =
+      "<p>Error loading area information. Please try again later.</p>";
   }
 });
