@@ -10,8 +10,8 @@ const areaData = {
       theme: "Bellheart",
       music: "../music/areas/bellheart.mp3",
       mapCoordinates: {
-        x: 50,
-        y: 65,
+        x: 0,
+        y: 0,
       },
     },
     {
