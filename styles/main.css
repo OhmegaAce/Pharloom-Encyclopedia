@@ -168,10 +168,17 @@ nav {
 /* ---------- */
 /* Map Styles */
 /* ---------- */
-#image-map {
+/* Center the map container's content */
+#map-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Ensure the map image doesn't get distorted and respects the container */
+#image-map {
+  max-width: 100%;
+  height: auto;
 }
 
 /* ------------------------- */

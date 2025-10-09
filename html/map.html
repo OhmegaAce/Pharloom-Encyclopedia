@@ -11,6 +11,7 @@
     <script src="../javascript/data/area-data.js" defer></script>
     <script src="../javascript/areas.js" defer></script>
     <script src="../javascript/main.js" defer></script>
+    <script src="../javascript/image-map-resizer.min.js" defer></script>
 
 </head>
 
@@ -40,7 +41,7 @@
                         class="nav-icon">Enemies</a></li>
         </ul>
     </nav>
-    <div class="glass-container">
+    <div id="map-container" class="glass-container">
 
         <img id="image-map" src="../images/map/map.png" usemap="#image-map">
 
@@ -106,6 +107,12 @@
         <h2>Areas</h2>
         <p>Loading area information...</p>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            imageMapResize();
+        });
+    </script>
 </body>
 
 <footer>
