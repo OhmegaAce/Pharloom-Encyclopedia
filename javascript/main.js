@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
   const mainNav = document.querySelector("nav");
+  // const searchInput = document.getElementById("nav-search"); // Example search input
 
   if (menuToggle && mainNav) {
     menuToggle.addEventListener("click", () => {
@@ -12,6 +13,13 @@ document.addEventListener("DOMContentLoaded", () => {
       menuToggle.setAttribute("aria-expanded", isExpanded);
     });
   }
+
+  // if (searchInput) {
+  //   searchInput.addEventListener("input", (e) => {
+  //     const query = e.target.value;
+  //     // Add logic here to search through your data objects and display results
+  //   });
+  // }
 
   // --- Back to Top Button Logic ---
   const backToTopButton = document.getElementById("back-to-top-btn");

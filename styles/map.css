@@ -1,0 +1,58 @@
+/* ============================================ */
+/* Pharloom Encyclopedia - map.css              */
+/* Styles for the interactive map page          */
+/* ============================================ */
+
+/* Main container for the interactive map */
+#interactive-map-container {
+  position: relative; /* This is crucial for positioning the pins */
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto; /* Center the map */
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* The map image itself */
+.pharloom-map-image {
+  display: block; /* Removes any extra space below the image */
+  width: 100%;
+  height: auto;
+}
+
+/* Styling for the clickable pins */
+.map-pin {
+  position: absolute; /* Positioned relative to the container */
+  width: 16px;
+  height: 16px;
+  background-color: #ff4500; /* A bright, noticeable color */
+  border: 2px solid white;
+  border-radius: 50%; /* Makes it a circle */
+  transform: translate(-50%, -50%); /* Centers the pin on its coordinates */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Hover effect for the pins */
+.map-pin:hover {
+  transform: translate(-50%, -50%) scale(1.5); /* Enlarge on hover */
+  background-color: #ffaa00; /* Change color on hover */
+  z-index: 10; /* Bring to front on hover */
+}
+
+/* Tooltip styling (uses the 'title' attribute from the JS) */
+.map-pin:hover::after {
+  content: attr(title); /* Display the area name */
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap; /* Prevent name from wrapping */
+  font-size: 0.9em;
+}

@@ -9,6 +9,10 @@ const areaData = {
       image: "../images/Areas/bellheart.png",
       theme: "Bellheart",
       music: "../music/areas/bellheart.mp3",
+      mapCoordinates: {
+        x: 50,
+        y: 65,
+      },
     },
     {
       name: "Bilewater",
@@ -19,6 +23,10 @@ const areaData = {
       image: "../images/Areas/bilewater.png",
       theme: "Bilewater",
       music: "../music/areas/bilewater.mp3",
+      mapCoordinates: {
+        x: 35,
+        y: 85,
+      },
     },
     {
       name: "Blasted Steps",
@@ -28,6 +36,10 @@ const areaData = {
       image: "../images/Areas/blastedsteps.png",
       theme: "Blasted Steps",
       music: "../music/areas/blastedsteps.mp3",
+      mapCoordinates: {
+        x: 85,
+        y: 50,
+      },
     },
     {
       name: "Bone Bottom",
@@ -38,6 +50,10 @@ const areaData = {
       image: "../images/Areas/bonebottom.png",
       theme: "Bone Bottom",
       music: "../music/areas/bonebottom.mp3",
+      mapCoordinates: {
+        x: 25,
+        y: 30,
+      },
     },
     {
       name: "Choral Chambers",
@@ -47,6 +63,10 @@ const areaData = {
       image: "../images/Areas/choralchambers.png",
       theme: "Choral Chambers",
       music: "../music/areas/choralchambers.mp3",
+      mapCoordinates: {
+        x: 60,
+        y: 15,
+      },
     },
     {
       name: "Cogwork Core",
