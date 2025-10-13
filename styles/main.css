@@ -780,6 +780,8 @@ nav {
   /* --- Header & Navigation --- */
   header {
     height: 150px; /* Reduce header height */
+    margin-bottom: 10px;
+    border-radius: 0 0 15px 15px;
   }
 
   header h1 {
