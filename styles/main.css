@@ -61,6 +61,12 @@ footer {
   border-radius: 15px 15px 0 0;
   width: 100%;
   margin-top: auto; /* Push footer to the bottom */
+
+  /* Apply the frosted glass effect */
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* -------------------- */
@@ -80,8 +86,18 @@ h2 {
 /* Navigation Styles    */
 /* -------------------- */
 nav {
-  background: linear-gradient(to right, #ce0000 0%, #000000 100%);
+  /* Apply the frosted glass effect */
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: none; /* Remove top border to blend with header */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   border-radius: 0 0 15px 15px;
+  padding-top: 20px; /* Add some space above the search bar */
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensure the blur doesn't leak */
 }
 
 .nav {
