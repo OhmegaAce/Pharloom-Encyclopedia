@@ -1,13 +1,13 @@
 const areaData = {
   areas: [
     {
-      name: "Bellheart",
+      name: "Bellhart",
       information:
         "Bellhart is a town and an area in Hollow Knight: Silksong. Entering it for the first time will trigger the Main Objective SAVE: The Threadspun Town.",
       description:
         "When first entering, the town is called Haunted Bellhart, its residents are strung in silk threads hanging from the ceiling and all buildings except for the Bellway are closed. After Widow is defeated and Bellhart is freed, NPCs and shops will start to appear in the bellhomes, as well as a Wishwall. A new bell will appear at the top of the area after completing the Bellhart's Glory Wish and 2 of the following 4 Wishes: Silver Bells, My Missing Courier, My Missing Brother, Savage Beastfly. The bell is given to Hornet by the residents of Bellhart and can be unlocked with the Bellhome Key from Pavo.",
       image: "../images/Areas/bellheart.png",
-      theme: "Bellheart",
+      theme: "Bellhart",
       music: "../music/areas/bellheart.mp3",
     },
     {
