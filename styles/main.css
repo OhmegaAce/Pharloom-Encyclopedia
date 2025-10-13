@@ -618,6 +618,108 @@ nav {
 }
 
 /* ============================================ */
+/* Search Bar Styles                            */
+/* ============================================ */
+.search-container {
+  /* Center the search bar horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 20px 20px; /* Add some padding */
+  position: relative; /* For search results positioning */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#searchInput {
+  /* Apply a glass-like effect */
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+
+  /* Font and text styling */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px black;
+
+  /* Sizing and layout */
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 600px; /* A good width for desktop */
+  box-sizing: border-box; /* Important for padding and width */
+
+  /* Transitions for a smooth effect */
+  transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+  /* Enhance the glow on focus to match the site's highlight color */
+  outline: none;
+  border-color: rgba(255, 170, 0, 0.5);
+  box-shadow: 0 0 15px rgba(255, 170, 0, 0.3);
+}
+
+/* Style the placeholder text */
+#searchInput::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+/* Basic styling for the results dropdown */
+#searchResults {
+  /* Positioning */
+  position: absolute;
+  top: 55px; /* Position it just below the search input */
+  left: 50%; /* Center it horizontally */
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 600px; /* Match the search input's max-width */
+  z-index: 100; /* Ensure it appears above other content */
+
+  /* Frosted Glass Effect */
+  background: rgba(10, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+
+  /* Layout & Overflow */
+  max-height: 400px; /* Prevent it from being too long */
+  overflow-y: auto;
+  display: none; /* Hidden by default, JS will show it */
+}
+
+.search-result-item {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.search-result-item:hover {
+  background-color: rgba(255, 170, 0, 0.2); /* Highlight on hover */
+  color: #ffaa00;
+}
+
+.search-result-item .search-result-type {
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 5px;
+}
+
+.search-no-results {
+  padding: 12px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-style: italic;
+}
+
+/* ============================================ */
 /* Area Page Specific Layout                    */
 /* ============================================ */
 /* Target the container on the area page to override the default flex layout */
@@ -701,6 +803,12 @@ nav {
     padding: 0 20px;
     height: 100%;
     gap: 5px; /* Reduce gap between links */
+  }
+
+  /* Move search container into the nav for mobile */
+  .search-container {
+    order: -1; /* Place it at the top of the nav */
+    padding: 0 0 15px 0;
   }
 
   .nav li a {
