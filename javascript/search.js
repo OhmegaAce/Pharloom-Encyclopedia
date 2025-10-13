@@ -142,38 +142,44 @@ document.addEventListener("DOMContentLoaded", () => {
 
     results.forEach((item) => {
       const resultItem = document.createElement("a");
-      const queryName = item.name.toLowerCase().replace(/ /g, "");
-
-      let page;
       let template;
+      let url;
 
       switch (item.type) {
         case "Area":
           template = "area-template.html";
-          page = "map.html";
+          // Areas use a lowercase name in the URL
+          url = `templates/${template}?name=${encodeURIComponent(
+            item.name.toLowerCase()
+          )}`;
           break;
         case "Boss":
           template = "boss-template.html";
-          page = "enemies.html";
+          // Bosses must use their unique ID
+          url = `templates/${template}?id=${item.id}`;
           break;
 
         case "Enemy":
           template = "enemy-template.html";
-          page = "enemies.html";
+          // Enemies use their name
+          url = `templates/${template}?name=${encodeURIComponent(item.name)}`;
           break;
 
         case "Merchant":
         case "Wanderer":
         case "Quest NPC":
+        case "Miscellaneous": // Added this case for miscellaneous characters
           template = "character-template.html";
-          page = "characters.html";
+          // Characters use their name
+          url = `templates/${template}?name=${encodeURIComponent(item.name)}`;
           break;
         default:
           template = "tool-template.html";
-          page = "tools.html";
+          // Tools use their name
+          url = `templates/${template}?name=${encodeURIComponent(item.name)}`;
       }
 
-      resultItem.href = `templates/${template}?name=${queryName}`;
+      resultItem.href = url;
       resultItem.className = "search-result-item";
       resultItem.innerHTML = `<strong>${item.name}</strong> <span class="search-result-type">(${item.type})</span>`;
       searchResults.appendChild(resultItem);
