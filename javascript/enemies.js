@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
     enemyData.enemies.forEach((enemy, index) => {
       const enemyCard = document.createElement("a");
       enemyCard.className = "character-link-card"; // Reusing the character card style
-      // We can add a link to a future enemy detail page here if needed
-      // enemyCard.href = `templates/enemy-template.html?name=${enemy.name.toLowerCase().replace(/ /g, "")}`;
+      // This makes the card a clickable link to a future enemy detail page.
+      enemyCard.href = `templates/enemy-template.html?name=${enemy.name.toLowerCase().replace(/ /g, "")}`;
 
       enemyCard.innerHTML = `
         <div class="parallax-container">
