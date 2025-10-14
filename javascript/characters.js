@@ -30,8 +30,14 @@ document.addEventListener("DOMContentLoaded", () => {
       // Clear loading message
       container.innerHTML = "";
 
-      characters.forEach((character) => {
-        container.appendChild(createCharacterEntry(character, category));
+      characters.forEach((character, index) => {
+        const card = createCharacterEntry(character, category);
+        container.appendChild(card);
+
+        // Stagger the fade-in animation
+        setTimeout(() => {
+          card.classList.add("visible");
+        }, index * 50); // 50ms delay between each card
       });
     } catch (error) {
       console.error(`Error loading ${category} data:`, error);

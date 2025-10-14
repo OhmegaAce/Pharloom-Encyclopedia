@@ -277,10 +277,27 @@ nav {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: background-color 0.3s ease, transform 0.3s ease;
   min-height: 220px; /* Ensure cards have a consistent height */
+
+  /* --- Animation Setup --- */
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out,
+    background-color 0.3s ease; /* Smooth transition for fade-in and hover */
 }
 
+.boss-link-card.visible,
+.character-link-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add the visible state for the boss/character page elements */
+.image-audio-container.visible,
+.information.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
 .boss-link-card:hover,
 .character-link-card:hover {
   background-color: rgba(255, 69, 0, 0.2);

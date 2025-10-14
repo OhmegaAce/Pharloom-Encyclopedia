@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   bossContainer.innerHTML = "";
 
   // Create HTML for each boss
-  bossData.bosses.forEach((boss) => {
+  bossData.bosses.forEach((boss, index) => {
     // Use the unique ID for the link
     const bossLink = `templates/boss-template.html?id=${boss.id}`;
 
@@ -30,5 +30,10 @@ document.addEventListener("DOMContentLoaded", async () => {
       `;
 
     bossContainer.appendChild(bossLinkCard);
+
+    // Stagger the fade-in animation for each card
+    setTimeout(() => {
+      bossLinkCard.classList.add("visible");
+    }, index * 50); // 50ms delay between each card
   });
 });

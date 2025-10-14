@@ -155,6 +155,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     bodyDiv.append(imageContainer, infoDiv);
     entryDiv.appendChild(bodyDiv);
     contentContainer.appendChild(entryDiv);
+
+    // --- Trigger Fade-in Animation ---
+    // Use a short timeout to ensure the elements are in the DOM before animating.
+    setTimeout(() => {
+      imageContainer.classList.add("visible");
+      // Stagger the second element slightly
+      setTimeout(() => infoDiv.classList.add("visible"), 100);
+    }, 50);
   } catch (error) {
     console.error("Error loading boss page data:", error);
     contentContainer.innerHTML =
