@@ -7,12 +7,16 @@
 /* Body Styles */
 /* ----------- */
 body {
-  background-image: url("../images/silksongbackground.jpg"); /* full-page background */
+  background-image: url("../images/silksongbackground.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Arial, sans-serif;
+
+  font-family: 'Lora',serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+
   color: white;
   margin: 0;
   padding: 0;
@@ -25,7 +29,7 @@ body {
 /* Header Styles        */
 /* -------------------- */
 header {
-  position: relative; /* Establish positioning context for the menu button */
+  position: relative;
   background-image: url("../images/silksongbanner.jpg");
   background-size: cover;
   background-position: center;
@@ -39,11 +43,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%; /* Ensure it fills the header */
-  text-align: center; /* Fallback for text alignment */
+  height: 100%;
+  text-align: center;
 }
 
 header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black;
@@ -60,7 +66,7 @@ footer {
   background: linear-gradient(to right, #ce0000 0%, #000000 100%);
   border-radius: 15px 15px 0 0;
   width: 100%;
-  margin-top: auto; /* Push footer to the bottom */
+  margin-top: auto;
 
   /* Apply the frosted glass effect */
   background: rgba(0, 0, 0, 0.3);
@@ -72,6 +78,10 @@ footer {
 /* -------------------- */
 /* Subheading Styles    */
 /* -------------------- */
+h1 {
+
+}
+
 h2 {
   text-align: center;
   background-image: url("../images/icons/divider.png");
@@ -82,22 +92,25 @@ h2 {
   filter: drop-shadow(1px 1px 2px black);
 }
 
+h2, h3 {
+  font-family: 'Grenze Gotisch', cursive, serif;
+}
+
 /* -------------------- */
 /* Navigation Styles    */
 /* -------------------- */
 nav {
-  /* Apply the frosted glass effect */
   background: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-top: none; /* Remove top border to blend with header */
+  border-top: none; 
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   border-radius: 0 0 15px 15px;
-  padding-top: 20px; /* Add some space above the search bar */
+  padding-top: 20px; 
   padding-bottom: 10px;
   margin-bottom: 10px;
-  overflow: hidden; /* Ensure the blur doesn't leak */
+  overflow: hidden; 
 }
 
 .nav {
@@ -110,14 +123,12 @@ nav {
 }
 
 .nav li {
-  /* Add perspective for the 3D effect on the child 'a' tag */
   perspective: 1000px;
 }
 
 .nav li a {
   text-decoration: none;
   padding: 8px 16px;
-  /* Create a double-wide gradient and set its initial position */
   background: linear-gradient(45deg, #ff0000, #000000, #ff0000);
   background-size: 200% 100%;
   background-position: 100% 0;
@@ -230,7 +241,7 @@ nav {
 }
 
 /* ------------------------- */
-/* Pulse Glow Animation       */
+/* Pulse Glow Animation      */
 /* ------------------------- */
 @keyframes pulseGlow {
   0% {
