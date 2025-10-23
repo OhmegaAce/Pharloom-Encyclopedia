@@ -78,10 +78,6 @@ footer {
 /* -------------------- */
 /* Subheading Styles    */
 /* -------------------- */
-h1 {
-
-}
-
 h2 {
   text-align: center;
   background-image: url("../images/icons/divider.png");
@@ -135,13 +131,12 @@ nav {
   color: white;
   border: 2px solid #ff4500;
   border-radius: 8px;
-  transition: background-position 0.5s ease, transform 0.3s ease; /* Animate background-position */
+  transition: background-position 0.5s ease, transform 0.3s ease; 
   display: inline-block;
   text-align: center;
 }
 
 .nav li a:hover {
-  /* On hover, slide the background to its other end */
   background-position: 0 0;
 }
 
@@ -174,7 +169,7 @@ nav {
 /* -------------------- */
 .parallax-container {
   perspective: 1000px;
-  display: flex; /* Use flex to center the image */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -182,9 +177,8 @@ nav {
 .parallax-container img {
   max-width: 150px;
   height: auto;
-  transition: transform 0.1s ease-out; /* Match JS for smoother follow */
+  transition: transform 0.1s ease-out;
   transform-style: preserve-3d;
-  /* Add a drop shadow to make the image pop */
   filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.7));
 }
 
@@ -195,33 +189,30 @@ nav {
 /* ---------- */
 /* Map Styles */
 /* ---------- */
-/* Center the map container's content */
 #map-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Ensure the map image doesn't get distorted and respects the container */
+
 #image-map {
   max-width: 100%;
   height: auto;
 }
 
-/* ------------------------- */
+/* ----------------------------- */
 /* Glass / Frosted Effect + Glow */
-/* ------------------------- */
+/* ----------------------------- */
 .glass-container,
 .information {
   position: relative;
-  /* Darkened the background for better contrast */
   background: rgba(0, 0, 0, 0.3);
   -webkit-backdrop-filter: blur(16px);
   backdrop-filter: blur(16px);
   border-radius: 15px;
   padding: 25px;
   margin-bottom: 25px;
-  /* Softer border and added inset shadow for depth */
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3),
     inset 0 1px 1px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 200, 50, 0.2);
@@ -288,13 +279,13 @@ nav {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  min-height: 220px; /* Ensure cards have a consistent height */
+  min-height: 220px; 
 
   /* --- Animation Setup --- */
-  opacity: 0; /* Start hidden */
-  transform: translateY(20px); /* Start slightly lower */
+  opacity: 0;
+  transform: translateY(20px); 
   transition: opacity 0.6s ease-out, transform 0.6s ease-out,
-    background-color 0.3s ease; /* Smooth transition for fade-in and hover */
+    background-color 0.3s ease; 
 }
 
 .boss-link-card.visible,
@@ -303,7 +294,6 @@ nav {
   transform: translateY(0);
 }
 
-/* Add the visible state for the boss/character page elements */
 .image-audio-container.visible,
 .information.visible {
   opacity: 1;
@@ -323,30 +313,25 @@ nav {
   text-shadow: 2px 2px 4px black;
 }
 
-/* Specific overrides for a denser enemy grid */
 #enemy-container.character-grid {
-  /* Make columns smaller to fit more cards */
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 10px;
 }
 
 #enemy-container .character-link-card {
-  /* Reduce card height and padding */
   min-height: 140px;
   padding: 8px;
   gap: 5px;
 }
 
 #enemy-container .parallax-container img {
-  /* Set a fixed size for all enemy thumbnails */
   width: 80px;
   height: 80px;
-  /* Ensure the image scales correctly without distortion */
   object-fit: contain;
 }
 
 #enemy-container .character-link-name {
-  font-size: 1em; /* Slightly smaller font for the name */
+  font-size: 1em;
 }
 
 /* ------------------------- */
@@ -388,9 +373,8 @@ nav {
   text-shadow: 2px 2px 4px black;
 }
 
-/* Reduce the size of images in the area grid on the map page */
 .area-grid .parallax-container img {
-  max-width: 100px; /* Reduced from the default 150px */
+  max-width: 100px;
 }
 
 /* ------------------------- */
@@ -482,10 +466,9 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  min-width: 200px; /* Give it some space */
+  min-width: 200px;
 }
 
-/* Container for the play button and progress bar */
 .audio-player-container {
   display: flex;
   flex-direction: column;
@@ -499,7 +482,7 @@ nav {
 .theme-name {
   font-size: 0.9em;
   font-style: italic;
-  color: #ffcc88; /* A soft gold color */
+  color: #ffcc88;
   margin: 0;
 }
 
@@ -534,7 +517,7 @@ nav {
 /* Music Progress Bar             */
 /* ------------------------------ */
 .progress-bar-container {
-  width: 100%; /* Match the width of the button */
+  width: 100%;
   height: 8px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
@@ -592,11 +575,11 @@ nav {
 /* Hamburger Menu Button                        */
 /* ============================================ */
 .menu-toggle {
-  display: none; /* Hidden by default on desktop */
+  display: none;
   position: absolute;
   top: 20px;
   right: 20px;
-  z-index: 1001; /* Ensure it's above other header content */
+  z-index: 1001;
   background: none;
   border: none;
   cursor: pointer;
@@ -629,7 +612,7 @@ nav {
 /* Back to Top Button                           */
 /* ============================================ */
 #back-to-top-btn {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -640,13 +623,12 @@ nav {
   background-color: #ff4500;
   color: white;
   cursor: pointer;
-  padding: 0; /* Remove padding to use flexbox for centering */
-  border-radius: 50%; /* Make it circular */
+  padding: 0;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s, transform 0.3s;
-  /* Use flexbox to center the image inside */
   justify-content: center;
   align-items: center;
 }
@@ -657,7 +639,7 @@ nav {
 }
 
 #back-to-top-btn img {
-  width: 20px; /* Adjust size as needed */
+  width: 20px;
   height: auto;
 }
 
@@ -665,63 +647,53 @@ nav {
 /* Search Bar Styles                            */
 /* ============================================ */
 .search-container {
-  /* Center the search bar horizontally */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px 20px 20px; /* Add some padding */
-  position: relative; /* For search results positioning */
+  padding: 0 20px 20px 20px;
+  position: relative;
   width: 100%;
   box-sizing: border-box;
 }
 
 #searchInput {
-  /* Apply a glass-like effect */
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 
-  /* Font and text styling */
   color: white;
   font-family: Arial, sans-serif;
   font-size: 1em;
   text-shadow: 1px 1px 2px black;
 
-  /* Sizing and layout */
   padding: 10px 15px;
   width: 100%;
-  max-width: 600px; /* A good width for desktop */
-  box-sizing: border-box; /* Important for padding and width */
+  max-width: 600px;
+  box-sizing: border-box;
 
-  /* Transitions for a smooth effect */
   transition: all 0.3s ease;
 }
 
 #searchInput:focus {
-  /* Enhance the glow on focus to match the site's highlight color */
   outline: none;
   border-color: rgba(255, 170, 0, 0.5);
   box-shadow: 0 0 15px rgba(255, 170, 0, 0.3);
 }
 
-/* Style the placeholder text */
 #searchInput::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-style: italic;
 }
 
-/* Basic styling for the results dropdown */
 #searchResults {
-  /* Positioning */
   position: absolute;
-  top: 55px; /* Position it just below the search input */
-  left: 50%; /* Center it horizontally */
+  top: 55px; 
+  left: 50%; 
   transform: translateX(-50%);
   width: 100%;
-  max-width: 600px; /* Match the search input's max-width */
-  z-index: 100; /* Ensure it appears above other content */
+  max-width: 600px; 
+  z-index: 100;
 
-  /* Frosted Glass Effect */
   background: rgba(10, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -729,10 +701,9 @@ nav {
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 
-  /* Layout & Overflow */
-  max-height: 400px; /* Prevent it from being too long */
+  max-height: 400px;
   overflow-y: auto;
-  display: none; /* Hidden by default, JS will show it */
+  display: none;
 }
 
 .search-result-item {
@@ -746,7 +717,7 @@ nav {
 }
 
 .search-result-item:hover {
-  background-color: rgba(255, 170, 0, 0.2); /* Highlight on hover */
+  background-color: rgba(255, 170, 0, 0.2);
   color: #ffaa00;
 }
 
@@ -766,13 +737,11 @@ nav {
 /* ============================================ */
 /* Area Page Specific Layout                    */
 /* ============================================ */
-/* Target the container on the area page to override the default flex layout */
 #area-content-container .character-body {
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  flex-direction: column; 
+  align-items: center; 
 }
 
-/* Increase the size of the area image, but only when it's in the column layout */
 #area-content-container
   .character-body[style*="flex-direction: column"]
   .parallax-container
@@ -782,11 +751,11 @@ nav {
   > .character-body
   .parallax-container
   img {
-  max-width: 500px; /* Increased from 150px */
+  max-width: 500px;
 }
 
 #area-content-container .information {
-  width: 100%; /* Allow the info box to take the full width */
+  width: 100%;
 }
 
 /* ============================================ */
@@ -795,7 +764,6 @@ nav {
 @media (max-width: 768px) {
   /* --- General Layout Adjustments --- */
   body {
-    /* Disabling fixed background on mobile can improve performance */
     background-attachment: scroll;
   }
 
@@ -807,25 +775,25 @@ nav {
 
   /* --- Header & Navigation --- */
   header {
-    height: 150px; /* Reduce header height */
+    height: 150px;
     margin-bottom: 10px;
     border-radius: 0 0 15px 15px;
   }
 
   header h1 {
-    font-size: 1.8em; /* Make title smaller */
+    font-size: 1.8em;
   }
 
   .menu-toggle {
-    display: block; /* Show the button on mobile */
+    display: block;
   }
 
   nav {
     position: fixed;
     top: 0;
-    right: -100%; /* Start off-screen */
+    right: -100%; 
     width: 250px;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     /* Apply the frosted glass effect */
     background: rgba(10, 10, 10, 0.6);
     -webkit-backdrop-filter: blur(16px);
@@ -834,48 +802,48 @@ nav {
 
     z-index: 1000;
     transition: right 0.4s ease-in-out;
-    padding-top: 80px; /* Space for the close button */
+    padding-top: 80px;
     border-radius: 15px 0 0 15px;
   }
 
   .nav-open nav {
-    right: 0; /* Slide into view */
+    right: 0;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
   }
 
   .nav {
-    flex-direction: column; /* Stack nav links vertically */
-    align-items: stretch; /* Stretch items to fill width */
+    flex-direction: column;
+    align-items: stretch; 
     padding: 0 20px;
     height: 100%;
-    gap: 5px; /* Reduce gap between links */
+    gap: 5px;
   }
 
   /* Move search container into the nav for mobile */
   .search-container {
-    order: -1; /* Place it at the top of the nav */
+    order: -1; 
     padding: 0 0 15px 0;
   }
 
   .nav li a {
-    width: 100%; /* Make links take full width */
+    width: 100%; 
     text-align: left;
     padding: 12px 16px;
-    display: flex; /* Use flex to align icon and text */
+    display: flex; 
     align-items: center;
-    border: none; /* Remove border for a cleaner look */
+    border: none; 
   }
 
   /* --- Content Layouts --- */
   .description,
   .character-body {
-    flex-direction: column; /* Stack content vertically */
+    flex-direction: column;
     align-items: center;
   }
 
   #hornetgif {
-    float: none; /* Remove float for centered layout */
-    border-radius: 15px; /* Adjust border for stacked layout */
+    float: none; 
+    border-radius: 15px; 
     max-width: 80%;
   }
 
@@ -883,14 +851,13 @@ nav {
   .boss-grid,
   .character-grid,
   .area-grid {
-    /* Use a smaller minimum for cards on small screens */
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   }
 
   /* --- Responsive Tables --- */
   .tool-table {
-    display: block; /* Allow the table to be scrollable */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent content from wrapping */
+    display: block; 
+    overflow-x: auto; 
+    white-space: nowrap; 
   }
 }
