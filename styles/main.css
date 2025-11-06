@@ -418,7 +418,7 @@ nav {
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  overflow: hidden; /* Ensures the border-radius is respected by child elements */
+  overflow: hidden;
 }
 
 .tool-table th,
