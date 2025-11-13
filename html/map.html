@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Pharloom Encyclopedia - map.html-->
+<!--Author: Kole Fiala              -->
 
 <head>
     <meta charset="UTF-8">
@@ -51,6 +53,7 @@
         <img id="image-map" src="../images/map/map.png" usemap="#image-map" alt="Pharloom Map">
 
         <map name="image-map">
+            <!--Clickable image map-->
             <area target="" alt="Wormways" title="Wormways" href="templates/area-template.html?name=wormways"
                 coords="49,550,111,552,148,528,227,527,227,593,5,596,4,552" shape="poly">
             <area target="" alt="Bone Bottom" title="Bone Bottom" href="templates/area-template.html?name=bonebottom"
@@ -113,6 +116,7 @@
         <p>Loading area information...</p>
     </div>
 
+    <!--Loads the map resize function-->
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
             imageMapResize();
