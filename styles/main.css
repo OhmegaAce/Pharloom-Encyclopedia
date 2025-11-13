@@ -6,6 +6,9 @@
 /* ----------- */
 /* Body Styles */
 /* ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:wght@400;500&display=swap');
+
+
 body {
   background-image: url("../images/silksongbackground.jpg");
   background-size: cover;
@@ -13,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  font-family: 'Lora',serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.125rem;
   line-height: 1.6;
 
@@ -48,8 +51,6 @@ header {
 }
 
 header h1 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black;
@@ -87,8 +88,8 @@ h2 {
   filter: drop-shadow(1px 1px 2px black);
 }
 
-h2, h3 {
-  font-family: 'Grenze Gotisch', cursive, serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
 }
 
 /* -------------------- */
