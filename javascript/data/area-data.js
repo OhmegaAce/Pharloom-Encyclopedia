@@ -1,3 +1,8 @@
+/* ------------------------------------ */
+/* Pharloom Encyclopedia - area-data.js */
+/* Author: Kole Fiala                   */
+/* ------------------------------------ */
+
 const areaData = {
   areas: [
     {

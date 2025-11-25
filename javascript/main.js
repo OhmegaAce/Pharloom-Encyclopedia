@@ -1,3 +1,8 @@
+/* ------------------------------- */
+/* Pharloom Encyclopedia - main.js */
+/* Author: Kole Fiala              */
+/* ------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.querySelector(".menu-toggle");
   const mainNav = document.querySelector("nav");

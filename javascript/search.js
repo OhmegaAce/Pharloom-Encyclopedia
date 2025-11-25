@@ -1,3 +1,8 @@
+/* --------------------------------- */
+/* Pharloom Encyclopedia - search.js */
+/* Author: Kole Fiala                */
+/* --------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchInput");
   const searchResults = document.getElementById("searchResults");

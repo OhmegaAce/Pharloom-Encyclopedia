@@ -1,3 +1,8 @@
+/* ------------------------------------ */
+/* Pharloom Encyclopedia - boss-data.js */
+/* Author: Kole Fiala                   */
+/* ------------------------------------ */
+
 const bossData = {
   bosses: [
     {

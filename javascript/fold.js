@@ -1,3 +1,8 @@
+/* ------------------------------- */
+/* Pharloom Encyclopedia - fold.js */
+/* Author: Kole Fiala              */
+/* ------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   // List of all section prefixes that need the folding functionality.
   const sectionNames = ["merchant", "wanderer", "questnpc", "miscellaneous"];

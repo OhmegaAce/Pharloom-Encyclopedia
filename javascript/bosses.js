@@ -1,3 +1,8 @@
+/* --------------------------------- */
+/* Pharloom Encyclopedia - bosses.js */
+/* Author: Kole Fiala                */
+/* --------------------------------- */
+
 document.addEventListener("DOMContentLoaded", async () => {
   const bossContainer = document.getElementById("boss-container");
 

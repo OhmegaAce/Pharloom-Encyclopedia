@@ -1,3 +1,8 @@
+/* ------------------------------------------- */
+/* Pharloom Encyclopedia - image-map-scaler.js */
+/* Author: Kole Fiala                          */
+/* ------------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", function () {
   var image = document.getElementById("image-map");
   var map = document.getElementsByName("image-map")[0];

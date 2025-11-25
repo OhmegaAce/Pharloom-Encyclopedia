@@ -1,3 +1,8 @@
+/* ------------------------------------ */
+/* Pharloom Encyclopedia - area-page.js */
+/* Author: Kole Fiala                   */
+/* ------------------------------------ */
+
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.getElementById("area-name-header");
   const contentContainer = document.getElementById("area-content-container");

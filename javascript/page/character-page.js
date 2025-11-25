@@ -1,3 +1,8 @@
+/* ----------------------------------------- */
+/* Pharloom Encyclopedia - character-page.js */
+/* Author: Kole Fiala                        */
+/* ----------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", async () => {
   const header = document.getElementById("character-name-header");
   const contentContainer = document.getElementById(

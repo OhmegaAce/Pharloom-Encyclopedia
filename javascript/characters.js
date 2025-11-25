@@ -1,3 +1,8 @@
+/* ------------------------------------- */
+/* Pharloom Encyclopedia - characters.js */
+/* Author: Kole Fiala                    */
+/* ------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   // This function will run once the main logic is ready to execute.
   const initializePage = () => {

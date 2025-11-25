@@ -1,3 +1,8 @@
+/* ------------------------------------ */
+/* Pharloom Encyclopedia - tool-data.js */
+/* Author: Kole Fiala                   */
+/* ------------------------------------ */
+
 const toolData = {
   red: [
     {

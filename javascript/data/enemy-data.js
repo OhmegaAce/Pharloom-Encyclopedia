@@ -1,3 +1,8 @@
+/* ------------------------------------- */
+/* Pharloom Encyclopedia - enemy-data.js */
+/* Author: Kole Fiala                    */
+/* ------------------------------------- */
+
 const enemyData = {
   enemies: [
     // 237 enemies

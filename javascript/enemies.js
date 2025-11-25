@@ -1,3 +1,8 @@
+/* ---------------------------------- */
+/* Pharloom Encyclopedia - enemies.js */
+/* Author: Kole Fiala                 */
+/* ---------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   const enemyContainer = document.getElementById("enemy-container");
 

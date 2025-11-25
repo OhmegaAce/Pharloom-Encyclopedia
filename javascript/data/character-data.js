@@ -1,3 +1,8 @@
+/* ----------------------------------------- */
+/* Pharloom Encyclopedia - character-data.js */
+/* Author: Kole Fiala                        */
+/* ----------------------------------------- */
+
 const characterData = {
   merchants: [
     {

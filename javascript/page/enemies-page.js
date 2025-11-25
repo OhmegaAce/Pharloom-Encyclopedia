@@ -1,3 +1,8 @@
+/* --------------------------------------- */
+/* Pharloom Encyclopedia - enemies-page.js */
+/* Author: Kole Fiala                      */
+/* --------------------------------------- */
+
 document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const enemyNameQuery = params.get("name");
